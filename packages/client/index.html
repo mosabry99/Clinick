@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="description" content="Clinick - A comprehensive SaaS-based Medical Clinic Management System for managing appointments, patients, billing, and inventory">
+  <meta name="theme-color" content="#1a70f5">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Clinick">
+  <meta name="application-name" content="Clinick">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-TileColor" content="#1a70f5">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="msapplication-config" content="/icons/browserconfig.xml">
+
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Clinick - Medical Clinic Management System">
+  <meta property="og:description" content="Streamline your clinic operations with our comprehensive medical management solution">
+  <meta property="og:image" content="/icons/og-image.png">
+  <meta property="og:url" content="https://clinick.app">
+
+  <!-- Favicon and Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#1a70f5">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- Fonts -->
+  <link id="language-font" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap">
+
+  <title>Clinick - Medical Clinic Management System</title>
+
+  <style>
+    /* Initial loading styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', 'Noto Sans Arabic', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background-color: #f9fafb;
+      color: #1f2937;
+      transition: background-color 0.3s ease;
+    }
+
+    html[dir="rtl"] body {
+      font-family: 'Noto Sans Arabic', 'Inter', sans-serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #111827;
+        color: #f9fafb;
+      }
+    }
+
+    #loading-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #f9fafb;
+      z-index: 9999;
+      transition: opacity 0.5s ease;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #loading-screen {
+        background-color: #111827;
+      }
+    }
+
+    #loading-logo {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 24px;
+      animation: pulse 2s infinite;
+    }
+
+    .loading-spinner {
+      width: 40px;
+      height: 40px;
+      border: 4px solid rgba(26, 112, 245, 0.2);
+      border-radius: 50%;
+      border-top-color: #1a70f5;
+      animation: spin 1s linear infinite;
+    }
+
+    .loading-text {
+      margin-top: 16px;
+      font-size: 16px;
+      font-weight: 500;
+      color: #1f2937;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .loading-text {
+        color: #f9fafb;
+      }
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.05);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .noscript-message {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    .noscript-message h1 {
+      color: #1a70f5;
+      margin-bottom: 16px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      .noscript-message h1 {
+        color: #3690fe;
+      }
+    }
+
+    .noscript-message p {
+      margin-bottom: 12px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Loading screen that shows before React mounts -->
+  <div id="loading-screen">
+    <img id="loading-logo" src="/icons/logo.svg" alt="Clinick Logo">
+    <div class="loading-spinner"></div>
+    <p class="loading-text">Loading Clinick...</p>
+  </div>
+
+  <!-- Root element for React to mount -->
+  <div id="root"></div>
+
+  <!-- Modal root for portals -->
+  <div id="modal-root"></div>
+
+  <!-- Fallback for users with JavaScript disabled -->
+  <noscript>
+    <div class="noscript-message">
+      <h1>JavaScript Required</h1>
+      <p>We're sorry, but Clinick requires JavaScript to be enabled in your browser.</p>
+      <p>Please enable JavaScript to use this application, or upgrade to a browser that supports JavaScript.</p>
+      <p>If you need assistance, please contact our support team at support@clinick.app</p>
+    </div>
+  </noscript>
+
+  <script>
+    // Hide loading screen when app is loaded
+    window.addEventListener('load', function() {
+      // Give React a moment to initialize
+      setTimeout(function() {
+        const loadingScreen = document.getElementById('loading-screen');
+        if (loadingScreen) {
+          loadingScreen.style.opacity = '0';
+          setTimeout(function() {
+            loadingScreen.style.display = 'none';
+          }, 500);
+        }
+      }, 1000);
+    });
+
+    // Check for dark mode preference
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.classList.add('dark');
+    }
+
+    // Check for stored language preference and set direction
+    const storedLanguage = localStorage.getItem('clinick_language');
+    if (storedLanguage === 'ar') {
+      document.documentElement.dir = 'rtl';
+      document.documentElement.lang = 'ar';
+      document.documentElement.classList.add('rtl');
+    }
+  </script>
+</body>
+</html>

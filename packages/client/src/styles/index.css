@@ -1,0 +1,603 @@
+/**
+ * Global CSS Styles for Clinick Medical Clinic Management System
+ * 
+ * This file contains global styles that complement TailwindCSS, including:
+ * - Print styles for reports, prescriptions, and medical documents
+ * - Accessibility improvements
+ * - Medical-specific styling
+ * - RTL/LTR layout adjustments
+ * - Cross-browser compatibility fixes
+ */
+
+/* =========================================================================
+   General Styles
+   ========================================================================= */
+
+/* Apply natural box model to all elements */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Improve text rendering */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Ensure proper handling of long words and URLs */
+p, h1, h2, h3, h4, h5, h6, li, blockquote {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Smooth scrolling, but respect user's reduced motion preference */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* =========================================================================
+   Accessibility Improvements
+   ========================================================================= */
+
+/* Visually hidden elements (for screen readers) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Focus visible styles for keyboard navigation */
+:focus-visible {
+  outline: 3px solid rgba(59, 130, 246, 0.5);
+  outline-offset: 2px;
+}
+
+/* Skip to content link - hidden until focused */
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #1a70f5;
+  color: white;
+  padding: 8px;
+  z-index: 100;
+  transition: top 0.2s;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
+/* Improve contrast for form elements */
+input::placeholder,
+textarea::placeholder {
+  opacity: 0.7;
+}
+
+/* High contrast mode adjustments */
+@media (forced-colors: active) {
+  .btn, .card, .status-badge {
+    border: 1px solid transparent;
+  }
+}
+
+/* =========================================================================
+   RTL/LTR Support
+   ========================================================================= */
+
+/* RTL text alignment */
+[dir="rtl"] .text-left {
+  text-align: right;
+}
+
+[dir="rtl"] .text-right {
+  text-align: left;
+}
+
+/* RTL margins and paddings */
+[dir="rtl"] .ml-auto {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+[dir="rtl"] .mr-auto {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* RTL transforms */
+[dir="rtl"] .transform-rtl-mirror {
+  transform: scaleX(-1);
+}
+
+/* =========================================================================
+   Medical-Specific Styling
+   ========================================================================= */
+
+/* Prescription styling */
+.prescription {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #fff;
+  background-image: url('/images/rx-watermark.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 30%;
+  background-blend-mode: lighten;
+  background-opacity: 0.1;
+}
+
+.prescription-header {
+  border-bottom: 2px solid #1a70f5;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.prescription-footer {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 10px;
+  font-size: 0.8em;
+}
+
+.rx-symbol {
+  font-family: serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Medical record styling */
+.medical-record {
+  border-left: 4px solid #1a70f5;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.medical-record-critical {
+  border-left-color: #dc2626;
+}
+
+.medical-record-warning {
+  border-left-color: #f59e0b;
+}
+
+.medical-record-normal {
+  border-left-color: #10b981;
+}
+
+/* Lab results styling */
+.lab-result-abnormal {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+.lab-result-normal {
+  color: #10b981;
+}
+
+.lab-result-pending {
+  color: #f59e0b;
+  font-style: italic;
+}
+
+/* Vital signs visualization */
+.vital-signs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.vital-sign {
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9fafb;
+  transition: transform 0.2s ease;
+}
+
+.vital-sign:hover {
+  transform: translateY(-5px);
+}
+
+.vital-sign-value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.vital-sign-label {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Medical timeline */
+.medical-timeline {
+  position: relative;
+  padding-left: 30px;
+}
+
+.medical-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  width: 2px;
+  background-color: #e5e7eb;
+}
+
+.medical-timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.medical-timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -30px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #1a70f5;
+  border: 2px solid #fff;
+  z-index: 1;
+}
+
+/* Appointment calendar */
+.calendar-day {
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.calendar-day:hover {
+  background-color: #e5e7eb;
+}
+
+.calendar-day-selected {
+  background-color: #1a70f5;
+  color: white;
+}
+
+.calendar-day-today {
+  border: 2px solid #1a70f5;
+}
+
+.calendar-day-has-appointments {
+  position: relative;
+}
+
+.calendar-day-has-appointments::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #1a70f5;
+}
+
+/* =========================================================================
+   Print Styles
+   ========================================================================= */
+
+@media print {
+  /* General print styles */
+  *, *::before, *::after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  body {
+    padding: 0.5cm;
+    font-size: 12pt;
+  }
+
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /* Don't show links for images, or javascript/internal links */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after,
+  a[href^="/"]::after,
+  a[href*="://"]::after {
+    content: "";
+  }
+
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* Hide unnecessary elements when printing */
+  .no-print,
+  nav,
+  .sidebar,
+  .header,
+  .footer,
+  .action-buttons,
+  button:not(.print-button) {
+    display: none !important;
+  }
+
+  /* Medical document specific print styles */
+  .prescription,
+  .medical-report,
+  .lab-result,
+  .invoice {
+    break-inside: avoid;
+    border: 1px solid #000;
+    padding: 1cm;
+    margin-bottom: 1cm;
+  }
+
+  /* Prescription print styling */
+  .prescription {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+  }
+
+  .prescription-header {
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .prescription-footer {
+    border-top: 1px solid #000;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 10pt;
+  }
+
+  /* Invoice print styling */
+  .invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .invoice-table th,
+  .invoice-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .invoice-total {
+    font-weight: bold;
+    border-top: 2px solid #000;
+  }
+
+  /* Add page breaks where needed */
+  .page-break {
+    page-break-before: always;
+  }
+
+  /* QR codes and barcodes for printed documents */
+  .document-qr-code,
+  .document-barcode {
+    display: block !important;
+    margin: 20px auto;
+  }
+}
+
+/* =========================================================================
+   Animation and Transitions
+   ========================================================================= */
+
+/* Pulse animation for notifications and alerts */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+/* Slide in animations */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.3s ease-out;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.3s ease-out;
+}
+
+/* =========================================================================
+   Utility Classes
+   ========================================================================= */
+
+/* Text truncation with ellipsis */
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Aspect ratios */
+.aspect-ratio-1x1 {
+  aspect-ratio: 1 / 1;
+}
+
+.aspect-ratio-4x3 {
+  aspect-ratio: 4 / 3;
+}
+
+.aspect-ratio-16x9 {
+  aspect-ratio: 16 / 9;
+}
+
+/* Medical-specific utility classes */
+.medical-border {
+  border: 1px solid #e5e7eb;
+  border-radius: 0.375rem;
+  padding: 1rem;
+}
+
+.medical-border-dashed {
+  border: 1px dashed #e5e7eb;
+  border-radius: 0.375rem;
+  padding: 1rem;
+}
+
+.medical-highlight {
+  background-color: rgba(254, 243, 199, 0.3);
+  border-left: 3px solid #f59e0b;
+  padding: 0.5rem 1rem;
+}
+
+/* =========================================================================
+   Cross-Browser Compatibility Fixes
+   ========================================================================= */
+
+/* Fix for Firefox input styling */
+@-moz-document url-prefix() {
+  select {
+    text-indent: 0.01px;
+    text-overflow: '';
+    padding-right: 1rem;
+  }
+}
+
+/* Fix for Safari date inputs */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+/* Fix for IE11 */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .flex {
+    display: flex;
+  }
+  
+  .grid {
+    display: -ms-grid;
+  }
+}
+
+/* =========================================================================
+   Dark Mode Adjustments
+   ========================================================================= */
+
+@media (prefers-color-scheme: dark) {
+  .medical-border {
+    border-color: #374151;
+  }
+  
+  .medical-border-dashed {
+    border-color: #374151;
+  }
+  
+  .medical-highlight {
+    background-color: rgba(146, 64, 14, 0.2);
+    border-left-color: #92400e;
+  }
+  
+  .vital-sign {
+    background-color: #1f2937;
+  }
+  
+  .vital-sign-label {
+    color: #9ca3af;
+  }
+  
+  .medical-timeline::before {
+    background-color: #374151;
+  }
+  
+  .calendar-day:hover {
+    background-color: #374151;
+  }
+}

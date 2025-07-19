@@ -1,0 +1,539 @@
+/**
+ * Tailwind CSS Main Stylesheet
+ * 
+ * This file imports Tailwind's base, components, and utilities layers.
+ * It also includes custom CSS variables for theming and RTL/LTR support.
+ */
+
+/* Tailwind Base - Reset and default styles */
+@tailwind base;
+
+/* Tailwind Components - Component classes */
+@tailwind components;
+
+/* Tailwind Utilities - Utility classes */
+@tailwind utilities;
+
+/* Base layer customizations */
+@layer base {
+  :root {
+    /* Primary color palette */
+    --color-primary-50: 238, 248, 255;
+    --color-primary-100: 217, 238, 255;
+    --color-primary-200: 188, 224, 255;
+    --color-primary-300: 142, 205, 255;
+    --color-primary-400: 89, 176, 255;
+    --color-primary-500: 54, 144, 254;
+    --color-primary-600: 26, 112, 245;
+    --color-primary-700: 19, 89, 226;
+    --color-primary-800: 19, 71, 183;
+    --color-primary-900: 25, 64, 143;
+    --color-primary-950: 20, 42, 90;
+    
+    /* Secondary color palette */
+    --color-secondary-50: 240, 253, 246;
+    --color-secondary-100: 220, 252, 235;
+    --color-secondary-200: 187, 245, 215;
+    --color-secondary-300: 134, 233, 188;
+    --color-secondary-400: 79, 212, 150;
+    --color-secondary-500: 39, 182, 116;
+    --color-secondary-600: 23, 149, 96;
+    --color-secondary-700: 19, 119, 80;
+    --color-secondary-800: 18, 95, 67;
+    --color-secondary-900: 17, 78, 56;
+    --color-secondary-950: 7, 44, 31;
+    
+    /* Accent color palette */
+    --color-accent-50: 255, 248, 237;
+    --color-accent-100: 255, 239, 212;
+    --color-accent-200: 255, 220, 168;
+    --color-accent-300: 255, 194, 113;
+    --color-accent-400: 255, 158, 56;
+    --color-accent-500: 255, 126, 16;
+    --color-accent-600: 248, 93, 4;
+    --color-accent-700: 204, 67, 2;
+    --color-accent-800: 161, 53, 8;
+    --color-accent-900: 131, 46, 12;
+    --color-accent-950: 70, 21, 5;
+    
+    /* Neutral color palette */
+    --color-neutral-50: 249, 250, 251;
+    --color-neutral-100: 243, 244, 246;
+    --color-neutral-200: 229, 231, 235;
+    --color-neutral-300: 209, 213, 219;
+    --color-neutral-400: 156, 163, 175;
+    --color-neutral-500: 107, 114, 128;
+    --color-neutral-600: 75, 85, 99;
+    --color-neutral-700: 55, 65, 81;
+    --color-neutral-800: 31, 41, 55;
+    --color-neutral-900: 17, 24, 39;
+    --color-neutral-950: 3, 7, 18;
+    
+    /* Semantic colors */
+    --color-danger-50: 254, 242, 242;
+    --color-danger-100: 254, 226, 226;
+    --color-danger-200: 254, 202, 202;
+    --color-danger-300: 252, 165, 165;
+    --color-danger-400: 248, 113, 113;
+    --color-danger-500: 239, 68, 68;
+    --color-danger-600: 220, 38, 38;
+    --color-danger-700: 185, 28, 28;
+    --color-danger-800: 153, 27, 27;
+    --color-danger-900: 127, 29, 29;
+    --color-danger-950: 69, 10, 10;
+    
+    --color-success-50: 240, 253, 244;
+    --color-success-100: 220, 252, 231;
+    --color-success-200: 187, 247, 208;
+    --color-success-300: 134, 239, 172;
+    --color-success-400: 74, 222, 128;
+    --color-success-500: 34, 197, 94;
+    --color-success-600: 22, 163, 74;
+    --color-success-700: 21, 128, 61;
+    --color-success-800: 22, 101, 52;
+    --color-success-900: 20, 83, 45;
+    --color-success-950: 5, 46, 22;
+    
+    --color-warning-50: 255, 251, 235;
+    --color-warning-100: 254, 243, 199;
+    --color-warning-200: 253, 230, 138;
+    --color-warning-300: 252, 211, 77;
+    --color-warning-400: 251, 191, 36;
+    --color-warning-500: 245, 158, 11;
+    --color-warning-600: 217, 119, 6;
+    --color-warning-700: 180, 83, 9;
+    --color-warning-800: 146, 64, 14;
+    --color-warning-900: 120, 53, 15;
+    --color-warning-950: 69, 26, 3;
+    
+    --color-info-50: 239, 246, 255;
+    --color-info-100: 219, 234, 254;
+    --color-info-200: 191, 219, 254;
+    --color-info-300: 147, 197, 253;
+    --color-info-400: 96, 165, 250;
+    --color-info-500: 59, 130, 246;
+    --color-info-600: 37, 99, 235;
+    --color-info-700: 29, 78, 216;
+    --color-info-800: 30, 64, 175;
+    --color-info-900: 30, 58, 138;
+    --color-info-950: 23, 37, 84;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+    --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-card-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Dark mode variable overrides */
+  .dark {
+    --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.4);
+    --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.4), 0 1px 2px -1px rgb(0 0 0 / 0.4);
+    --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.4), 0 2px 4px -2px rgb(0 0 0 / 0.4);
+    --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.4), 0 4px 6px -4px rgb(0 0 0 / 0.4);
+    --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.4), 0 8px 10px -6px rgb(0 0 0 / 0.4);
+    --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.5);
+    --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.2);
+    --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    --shadow-card-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Global styles */
+  html {
+    scroll-behavior: smooth;
+    height: 100%;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  
+  body {
+    min-height: 100%;
+    @apply bg-neutral-50 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-50;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  
+  /* RTL Support */
+  html[dir="rtl"] {
+    & body {
+      text-align: right;
+    }
+    
+    & .ltr-only {
+      display: none !important;
+    }
+  }
+  
+  html[dir="ltr"] {
+    & .rtl-only {
+      display: none !important;
+    }
+  }
+  
+  /* Focus styles */
+  :focus-visible {
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2 ring-offset-white dark:ring-offset-neutral-900;
+  }
+  
+  /* Scrollbar styles */
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-neutral-200 dark:bg-neutral-800;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-neutral-400 dark:bg-neutral-600 rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-neutral-500 dark:bg-neutral-500;
+  }
+}
+
+/* Components layer customizations */
+@layer components {
+  /* Medical-specific components */
+  .medical-card {
+    @apply bg-white dark:bg-neutral-800 rounded-lg shadow-card hover:shadow-card-hover transition-shadow duration-300 overflow-hidden;
+  }
+  
+  .medical-card-header {
+    @apply p-4 border-b border-neutral-200 dark:border-neutral-700 flex justify-between items-center;
+  }
+  
+  .medical-card-body {
+    @apply p-4;
+  }
+  
+  .medical-card-footer {
+    @apply p-4 border-t border-neutral-200 dark:border-neutral-700 flex justify-between items-center;
+  }
+  
+  /* Status indicators */
+  .status-badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  
+  .status-badge-success {
+    @apply bg-success-100 text-success-800 dark:bg-success-900 dark:text-success-200;
+  }
+  
+  .status-badge-warning {
+    @apply bg-warning-100 text-warning-800 dark:bg-warning-900 dark:text-warning-200;
+  }
+  
+  .status-badge-danger {
+    @apply bg-danger-100 text-danger-800 dark:bg-danger-900 dark:text-danger-200;
+  }
+  
+  .status-badge-info {
+    @apply bg-info-100 text-info-800 dark:bg-info-900 dark:text-info-200;
+  }
+  
+  .status-badge-neutral {
+    @apply bg-neutral-100 text-neutral-800 dark:bg-neutral-800 dark:text-neutral-200;
+  }
+  
+  /* Form elements */
+  .form-input {
+    @apply block w-full rounded-md border-neutral-300 shadow-sm focus:border-primary-500 focus:ring-primary-500 dark:border-neutral-600 dark:bg-neutral-800 dark:text-neutral-100 dark:placeholder-neutral-400 dark:focus:border-primary-500 dark:focus:ring-primary-500;
+  }
+  
+  .form-select {
+    @apply block w-full rounded-md border-neutral-300 shadow-sm focus:border-primary-500 focus:ring-primary-500 dark:border-neutral-600 dark:bg-neutral-800 dark:text-neutral-100 dark:placeholder-neutral-400 dark:focus:border-primary-500 dark:focus:ring-primary-500;
+  }
+  
+  .form-checkbox {
+    @apply rounded border-neutral-300 text-primary-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 dark:border-neutral-600 dark:bg-neutral-800 dark:focus:border-primary-500 dark:focus:ring-primary-500;
+  }
+  
+  .form-radio {
+    @apply border-neutral-300 text-primary-600 shadow-sm focus:border-primary-500 focus:ring-primary-500 dark:border-neutral-600 dark:bg-neutral-800 dark:focus:border-primary-500 dark:focus:ring-primary-500;
+  }
+  
+  .form-label {
+    @apply block text-sm font-medium text-neutral-700 dark:text-neutral-200 mb-1;
+  }
+  
+  .form-helper-text {
+    @apply mt-1 text-sm text-neutral-500 dark:text-neutral-400;
+  }
+  
+  .form-error {
+    @apply mt-1 text-sm text-danger-600 dark:text-danger-400;
+  }
+  
+  /* Buttons */
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md border border-transparent px-4 py-2 text-sm font-medium shadow-sm focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed transition-colors;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white hover:bg-primary-700 focus:ring-primary-500 dark:bg-primary-700 dark:hover:bg-primary-600;
+  }
+  
+  .btn-secondary {
+    @apply bg-secondary-600 text-white hover:bg-secondary-700 focus:ring-secondary-500 dark:bg-secondary-700 dark:hover:bg-secondary-600;
+  }
+  
+  .btn-accent {
+    @apply bg-accent-600 text-white hover:bg-accent-700 focus:ring-accent-500 dark:bg-accent-700 dark:hover:bg-accent-600;
+  }
+  
+  .btn-danger {
+    @apply bg-danger-600 text-white hover:bg-danger-700 focus:ring-danger-500 dark:bg-danger-700 dark:hover:bg-danger-600;
+  }
+  
+  .btn-outline {
+    @apply border-neutral-300 bg-white text-neutral-700 hover:bg-neutral-50 focus:ring-primary-500 dark:border-neutral-600 dark:bg-neutral-800 dark:text-neutral-100 dark:hover:bg-neutral-700;
+  }
+  
+  .btn-ghost {
+    @apply bg-transparent text-neutral-700 hover:bg-neutral-100 focus:ring-primary-500 dark:text-neutral-100 dark:hover:bg-neutral-800;
+  }
+  
+  .btn-sm {
+    @apply px-3 py-1.5 text-xs;
+  }
+  
+  .btn-lg {
+    @apply px-5 py-2.5 text-base;
+  }
+  
+  /* Tables */
+  .table-container {
+    @apply overflow-x-auto rounded-md border border-neutral-200 dark:border-neutral-700;
+  }
+  
+  .table {
+    @apply min-w-full divide-y divide-neutral-200 dark:divide-neutral-700;
+  }
+  
+  .table-header {
+    @apply bg-neutral-50 dark:bg-neutral-800;
+  }
+  
+  .table-header-cell {
+    @apply px-6 py-3 text-start text-xs font-medium text-neutral-500 uppercase tracking-wider dark:text-neutral-400;
+  }
+  
+  .table-body {
+    @apply bg-white divide-y divide-neutral-200 dark:bg-neutral-900 dark:divide-neutral-700;
+  }
+  
+  .table-row {
+    @apply hover:bg-neutral-50 dark:hover:bg-neutral-800 transition-colors;
+  }
+  
+  .table-cell {
+    @apply px-6 py-4 whitespace-nowrap text-sm text-neutral-900 dark:text-neutral-100;
+  }
+  
+  /* Medical-specific components */
+  .appointment-slot {
+    @apply p-2 rounded-md border border-neutral-200 dark:border-neutral-700 cursor-pointer transition-colors;
+  }
+  
+  .appointment-slot-available {
+    @apply bg-white dark:bg-neutral-800 hover:bg-primary-50 hover:border-primary-200 dark:hover:bg-primary-900 dark:hover:border-primary-700;
+  }
+  
+  .appointment-slot-selected {
+    @apply bg-primary-50 border-primary-200 dark:bg-primary-900 dark:border-primary-700;
+  }
+  
+  .appointment-slot-unavailable {
+    @apply bg-neutral-100 border-neutral-200 dark:bg-neutral-800 dark:border-neutral-700 opacity-50 cursor-not-allowed;
+  }
+  
+  .vital-sign-card {
+    @apply p-4 rounded-md border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-800;
+  }
+  
+  .vital-sign-value {
+    @apply text-xl font-bold text-primary-600 dark:text-primary-400;
+  }
+  
+  .vital-sign-label {
+    @apply text-sm text-neutral-500 dark:text-neutral-400;
+  }
+  
+  .medical-tab {
+    @apply px-4 py-2 font-medium border-b-2 border-transparent hover:border-neutral-300 dark:hover:border-neutral-600 transition-colors;
+  }
+  
+  .medical-tab-active {
+    @apply border-primary-500 text-primary-600 dark:border-primary-400 dark:text-primary-400;
+  }
+}
+
+/* Utilities layer customizations */
+@layer utilities {
+  /* RTL/LTR specific utilities */
+  .rtl-flip {
+    @apply rtl:rotate-180;
+  }
+  
+  .rtl-mirror {
+    @apply rtl:scale-x-[-1];
+  }
+  
+  /* Directional padding/margin utilities */
+  .ps-1 {
+    padding-inline-start: 0.25rem;
+  }
+  
+  .ps-2 {
+    padding-inline-start: 0.5rem;
+  }
+  
+  .ps-3 {
+    padding-inline-start: 0.75rem;
+  }
+  
+  .ps-4 {
+    padding-inline-start: 1rem;
+  }
+  
+  .pe-1 {
+    padding-inline-end: 0.25rem;
+  }
+  
+  .pe-2 {
+    padding-inline-end: 0.5rem;
+  }
+  
+  .pe-3 {
+    padding-inline-end: 0.75rem;
+  }
+  
+  .pe-4 {
+    padding-inline-end: 1rem;
+  }
+  
+  .ms-1 {
+    margin-inline-start: 0.25rem;
+  }
+  
+  .ms-2 {
+    margin-inline-start: 0.5rem;
+  }
+  
+  .ms-3 {
+    margin-inline-start: 0.75rem;
+  }
+  
+  .ms-4 {
+    margin-inline-start: 1rem;
+  }
+  
+  .me-1 {
+    margin-inline-end: 0.25rem;
+  }
+  
+  .me-2 {
+    margin-inline-end: 0.5rem;
+  }
+  
+  .me-3 {
+    margin-inline-end: 0.75rem;
+  }
+  
+  .me-4 {
+    margin-inline-end: 1rem;
+  }
+  
+  /* Text direction utilities */
+  .text-start {
+    text-align: start;
+  }
+  
+  .text-end {
+    text-align: end;
+  }
+  
+  /* Medical-specific utilities */
+  .medical-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4;
+  }
+  
+  .medical-grid-compact {
+    @apply grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-3;
+  }
+  
+  .medical-grid-wide {
+    @apply grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6;
+  }
+  
+  /* Animation utilities */
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  .animate-slide-in-right {
+    animation: slideInRight 0.3s ease-in-out;
+  }
+  
+  .animate-slide-in-left {
+    animation: slideInLeft 0.3s ease-in-out;
+  }
+  
+  .animate-slide-in-up {
+    animation: slideInUp 0.3s ease-in-out;
+  }
+  
+  .animate-slide-in-down {
+    animation: slideInDown 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInDown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+}
