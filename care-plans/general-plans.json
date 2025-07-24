@@ -1,7 +1,6 @@
-
 [
     {
-        "id": "gen001",
+        "id": "gn006",
         "title": "Risk for Injury Management",
         "category": "General",
         "tags": [
@@ -211,13 +210,13 @@
         "notes": "Consider referral to physical therapy for gait training and strengthening exercises for patients with mobility impairments",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Throughout hospitalization and discharge planning",
-        "imageUrl": "assets/images/general/Risk for Injury Management.webp",
+        "imageUrl": "assets/images/general/Risk for Injury.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-07-01T00:00:00.415Z"
     },
     {
-        "id": "gen002",
+        "id": "gn007",
         "title": "Fatigue Management",
         "category": "General",
         "tags": [
@@ -426,13 +425,13 @@
         "notes": "Consider referral to occupational therapy for personalized energy conservation strategies and assistive device recommendations",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Initial management 5-7 days, ongoing management as needed",
-        "imageUrl": "assets/images/general/Fatigue Management.webp",
+        "imageUrl": "assets/images/general/Fatigue.png",
         "isFeatured": false,
         "isFavorite": false,
         "lastUpdated": "2025-06-15T00:00:00.415Z"
     },
     {
-        "id": "gen003",
+        "id": "gn008",
         "title": "Risk for Infection Management",
         "category": "General",
         "tags": [
@@ -642,13 +641,13 @@
         "notes": "For immunocompromised patients, consider additional protective measures including dietary restrictions and visitor limitations",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Throughout hospitalization and discharge planning",
-        "imageUrl": "assets/images/general/Risk for Infection Management.webp",
+        "imageUrl": "assets/images/general/Risk for Infection.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-06-20T00:00:00.415Z"
     },
     {
-        "id": "gen004",
+        "id": "gn009",
         "title": "Impaired Physical Mobility Management",
         "category": "General",
         "tags": [
@@ -861,13 +860,13 @@
         "notes": "Consider interdisciplinary approach including physical therapy, occupational therapy, and rehabilitation nursing for complex mobility impairments",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Throughout hospitalization with ongoing assessment and adjustment",
-        "imageUrl": "assets/images/general/Impaired Physical Mobility Management.webp",
+        "imageUrl": "assets/images/general/Impaired Physical Mobility.png",
         "isFeatured": false,
         "isFavorite": false,
         "lastUpdated": "2025-06-25T00:00:00.415Z"
     },
     {
-        "id": "gen005",
+        "id": "gn010",
         "title": "Deficient Knowledge Management",
         "category": "General",
         "tags": [
@@ -1076,13 +1075,13 @@
         "notes": "Consider providing audio recordings of teaching sessions or video demonstrations for reinforcement after discharge",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Throughout hospitalization with emphasis before discharge",
-        "imageUrl": "assets/images/general/Deficient Knowledge Management.webp",
+        "imageUrl": "assets/images/general/Deficient Knowledge.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-07-05T00:00:00.415Z"
     },
     {
-        "id": "gen006",
+        "id": "gn011",
         "title": "Activity Intolerance Management",
         "category": "General",
         "tags": [
@@ -1292,13 +1291,13 @@
         "notes": "Consider referral to cardiac or pulmonary rehabilitation program after discharge for patients with chronic cardiopulmonary conditions",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Throughout hospitalization with ongoing assessment and adjustment",
-        "imageUrl": "assets/images/general/Activity Intolerance Management.webp",
+        "imageUrl": "assets/images/general/Activity Intolerance.png",
         "isFeatured": false,
         "isFavorite": false,
         "lastUpdated": "2025-06-10T00:00:00.415Z"
     },
     {
-        "id": "gen007",
+        "id": "gn012",
         "title": "Acute Pain Management",
         "category": "General",
         "tags": [
@@ -1509,13 +1508,13 @@
         "notes": "Consider pain management consultation for patients with complex pain issues or history of chronic pain",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Throughout acute pain episode with regular reassessment",
-        "imageUrl": "assets/images/general/Acute Pain Management.webp",
+        "imageUrl": "assets/images/general/Acute Pain.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-06-30T00:00:00.415Z"
     },
     {
-        "id": "gen008",
+        "id": "gn013",
         "title": "Risk for Shock Management",
         "category": "General",
         "tags": [
@@ -1739,13 +1738,13 @@
         "notes": "Consider early ICU transfer for patients with progressive shock despite initial interventions",
         "difficultyLevel": "Advanced",
         "timeFrame": "Immediate intervention with continuous monitoring until stabilized",
-        "imageUrl": "assets/images/general/Risk for Shock Management.webp",
+        "imageUrl": "assets/images/general/Risk for Shock.png",
         "isFeatured": false,
         "isFavorite": false,
         "lastUpdated": "2025-07-15T00:00:00.415Z"
     },
     {
-        "id": "gen009",
+        "id": "gn014",
         "title": "Diarrhea Management",
         "category": "General",
         "tags": [
@@ -1843,24 +1842,4 @@
                 "type": "Short-term"
             },
             {
-                "statement": "Patient will maintain adequate hydration and electrolyte balance",
-                "indicators": [
-                    "Moist mucous membranes",
-                    "Good skin turgor",
-                    "Stable vital signs without orthostatic changes",
-                    "Urine output >0.5 mL/kg/hr",
-                    "Electrolytes within normal range",
-                    "Stable weight"
-                ],
-                "timeframe": "Throughout episode of diarrhea",
-                "type": "Short-term"
-            }
-        ],
-        "interventions": [
-            {
-                "title": "Diarrhea Management",
-                "actions": [
-                    "Identify and address underlying cause when possible",
-                    "Administer antidiarrheal medications as prescribed",
-                    "Implement appropriate diet modifications (BRAT diet, low-fiber, lactose-free)",
-                    "Provide small, frequent
+                "statement": "Patient will maintain adequate hydration and electrol

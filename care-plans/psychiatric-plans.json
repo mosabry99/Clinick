@@ -1,6 +1,6 @@
 [
     {
-        "id": "psych001",
+        "id": "ps006",
         "title": "Ineffective Coping Management",
         "category": "Psychiatric",
         "tags": [
@@ -252,13 +252,13 @@
         "notes": "Consider referral to specialized mental health services for patients with persistent maladaptive coping that significantly impairs functioning",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Initial intervention 2-3 weeks, ongoing support 4-8 weeks",
-        "imageUrl": "assets/images/psychiatric/Ineffective Coping Management.webp",
+        "imageUrl": "assets/images/psychiatric/Ineffective Coping.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-06-10T00:00:00.415Z"
     },
     {
-        "id": "psych002",
+        "id": "ps007",
         "title": "Anxiety Management",
         "category": "Psychiatric",
         "tags": [
@@ -532,13 +532,13 @@
         "notes": "Consider referral to psychiatric services for patients with severe anxiety disorders not responding to initial interventions or those with comorbid conditions requiring specialized treatment",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Acute management 1-2 weeks, ongoing management 4-8 weeks",
-        "imageUrl": "assets/images/psychiatric/Anxiety Management.webp",
+        "imageUrl": "assets/images/psychiatric/Anxiety.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-06-15T00:00:00.415Z"
     },
     {
-        "id": "psych003",
+        "id": "ps008",
         "title": "Fear Management",
         "category": "Psychiatric",
         "tags": [
@@ -810,13 +810,13 @@
         "notes": "Consider referral to specialized mental health services for patients with complex phobias, trauma-related fears, or those requiring intensive exposure therapy",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Initial intervention 2-3 weeks, ongoing management 4-8 weeks",
-        "imageUrl": "assets/images/psychiatric/Fear Management.webp",
+        "imageUrl": "assets/images/psychiatric/Fear.png",
         "isFeatured": false,
         "isFavorite": false,
         "lastUpdated": "2025-06-20T00:00:00.415Z"
     },
     {
-        "id": "psych004",
+        "id": "ps009",
         "title": "Disturbed Body Image Management",
         "category": "Psychiatric",
         "tags": [
@@ -1083,13 +1083,13 @@
         "notes": "Consider referral to specialized services for patients with severe body image disturbance, especially those with comorbid eating disorders or body dysmorphic disorder",
         "difficultyLevel": "Advanced",
         "timeFrame": "Initial intervention 3-4 weeks, ongoing management 8-12 weeks",
-        "imageUrl": "assets/images/psychiatric/Disturbed Body Image Management.webp",
+        "imageUrl": "assets/images/psychiatric/Disturbed Body Image.png",
         "isFeatured": false,
         "isFavorite": false,
         "lastUpdated": "2025-06-25T00:00:00.415Z"
     },
     {
-        "id": "psych005",
+        "id": "ps010",
         "title": "Grieving Management",
         "category": "Psychiatric",
         "tags": [
@@ -1362,13 +1362,13 @@
         "notes": "Consider referral to specialized grief counseling for patients showing signs of complicated grief or those with multiple risk factors for complicated grief",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Initial support 4-8 weeks, ongoing support as needed (grief has no fixed timeline)",
-        "imageUrl": "assets/images/psychiatric/Grieving Management.webp",
+        "imageUrl": "assets/images/psychiatric/Grieving.png",
         "isFeatured": false,
         "isFavorite": false,
         "lastUpdated": "2025-07-01T00:00:00.415Z"
     },
     {
-        "id": "psych006",
+        "id": "ps011",
         "title": "Disturbed Thought Processes Management",
         "category": "Psychiatric",
         "tags": [
@@ -1639,7 +1639,7 @@
         "notes": "Consider referral to specialized psychiatric services for comprehensive evaluation and long-term management of thought disorders, particularly for first-episode psychosis",
         "difficultyLevel": "Advanced",
         "timeFrame": "Acute management 1-2 weeks, ongoing management indefinitely for chronic thought disorders",
-        "imageUrl": "assets/images/psychiatric/Disturbed Thought Processes Management.webp",
+        "imageUrl": "assets/images/psychiatric/Disturbed Thought Processes.png",
         "isFeatured": false,
         "isFavorite": false,
         "lastUpdated": "2025-07-05T00:00:00.415Z"
