@@ -1,6 +1,6 @@
 [
     {
-        "id": "en001",
+        "id": "en006",
         "title": "Imbalanced Nutrition: Less Than Body Requirements Management",
         "category": "Endocrine",
         "tags": [
@@ -222,13 +222,13 @@
         "notes": "Consider nutrition support team consultation for patients with complex nutritional needs or who require specialized feeding approaches",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Initial stabilization 1-2 weeks, ongoing management 4-12 weeks",
-        "imageUrl": "assets/images/endocrine/Imbalanced Nutrition Less Than Body Requirements Management.webp",
+        "imageUrl": "assets/images/endocrine/Imbalanced Nutrition Less Than Body Requirements.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-06-05T00:00:00.415Z"
     },
     {
-        "id": "en002",
+        "id": "en007",
         "title": "Imbalanced Nutrition: More Than Body Requirements Management",
         "category": "Endocrine",
         "tags": [
@@ -452,13 +452,13 @@
         "notes": "Consider referral to weight management program, behavioral health specialist, or bariatric surgery evaluation for patients with severe obesity or failed previous weight loss attempts",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Initial phase 4-8 weeks, long-term management ongoing",
-        "imageUrl": "assets/images/endocrine/Imbalanced Nutrition More Than Body Requirements Management.webp",
+        "imageUrl": "assets/images/endocrine/Imbalanced Nutrition More Than Body Requirements.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-06-10T00:00:00.415Z"
     },
     {
-        "id": "en003",
+        "id": "en008",
         "title": "Risk for Unstable Blood Glucose Level Management",
         "category": "Endocrine",
         "tags": [
@@ -710,7 +710,7 @@
         "notes": "Consider diabetes educator consultation for comprehensive education and insulin pump training if applicable",
         "difficultyLevel": "Advanced",
         "timeFrame": "Acute management 1-3 days, ongoing self-management education throughout hospitalization",
-        "imageUrl": "assets/images/endocrine/Risk for Unstable Blood Glucose Level Management.webp",
+        "imageUrl": "assets/images/endocrine/Risk for Unstable Blood Glucose Level.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-07-01T00:00:00.415Z"

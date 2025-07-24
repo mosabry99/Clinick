@@ -1,6 +1,6 @@
 [
     {
-        "id": "ne001",
+        "id": "ne006",
         "title": "Acute Confusion Management",
         "category": "Neurological",
         "tags": [
@@ -265,13 +265,13 @@
         "notes": "Consider psychiatric consultation for patients with severe agitation not responding to non-pharmacological interventions",
         "difficultyLevel": "Advanced",
         "timeFrame": "24-72 hours for initial management, ongoing until resolution",
-        "imageUrl": "assets/images/neurological/Acute Confusion Management.webp",
+        "imageUrl": "assets/images/neurological/Acute Confusion.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-06-15T00:00:00.415Z"
     },
     {
-        "id": "ne002",
+        "id": "ne007",
         "title": "Chronic Confusion Management",
         "category": "Neurological",
         "tags": [
@@ -565,13 +565,13 @@
         "notes": "Consider referral to memory care specialists, adult day programs, or respite services to support long-term management",
         "difficultyLevel": "Advanced",
         "timeFrame": "Ongoing with regular reassessment as condition progresses",
-        "imageUrl": "assets/images/neurological/Chronic Confusion Management.webp",
+        "imageUrl": "assets/images/neurological/Chronic Confusion.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-06-20T00:00:00.415Z"
     },
     {
-        "id": "ne003",
+        "id": "ne008",
         "title": "Impaired Verbal Communication Management",
         "category": "Neurological",
         "tags": [
@@ -864,13 +864,13 @@
         "notes": "Consider early speech-language pathology consultation for comprehensive communication assessment and intervention planning",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Initial intervention 1-2 weeks, ongoing management throughout recovery",
-        "imageUrl": "assets/images/neurological/Impaired Verbal Communication Management.webp",
+        "imageUrl": "assets/images/neurological/Impaired Verbal Communication.png",
         "isFeatured": false,
         "isFavorite": false,
         "lastUpdated": "2025-06-25T00:00:00.415Z"
     },
     {
-        "id": "ne004",
+        "id": "ne009",
         "title": "Disturbed Sensory Perception Management",
         "category": "Neurological",
         "tags": [
@@ -1169,7 +1169,7 @@
         "notes": "Consider referral to specialized rehabilitation services for comprehensive sensory retraining and adaptive strategies",
         "difficultyLevel": "Advanced",
         "timeFrame": "Initial intervention 1-2 weeks, ongoing management throughout recovery",
-        "imageUrl": "assets/images/neurological/Disturbed Sensory Perception Management.webp",
+        "imageUrl": "assets/images/neurological/Disturbed Sensory Perception.png",
         "isFeatured": false,
         "isFavorite": false,
         "lastUpdated": "2025-06-30T00:00:00.415Z"

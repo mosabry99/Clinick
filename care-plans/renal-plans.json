@@ -1,6 +1,6 @@
 [
     {
-        "id": "rn001",
+        "id": "rn006",
         "title": "Acute Kidney Injury Care",
         "category": "Renal",
         "tags": [
@@ -329,13 +329,13 @@
         "notes": "Consider early nephrology consultation for patients with severe or rapidly progressing AKI, especially those with underlying kidney disease or multiple organ dysfunction.",
         "difficultyLevel": "Advanced",
         "timeFrame": "Acute management 3-7 days, follow-up 1-3 months",
-        "imageUrl": "assets/images/renal/Acute Kidney Injury Care.webp",
+        "imageUrl": "assets/images/renal/Acute Kidney Injury.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-06-05T00:00:00.415Z"
     },
     {
-        "id": "rn002",
+        "id": "rn007",
         "title": "Chronic Kidney Disease Management",
         "category": "Renal",
         "tags": [
@@ -717,13 +717,13 @@
         "notes": "Consider implementing a multidisciplinary CKD clinic approach for comprehensive care. Early education and preparation for RRT improves outcomes and patient satisfaction.",
         "difficultyLevel": "Advanced",
         "timeFrame": "Long-term management with quarterly evaluation",
-        "imageUrl": "assets/images/renal/Chronic Kidney Disease Management.webp",
+        "imageUrl": "assets/images/renal/Chronic Kidney Disease.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-06-10T00:00:00.415Z"
     },
     {
-        "id": "rn003",
+        "id": "rn008",
         "title": "Electrolyte Imbalance (Hyperkalemia) Management",
         "category": "Renal",
         "tags": [
@@ -1057,7 +1057,7 @@
         "notes": "Consider implementing a hyperkalemia protocol for standardized management. For patients with recurrent hyperkalemia, consider nephrology consultation for specialized management.",
         "difficultyLevel": "Advanced",
         "timeFrame": "Acute management 24-48 hours, ongoing management as needed",
-        "imageUrl": "assets/images/renal/Hyperkalemia Management.webp",
+        "imageUrl": "assets/images/renal/Electrolyte Imbalance (Hyperkalemia).png",
         "isFeatured": false,
         "isFavorite": false,
         "lastUpdated": "2025-06-15T00:00:00.415Z"

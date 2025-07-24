@@ -1,6 +1,6 @@
 [
     {
-        "id": "cv001",
+        "id": "cv006",
         "title": "Decreased Cardiac Output Management",
         "category": "Cardiovascular",
         "tags": [
@@ -219,9 +219,200 @@
         "notes": "Consider palliative care consultation for patients with end-stage heart failure and refractory symptoms despite optimal medical therapy",
         "difficultyLevel": "Advanced",
         "timeFrame": "Acute management 3-5 days, ongoing for chronic management",
-        "imageUrl": "assets/images/cardiovascular/Decreased Cardiac Output Management.webp",
+        "imageUrl": "assets/images/cardiovascular/Decreased Cardiac Output.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-07-10T00:00:00.415Z"
+    },
+    {
+        "id": "cv007",
+        "title": "Excess Fluid Volume Management",
+        "category": "Cardiovascular",
+        "tags": [
+            "Fluid Overload",
+            "Edema",
+            "Heart Failure",
+            "Renal"
+        ],
+        "description": "A care plan focused on assessing and treating patients with excess fluid volume to prevent complications such as pulmonary edema and impaired tissue perfusion.",
+        "assessments": [
+            {
+                "title": "Fluid Status Assessment",
+                "points": [
+                    "Monitor daily weight at the same time of day",
+                    "Assess intake and output strictly each shift",
+                    "Inspect for peripheral and generalized edema",
+                    "Auscultate lung sounds for crackles",
+                    "Assess jugular venous distention",
+                    "Monitor serum electrolytes"
+                ],
+                "description": "Accurate assessment identifies severity of fluid overload and guides intervention priority."
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Excess Fluid Volume related to compromised regulatory mechanisms as evidenced by edema and weight gain",
+                "relatedFactors": [
+                    "Decreased cardiac output",
+                    "Renal insufficiency",
+                    "High sodium intake"
+                ],
+                "definingCharacteristics": [
+                    "Sudden weight gain",
+                    "Edema",
+                    "Crackles on auscultation",
+                    "Dyspnea"
+                ],
+                "nandaCode": "00026"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will achieve euvolemia as evidenced by stable weight and resolution of edema",
+                "indicators": [
+                    "Weight returns to baseline",
+                    "Clear lung sounds",
+                    "Absence of pitting edema",
+                    "Balanced intake and output"
+                ],
+                "timeframe": "Within 72 hours",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Fluid Management",
+                "actions": [
+                    "Implement physician-ordered fluid restriction",
+                    "Administer diuretics as prescribed",
+                    "Elevate edematous extremities",
+                    "Educate on low-sodium diet"
+                ],
+                "rationales": [
+                    "Restriction prevents additional overload",
+                    "Diuretics promote fluid excretion",
+                    "Elevation facilitates venous return",
+                    "Sodium control reduces water retention"
+                ],
+                "frequency": "Ongoing"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Is fluid volume within normal limits?",
+                "expectedOutcomes": [
+                    "Stable weight",
+                    "Balanced I&O",
+                    "Clear breath sounds"
+                ],
+                "evaluationMethods": [
+                    "Daily weights",
+                    "I&O records",
+                    "Respiratory assessment"
+                ]
+            }
+        ],
+        "references": [],
+        "notes": "",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Acute phase 2-4 days",
+        "imageUrl": "assets/images/cardiovascular/Excess Fluid Volume.png",
+        "isFeatured": false,
+        "isFavorite": false,
+        "lastUpdated": "2025-07-11T00:00:00.415Z"
+    },
+    {
+        "id": "cv008",
+        "title": "Activity Intolerance Management",
+        "category": "Cardiovascular",
+        "tags": [
+            "Fatigue",
+            "Exercise",
+            "Rehabilitation",
+            "Cardiac"
+        ],
+        "description": "A care plan aimed at improving a patient's tolerance to activity by balancing rest and graded exercise, preventing exacerbation of cardiac workload.",
+        "assessments": [
+            {
+                "title": "Tolerance Assessment",
+                "points": [
+                    "Measure vital signs before, during, and after activity",
+                    "Assess for dyspnea, chest pain, or dizziness with exertion",
+                    "Use Borg scale to gauge perceived exertion",
+                    "Evaluate ability to perform ADLs",
+                    "Monitor oxygen saturation with activity"
+                ],
+                "description": "Baseline and ongoing assessment helps tailor activity plan to individual tolerance."
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Activity Intolerance related to imbalance between oxygen supply and demand as evidenced by exertional dyspnea and fatigue",
+                "relatedFactors": [
+                    "Decreased cardiac output",
+                    "Deconditioning",
+                    "Generalized weakness"
+                ],
+                "definingCharacteristics": [
+                    "Abnormal vital sign response to activity",
+                    "Dyspnea on exertion",
+                    "Verbal report of fatigue"
+                ],
+                "nandaCode": "00092"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will tolerate increasing activity without adverse symptoms",
+                "indicators": [
+                    "Stable vital signs with graded activity",
+                    "Reports decreased fatigue",
+                    "Completes ADLs independently"
+                ],
+                "timeframe": "Within 1 week",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Activity Progression",
+                "actions": [
+                    "Develop and implement a graded exercise plan",
+                    "Provide rest periods between activities",
+                    "Educate on energy conservation techniques",
+                    "Assist with adaptive devices as necessary"
+                ],
+                "rationales": [
+                    "Gradual increase prevents overexertion",
+                    "Rest prevents oxygen debt",
+                    "Energy conservation reduces fatigue",
+                    "Adaptive devices support independence"
+                ],
+                "frequency": "Daily"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has activity tolerance improved?",
+                "expectedOutcomes": [
+                    "Performs ADLs without symptoms",
+                    "Maintains SpO2 >92% during activity",
+                    "Demonstrates improved endurance"
+                ],
+                "evaluationMethods": [
+                    "Functional assessments",
+                    "Vital sign trends",
+                    "Patient self-report"
+                ]
+            }
+        ],
+        "references": [],
+        "notes": "",
+        "difficultyLevel": "Basic",
+        "timeFrame": "1-2 weeks for improvement",
+        "imageUrl": "assets/images/cardiovascular/Activity Intolerance.png",
+        "isFeatured": false,
+        "isFavorite": false,
+        "lastUpdated": "2025-07-11T00:00:00.415Z"
     }
 ]

@@ -1,6 +1,6 @@
 [
     {
-        "id": "rp001",
+        "id": "rp006",
         "title": "Ineffective Airway Clearance Management",
         "category": "Respiratory",
         "tags": [
@@ -219,7 +219,7 @@
         "notes": "Consider referral to respiratory therapy for specialized airway clearance techniques and device training",
         "difficultyLevel": "Intermediate",
         "timeFrame": "Throughout acute respiratory episode with ongoing assessment",
-        "imageUrl": "assets/images/respiratory/Ineffective Airway Clearance Management.webp",
+        "imageUrl": "assets/images/respiratory/Ineffective Airway Clearance.png",
         "isFeatured": true,
         "isFavorite": false,
         "lastUpdated": "2025-06-18T00:00:00.415Z"
