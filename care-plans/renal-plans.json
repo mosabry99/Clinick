@@ -1,0 +1,1065 @@
+[
+    {
+        "id": "rn001",
+        "title": "Acute Kidney Injury Care",
+        "category": "Renal",
+        "tags": [
+            "AKI",
+            "Renal Failure",
+            "Kidney Injury",
+            "Nephrotoxicity"
+        ],
+        "description": "A comprehensive care plan for managing acute kidney injury (AKI), focusing on assessment of kidney function, prevention of further injury, management of complications, and support of renal recovery in patients experiencing sudden deterioration in kidney function.",
+        "assessments": [
+            {
+                "title": "Kidney Function Assessment",
+                "points": [
+                    "Monitor serum creatinine and BUN levels",
+                    "Calculate estimated glomerular filtration rate (eGFR)",
+                    "Assess urine output (hourly measurements for critically ill patients)",
+                    "Evaluate for oliguria (<0.5 mL/kg/hr for >6 hours) or anuria",
+                    "Assess fluid balance (intake and output)",
+                    "Monitor electrolyte levels (potassium, sodium, phosphorus, calcium)",
+                    "Evaluate acid-base balance (pH, bicarbonate levels)",
+                    "Assess for presence of proteinuria or hematuria",
+                    "Evaluate urine specific gravity and osmolality"
+                ],
+                "description": "Comprehensive kidney function assessment helps identify the severity of AKI, monitor progression or resolution, and guide appropriate interventions"
+            },
+            {
+                "title": "Etiology and Risk Factor Assessment",
+                "points": [
+                    "Identify potential prerenal causes (hypotension, hypovolemia, heart failure)",
+                    "Assess for intrinsic renal causes (acute tubular necrosis, glomerulonephritis)",
+                    "Evaluate for postrenal causes (obstruction)",
+                    "Review medication history for nephrotoxic agents",
+                    "Assess for recent contrast media exposure",
+                    "Evaluate for sepsis or systemic inflammatory response",
+                    "Assess for history of trauma or rhabdomyolysis",
+                    "Identify comorbidities that increase AKI risk (diabetes, hypertension)",
+                    "Evaluate for recent surgical procedures"
+                ],
+                "description": "Etiology assessment helps identify the underlying cause of AKI, which guides specific interventions and prevention of further kidney damage"
+            },
+            {
+                "title": "Complication Assessment",
+                "points": [
+                    "Assess for signs of volume overload (edema, crackles, dyspnea, weight gain)",
+                    "Evaluate for hyperkalemia (ECG changes, muscle weakness)",
+                    "Assess for metabolic acidosis (Kussmaul respirations, decreased pH)",
+                    "Monitor for signs of uremia (nausea, confusion, pruritus, pericarditis)",
+                    "Assess for anemia",
+                    "Evaluate for bleeding tendencies due to platelet dysfunction",
+                    "Assess for signs of infection",
+                    "Monitor for hypertension",
+                    "Evaluate nutritional status"
+                ],
+                "description": "Complication assessment helps identify and manage the systemic effects of AKI that can lead to significant morbidity and mortality if left untreated"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Excess Fluid Volume related to compromised regulatory mechanism as evidenced by edema, intake greater than output, and abnormal electrolyte levels",
+                "relatedFactors": [
+                    "Compromised regulatory mechanism",
+                    "Decreased urine output",
+                    "Sodium retention",
+                    "Excessive fluid intake"
+                ],
+                "definingCharacteristics": [
+                    "Edema",
+                    "Weight gain",
+                    "Intake greater than output",
+                    "Abnormal electrolyte levels",
+                    "Pulmonary congestion",
+                    "Dyspnea",
+                    "Jugular vein distention",
+                    "Decreased hemoglobin and hematocrit"
+                ],
+                "nandaCode": "00026"
+            },
+            {
+                "statement": "Risk for Electrolyte Imbalance related to renal dysfunction",
+                "relatedFactors": [
+                    "Renal dysfunction",
+                    "Treatment-related side effects",
+                    "Fluid imbalance",
+                    "Altered acid-base balance"
+                ],
+                "definingCharacteristics": [
+                    "Not applicable as this is a risk diagnosis"
+                ],
+                "nandaCode": "00195"
+            },
+            {
+                "statement": "Decreased Cardiac Output related to altered afterload and preload as evidenced by dysrhythmias and altered heart rate",
+                "relatedFactors": [
+                    "Altered afterload",
+                    "Altered preload",
+                    "Electrolyte imbalances",
+                    "Acid-base imbalances"
+                ],
+                "definingCharacteristics": [
+                    "Dysrhythmias",
+                    "Altered heart rate",
+                    "Decreased peripheral pulses",
+                    "Decreased blood pressure",
+                    "Altered preload",
+                    "Altered afterload",
+                    "Decreased ejection fraction"
+                ],
+                "nandaCode": "00029"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate improved kidney function",
+                "indicators": [
+                    "Shows decreasing trend in serum creatinine levels",
+                    "Maintains urine output >0.5 mL/kg/hr",
+                    "Demonstrates improving eGFR",
+                    "Maintains electrolyte levels within target range",
+                    "Achieves acid-base balance"
+                ],
+                "timeframe": "Within 3-5 days and ongoing",
+                "type": "Short-term and Long-term"
+            },
+            {
+                "statement": "Patient will maintain fluid and electrolyte balance",
+                "indicators": [
+                    "Demonstrates resolution of edema",
+                    "Maintains appropriate fluid balance",
+                    "Exhibits stable weight",
+                    "Maintains potassium level between 3.5-5.0 mEq/L",
+                    "Demonstrates normal cardiac rhythm"
+                ],
+                "timeframe": "Throughout hospitalization",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will remain free from complications of AKI",
+                "indicators": [
+                    "Maintains hemodynamic stability",
+                    "Remains free from signs of uremia",
+                    "Demonstrates absence of infection",
+                    "Maintains adequate nutrition",
+                    "Exhibits no signs of bleeding"
+                ],
+                "timeframe": "Throughout hospitalization",
+                "type": "Short-term and Long-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Kidney Function Management",
+                "actions": [
+                    "Monitor serum creatinine, BUN, and eGFR daily or as ordered",
+                    "Maintain strict intake and output monitoring",
+                    "Implement fluid management as prescribed (restriction or replacement)",
+                    "Avoid nephrotoxic medications and agents",
+                    "Adjust medication dosages based on kidney function",
+                    "Maintain adequate blood pressure to ensure renal perfusion",
+                    "Administer diuretics as prescribed",
+                    "Position patient to optimize renal blood flow",
+                    "Prepare for renal replacement therapy if indicated"
+                ],
+                "rationales": [
+                    "Regular monitoring allows assessment of kidney function recovery or deterioration",
+                    "Accurate fluid balance monitoring guides appropriate fluid management",
+                    "Appropriate fluid management prevents further kidney injury from hypovolemia or hypervolemia",
+                    "Avoiding nephrotoxins prevents additional kidney damage",
+                    "Medication adjustment prevents toxicity due to reduced clearance",
+                    "Adequate blood pressure ensures kidney perfusion and prevents ischemic injury",
+                    "Diuretics may improve urine output in volume-overloaded patients",
+                    "Proper positioning prevents compression of renal vessels",
+                    "Timely initiation of RRT prevents life-threatening complications"
+                ],
+                "frequency": "Continuous throughout hospitalization",
+                "specialConsiderations": [
+                    "Consider underlying cause of AKI when planning interventions",
+                    "Be aware that some patients may progress to chronic kidney disease",
+                    "Consider contrast-induced nephropathy prevention for diagnostic procedures"
+                ]
+            },
+            {
+                "title": "Fluid and Electrolyte Management",
+                "actions": [
+                    "Monitor electrolyte levels (especially potassium, sodium, calcium, phosphorus)",
+                    "Implement fluid restriction if indicated",
+                    "Administer electrolyte binders as prescribed",
+                    "Monitor daily weights at same time with same scale",
+                    "Assess for signs and symptoms of fluid overload",
+                    "Administer sodium polystyrene sulfonate or other potassium-lowering agents as prescribed",
+                    "Implement dietary restrictions as appropriate (potassium, phosphorus, sodium)",
+                    "Monitor cardiac rhythm for electrolyte-related changes",
+                    "Administer calcium gluconate for severe hyperkalemia with ECG changes"
+                ],
+                "rationales": [
+                    "Regular monitoring allows early detection and management of imbalances",
+                    "Fluid restriction prevents volume overload in oliguric/anuric patients",
+                    "Electrolyte binders reduce absorption of excess electrolytes",
+                    "Consistent weight monitoring provides objective measure of fluid status",
+                    "Early detection of fluid overload allows prompt intervention",
+                    "Potassium-lowering agents prevent life-threatening hyperkalemia",
+                    "Dietary restrictions reduce intake of electrolytes that kidneys cannot excrete",
+                    "Cardiac monitoring allows detection of electrolyte-induced arrhythmias",
+                    "Calcium gluconate stabilizes cardiac membranes in severe hyperkalemia"
+                ],
+                "frequency": "Every 4-8 hours based on severity",
+                "specialConsiderations": [
+                    "Consider more frequent monitoring for critically ill patients",
+                    "Be aware that rapid electrolyte correction can cause complications",
+                    "Monitor for dialysis disequilibrium syndrome in patients starting dialysis"
+                ]
+            },
+            {
+                "title": "Complication Prevention",
+                "actions": [
+                    "Implement infection prevention measures",
+                    "Provide adequate nutrition while respecting renal restrictions",
+                    "Administer medications to control uremic symptoms as needed",
+                    "Implement bleeding precautions",
+                    "Monitor for and treat hypertension",
+                    "Provide skin care to prevent uremic pruritus complications",
+                    "Administer bicarbonate therapy for severe acidosis as prescribed",
+                    "Monitor for and treat anemia as indicated",
+                    "Implement measures to prevent venous thromboembolism"
+                ],
+                "rationales": [
+                    "Infection prevention reduces risk in immunocompromised state",
+                    "Adequate nutrition supports healing while preventing excess waste products",
+                    "Symptom management improves comfort and prevents complications",
+                    "Bleeding precautions prevent hemorrhage due to platelet dysfunction",
+                    "Hypertension control prevents further kidney damage and cardiovascular complications",
+                    "Skin care prevents excoriation and infection from uremic pruritus",
+                    "Bicarbonate therapy corrects severe metabolic acidosis",
+                    "Anemia management improves oxygen delivery to tissues",
+                    "VTE prophylaxis prevents thrombosis in high-risk patients"
+                ],
+                "frequency": "Ongoing throughout hospitalization",
+                "specialConsiderations": [
+                    "Adjust interventions based on AKI stage and progression",
+                    "Consider multidisciplinary approach including nephrology, nutrition, and pharmacy",
+                    "Be aware of psychological impact of acute illness and potential need for dialysis"
+                ]
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has kidney function improved?",
+                "expectedOutcomes": [
+                    "Shows decreasing trend in serum creatinine levels",
+                    "Maintains urine output >0.5 mL/kg/hr",
+                    "Demonstrates improving eGFR",
+                    "Maintains electrolyte levels within target range",
+                    "Achieves acid-base balance",
+                    "Returns to baseline kidney function or establishes new baseline"
+                ],
+                "evaluationMethods": [
+                    "Review of laboratory values",
+                    "Measurement of urine output",
+                    "Calculation of eGFR",
+                    "Electrolyte monitoring",
+                    "Arterial blood gas analysis",
+                    "Comparison with baseline values"
+                ]
+            },
+            {
+                "statement": "Has fluid and electrolyte balance been maintained?",
+                "expectedOutcomes": [
+                    "Demonstrates resolution of edema",
+                    "Maintains appropriate fluid balance",
+                    "Exhibits stable weight",
+                    "Maintains potassium level between 3.5-5.0 mEq/L",
+                    "Demonstrates normal cardiac rhythm",
+                    "Maintains blood pressure within target range"
+                ],
+                "evaluationMethods": [
+                    "Physical assessment for edema",
+                    "Intake and output monitoring",
+                    "Daily weight measurement",
+                    "Electrolyte level monitoring",
+                    "ECG monitoring",
+                    "Blood pressure monitoring"
+                ]
+            },
+            {
+                "statement": "Has patient remained free from complications of AKI?",
+                "expectedOutcomes": [
+                    "Maintains hemodynamic stability",
+                    "Remains free from signs of uremia",
+                    "Demonstrates absence of infection",
+                    "Maintains adequate nutrition",
+                    "Exhibits no signs of bleeding",
+                    "Maintains cognitive function"
+                ],
+                "evaluationMethods": [
+                    "Hemodynamic monitoring",
+                    "Assessment for uremic symptoms",
+                    "Infection surveillance",
+                    "Nutritional assessment",
+                    "Monitoring for bleeding",
+                    "Neurological assessment"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Kellum JA, Lameire N, KDIGO AKI Guideline Work Group",
+                "title": "Diagnosis, evaluation, and management of acute kidney injury: a KDIGO summary (Part 1)",
+                "year": "2013",
+                "source": "Critical Care",
+                "doi": "10.1186/cc11454"
+            },
+            {
+                "author": "Ostermann M, Joannidis M",
+                "title": "Acute kidney injury 2016: diagnosis and diagnostic workup",
+                "year": "2016",
+                "source": "Critical Care",
+                "doi": "10.1186/s13054-016-1478-z"
+            },
+            {
+                "author": "Hoste EA, Kellum JA, Selby NM, Zarbock A, Palevsky PM, Bagshaw SM, Goldstein SL, Cerdá J, Chawla LS",
+                "title": "Global epidemiology and outcomes of acute kidney injury",
+                "year": "2018",
+                "source": "Nature Reviews Nephrology",
+                "doi": "10.1038/nrneph.2017.158"
+            }
+        ],
+        "notes": "Consider early nephrology consultation for patients with severe or rapidly progressing AKI, especially those with underlying kidney disease or multiple organ dysfunction.",
+        "difficultyLevel": "Advanced",
+        "timeFrame": "Acute management 3-7 days, follow-up 1-3 months",
+        "imageUrl": "assets/images/renal/Acute Kidney Injury Care.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-05T00:00:00.415Z"
+    },
+    {
+        "id": "rn002",
+        "title": "Chronic Kidney Disease Management",
+        "category": "Renal",
+        "tags": [
+            "CKD",
+            "Renal Insufficiency",
+            "Kidney Disease",
+            "Renal Failure"
+        ],
+        "description": "A comprehensive care plan for managing chronic kidney disease (CKD), focusing on slowing disease progression, managing complications, optimizing quality of life, and preparing for renal replacement therapy when indicated in patients with long-term kidney function impairment.",
+        "assessments": [
+            {
+                "title": "Kidney Function Assessment",
+                "points": [
+                    "Determine CKD stage based on eGFR (stages 1-5)",
+                    "Monitor trends in serum creatinine and BUN levels",
+                    "Assess for proteinuria (urine albumin-to-creatinine ratio)",
+                    "Evaluate electrolyte levels (potassium, sodium, calcium, phosphorus)",
+                    "Assess acid-base balance (bicarbonate levels)",
+                    "Monitor hemoglobin and hematocrit for anemia",
+                    "Evaluate parathyroid hormone (PTH) levels",
+                    "Assess vitamin D status",
+                    "Monitor for signs of uremia in advanced stages"
+                ],
+                "description": "Comprehensive kidney function assessment helps determine CKD stage, monitor disease progression, and guide appropriate interventions for complications"
+            },
+            {
+                "title": "Cardiovascular Assessment",
+                "points": [
+                    "Assess blood pressure (target <130/80 mmHg for most CKD patients)",
+                    "Evaluate for peripheral edema",
+                    "Assess for signs of volume overload (crackles, JVD, dyspnea)",
+                    "Monitor lipid profile",
+                    "Assess for symptoms of coronary artery disease",
+                    "Evaluate for left ventricular hypertrophy",
+                    "Assess for peripheral vascular disease",
+                    "Monitor for dysrhythmias related to electrolyte imbalances",
+                    "Evaluate exercise tolerance"
+                ],
+                "description": "Cardiovascular assessment is critical as cardiovascular disease is the leading cause of mortality in CKD patients"
+            },
+            {
+                "title": "Nutritional and Lifestyle Assessment",
+                "points": [
+                    "Assess dietary intake of protein, sodium, potassium, and phosphorus",
+                    "Evaluate fluid intake and restrictions",
+                    "Assess nutritional status (albumin, pre-albumin, BMI)",
+                    "Evaluate for protein-energy wasting",
+                    "Assess physical activity level",
+                    "Evaluate smoking and alcohol use",
+                    "Assess medication adherence",
+                    "Evaluate health literacy regarding CKD management",
+                    "Assess psychosocial factors affecting self-management"
+                ],
+                "description": "Nutritional and lifestyle assessment helps identify modifiable factors that can slow CKD progression and improve quality of life"
+            },
+            {
+                "title": "Renal Replacement Therapy Readiness Assessment",
+                "points": [
+                    "Evaluate for symptoms indicating need for dialysis initiation",
+                    "Assess vascular access options for hemodialysis",
+                    "Evaluate home environment for peritoneal dialysis suitability",
+                    "Assess support system for home dialysis options",
+                    "Evaluate transplant candidacy",
+                    "Assess understanding of RRT options",
+                    "Evaluate psychological readiness for RRT",
+                    "Assess advance directives regarding RRT preferences",
+                    "Evaluate financial resources for RRT"
+                ],
+                "description": "RRT readiness assessment helps prepare patients for transition to dialysis or transplantation when kidney function declines to end-stage"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Ineffective Protection related to chronic disease as evidenced by deficient immunity and altered clotting",
+                "relatedFactors": [
+                    "Chronic disease",
+                    "Abnormal blood profiles",
+                    "Malnutrition",
+                    "Drug therapy",
+                    "Treatment-related side effects"
+                ],
+                "definingCharacteristics": [
+                    "Deficient immunity",
+                    "Altered clotting",
+                    "Impaired healing",
+                    "Weakness",
+                    "Anorexia",
+                    "Fatigue",
+                    "Dyspnea"
+                ],
+                "nandaCode": "00043"
+            },
+            {
+                "statement": "Imbalanced Nutrition: Less Than Body Requirements related to inability to ingest food due to biological factors as evidenced by food intake less than recommended daily allowance",
+                "relatedFactors": [
+                    "Inability to ingest food due to biological factors",
+                    "Inability to digest food",
+                    "Inability to absorb nutrients",
+                    "Increased metabolic demands",
+                    "Dietary restrictions"
+                ],
+                "definingCharacteristics": [
+                    "Food intake less than recommended daily allowance",
+                    "Weight loss",
+                    "Decreased albumin levels",
+                    "Poor muscle tone",
+                    "Altered taste sensation",
+                    "Lack of interest in food"
+                ],
+                "nandaCode": "00002"
+            },
+            {
+                "statement": "Readiness for Enhanced Self-Health Management related to expressed desire to manage illness and prevent complications",
+                "relatedFactors": [
+                    "Not applicable as this is a wellness diagnosis"
+                ],
+                "definingCharacteristics": [
+                    "Expresses desire to manage illness",
+                    "Expresses desire to manage treatment regimen",
+                    "Describes reduction of risk factors",
+                    "Chooses appropriate daily activities",
+                    "Expresses little difficulty with prescribed regimen"
+                ],
+                "nandaCode": "00162"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate slowed progression of CKD",
+                "indicators": [
+                    "Maintains stable eGFR or shows slowed decline",
+                    "Achieves blood pressure within target range",
+                    "Demonstrates reduced proteinuria",
+                    "Adheres to prescribed medication regimen",
+                    "Follows recommended dietary modifications"
+                ],
+                "timeframe": "Ongoing, evaluated quarterly",
+                "type": "Long-term"
+            },
+            {
+                "statement": "Patient will effectively manage CKD complications",
+                "indicators": [
+                    "Maintains electrolytes within target ranges",
+                    "Demonstrates hemoglobin within target range",
+                    "Maintains phosphorus-calcium balance",
+                    "Shows controlled PTH levels",
+                    "Remains free from uremic symptoms"
+                ],
+                "timeframe": "Ongoing, evaluated monthly",
+                "type": "Short-term and Long-term"
+            },
+            {
+                "statement": "Patient will demonstrate readiness for renal replacement therapy when indicated",
+                "indicators": [
+                    "Verbalizes understanding of RRT options",
+                    "Participates in decision-making regarding RRT modality",
+                    "Has appropriate vascular access placed or PD catheter inserted in timely manner",
+                    "Completes pre-transplant evaluation if candidate",
+                    "Expresses realistic expectations about life with RRT"
+                ],
+                "timeframe": "Prior to need for RRT initiation",
+                "type": "Long-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Disease Progression Management",
+                "actions": [
+                    "Administer and monitor effectiveness of antihypertensive medications",
+                    "Implement ACE inhibitor or ARB therapy as prescribed",
+                    "Monitor proteinuria and response to antiproteinuric interventions",
+                    "Educate about smoking cessation",
+                    "Implement diabetic control measures for diabetic nephropathy",
+                    "Monitor and adjust medication dosages based on kidney function",
+                    "Educate about nephrotoxic medication and substance avoidance",
+                    "Implement appropriate fluid management",
+                    "Coordinate care with nephrology team"
+                ],
+                "rationales": [
+                    "Blood pressure control is essential for slowing CKD progression",
+                    "ACE inhibitors/ARBs reduce proteinuria and slow progression",
+                    "Reducing proteinuria correlates with slowed CKD progression",
+                    "Smoking cessation reduces cardiovascular risk and may slow progression",
+                    "Glycemic control slows diabetic nephropathy progression",
+                    "Appropriate medication dosing prevents toxicity and kidney injury",
+                    "Avoiding nephrotoxins prevents acute kidney injury episodes",
+                    "Fluid management prevents volume depletion and overload",
+                    "Specialist involvement optimizes evidence-based care"
+                ],
+                "frequency": "Ongoing with regular follow-up",
+                "specialConsiderations": [
+                    "Monitor for hyperkalemia with ACE inhibitors/ARBs",
+                    "Consider more aggressive BP targets for patients with significant proteinuria",
+                    "Be aware of increased hypoglycemia risk with decreased kidney function"
+                ]
+            },
+            {
+                "title": "Complication Management",
+                "actions": [
+                    "Implement dietary restrictions (sodium, potassium, phosphorus) as appropriate",
+                    "Administer phosphate binders as prescribed",
+                    "Administer vitamin D supplements as prescribed",
+                    "Implement anemia management (ESAs, iron supplementation)",
+                    "Monitor and manage metabolic acidosis",
+                    "Implement bone mineral disorder management",
+                    "Monitor for and manage dyslipidemias",
+                    "Implement measures to prevent and treat malnutrition",
+                    "Administer medications to manage uremic symptoms as needed",
+                    "Implement infection prevention measures"
+                ],
+                "rationales": [
+                    "Dietary restrictions reduce complications from electrolyte imbalances",
+                    "Phosphate binders prevent hyperphosphatemia and secondary hyperparathyroidism",
+                    "Vitamin D supplementation helps manage bone mineral disorders",
+                    "Anemia management improves quality of life and reduces complications",
+                    "Correcting acidosis may slow CKD progression and improve bone health",
+                    "Bone mineral disorder management prevents fractures and vascular calcification",
+                    "Dyslipidemia management reduces cardiovascular risk",
+                    "Preventing malnutrition improves outcomes and quality of life",
+                    "Symptom management improves comfort and function",
+                    "Infection prevention reduces morbidity in immunocompromised patients"
+                ],
+                "frequency": "Ongoing with regular assessment",
+                "specialConsiderations": [
+                    "Balance dietary restrictions to prevent malnutrition",
+                    "Consider non-calcium phosphate binders for patients with vascular calcification",
+                    "Monitor for iron overload with supplementation"
+                ]
+            },
+            {
+                "title": "Patient Education and Self-Management",
+                "actions": [
+                    "Educate about CKD pathophysiology and progression",
+                    "Teach medication management including purpose, dosage, and side effects",
+                    "Provide dietary education with practical meal planning",
+                    "Teach self-monitoring techniques (blood pressure, weight, symptoms)",
+                    "Educate about importance of regular laboratory monitoring",
+                    "Teach recognition of complications requiring medical attention",
+                    "Provide information about RRT options",
+                    "Educate about vascular access care if present",
+                    "Teach strategies for managing fatigue and maintaining activity",
+                    "Provide resources for psychosocial support"
+                ],
+                "rationales": [
+                    "Understanding disease process improves adherence to treatment",
+                    "Medication knowledge improves adherence and safety",
+                    "Practical dietary education improves adherence to restrictions",
+                    "Self-monitoring empowers patients and allows early intervention",
+                    "Regular monitoring allows timely adjustments to treatment",
+                    "Early recognition of complications prevents serious outcomes",
+                    "RRT education allows informed decision-making and preparation",
+                    "Proper access care prevents complications and preserves function",
+                    "Activity management improves quality of life and function",
+                    "Psychosocial support addresses emotional impact of chronic disease"
+                ],
+                "frequency": "Initially and with each significant change in condition or treatment",
+                "specialConsiderations": [
+                    "Adapt education to health literacy level",
+                    "Include family members or caregivers in education",
+                    "Consider cultural factors affecting dietary preferences and practices"
+                ]
+            },
+            {
+                "title": "Renal Replacement Therapy Preparation",
+                "actions": [
+                    "Provide education about dialysis modalities (hemodialysis, peritoneal dialysis)",
+                    "Educate about kidney transplantation options",
+                    "Facilitate vascular access placement at appropriate time",
+                    "Coordinate peritoneal dialysis catheter placement if chosen",
+                    "Initiate transplant evaluation process if appropriate",
+                    "Provide training for home dialysis if selected",
+                    "Coordinate transition to dialysis center if center hemodialysis chosen",
+                    "Assist with advance care planning discussions",
+                    "Provide emotional support during transition to RRT",
+                    "Connect patient with peer support resources"
+                ],
+                "rationales": [
+                    "Education allows informed choice of RRT modality",
+                    "Transplant information allows consideration of preemptive transplant",
+                    "Timely access placement allows maturation before needed",
+                    "PD catheter placement allows healing before use",
+                    "Early transplant evaluation may allow preemptive transplantation",
+                    "Training ensures safe and effective home dialysis",
+                    "Smooth transition reduces anxiety and complications",
+                    "Advance planning ensures care aligns with patient values",
+                    "Emotional support helps adjustment to life changes",
+                    "Peer support provides practical and emotional guidance"
+                ],
+                "frequency": "Initiated when eGFR <30 mL/min/1.73m² (Stage 4 CKD)",
+                "specialConsiderations": [
+                    "Consider patient's lifestyle, support system, and preferences in RRT planning",
+                    "Be sensitive to cultural and religious beliefs affecting RRT decisions",
+                    "Recognize that some patients may choose conservative management"
+                ]
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has CKD progression been slowed?",
+                "expectedOutcomes": [
+                    "Maintains stable eGFR or shows slowed decline",
+                    "Achieves blood pressure within target range",
+                    "Demonstrates reduced proteinuria",
+                    "Adheres to prescribed medication regimen",
+                    "Follows recommended dietary modifications",
+                    "Maintains stable weight appropriate for health status"
+                ],
+                "evaluationMethods": [
+                    "Review of laboratory values over time",
+                    "Blood pressure monitoring",
+                    "Urinalysis for proteinuria",
+                    "Medication adherence assessment",
+                    "Dietary recall and assessment",
+                    "Weight monitoring"
+                ]
+            },
+            {
+                "statement": "Are CKD complications effectively managed?",
+                "expectedOutcomes": [
+                    "Maintains electrolytes within target ranges",
+                    "Demonstrates hemoglobin within target range",
+                    "Maintains phosphorus-calcium balance",
+                    "Shows controlled PTH levels",
+                    "Remains free from uremic symptoms",
+                    "Maintains adequate nutritional status"
+                ],
+                "evaluationMethods": [
+                    "Electrolyte monitoring",
+                    "Complete blood count",
+                    "Mineral metabolism panel",
+                    "PTH level monitoring",
+                    "Symptom assessment",
+                    "Nutritional assessment"
+                ]
+            },
+            {
+                "statement": "Is patient prepared for renal replacement therapy?",
+                "expectedOutcomes": [
+                    "Verbalizes understanding of RRT options",
+                    "Participates in decision-making regarding RRT modality",
+                    "Has appropriate vascular access placed or PD catheter inserted in timely manner",
+                    "Completes pre-transplant evaluation if candidate",
+                    "Expresses realistic expectations about life with RRT",
+                    "Demonstrates readiness for chosen RRT modality"
+                ],
+                "evaluationMethods": [
+                    "Knowledge assessment",
+                    "Documentation of decision-making participation",
+                    "Assessment of access status",
+                    "Transplant evaluation status",
+                    "Expectations assessment",
+                    "Readiness assessment for specific modality"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Kidney Disease: Improving Global Outcomes (KDIGO) CKD Work Group",
+                "title": "KDIGO 2012 Clinical Practice Guideline for the Evaluation and Management of Chronic Kidney Disease",
+                "year": "2013",
+                "source": "Kidney International Supplements",
+                "doi": "10.1038/kisup.2012.73"
+            },
+            {
+                "author": "Inker LA, Astor BC, Fox CH, Isakova T, Lash JP, Peralta CA, Kurella Tamura M, Feldman HI",
+                "title": "KDOQI US Commentary on the 2012 KDIGO Clinical Practice Guideline for the Evaluation and Management of CKD",
+                "year": "2014",
+                "source": "American Journal of Kidney Diseases",
+                "doi": "10.1053/j.ajkd.2014.01.416"
+            },
+            {
+                "author": "Webster AC, Nagler EV, Morton RL, Masson P",
+                "title": "Chronic Kidney Disease",
+                "year": "2017",
+                "source": "The Lancet",
+                "doi": "10.1016/S0140-6736(16)32064-5"
+            }
+        ],
+        "notes": "Consider implementing a multidisciplinary CKD clinic approach for comprehensive care. Early education and preparation for RRT improves outcomes and patient satisfaction.",
+        "difficultyLevel": "Advanced",
+        "timeFrame": "Long-term management with quarterly evaluation",
+        "imageUrl": "assets/images/renal/Chronic Kidney Disease Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-10T00:00:00.415Z"
+    },
+    {
+        "id": "rn003",
+        "title": "Electrolyte Imbalance (Hyperkalemia) Management",
+        "category": "Renal",
+        "tags": [
+            "Hyperkalemia",
+            "Electrolyte",
+            "Potassium",
+            "Cardiac"
+        ],
+        "description": "A comprehensive care plan for managing hyperkalemia, focusing on assessment of potassium levels and cardiac effects, implementation of interventions to reduce serum potassium, prevention of complications, and education for patients at risk for recurrent hyperkalemia.",
+        "assessments": [
+            {
+                "title": "Potassium Level Assessment",
+                "points": [
+                    "Monitor serum potassium levels",
+                    "Assess for laboratory errors or pseudohyperkalemia",
+                    "Evaluate trend of potassium levels over time",
+                    "Assess for hemolysis in blood samples",
+                    "Evaluate potassium level in relation to acid-base status",
+                    "Assess renal function (creatinine, BUN, eGFR)",
+                    "Evaluate for acute kidney injury or chronic kidney disease",
+                    "Assess for other electrolyte imbalances",
+                    "Evaluate medication profile for potassium-affecting drugs"
+                ],
+                "description": "Comprehensive potassium assessment helps determine the severity, cause, and context of hyperkalemia to guide appropriate interventions"
+            },
+            {
+                "title": "Cardiac Assessment",
+                "points": [
+                    "Obtain and evaluate 12-lead ECG for hyperkalemia changes",
+                    "Monitor for peaked T waves, prolonged PR interval, widened QRS",
+                    "Assess for cardiac dysrhythmias",
+                    "Evaluate heart rate and rhythm",
+                    "Assess for symptoms of cardiac effects (palpitations, syncope)",
+                    "Monitor blood pressure for hypotension",
+                    "Assess for signs of decreased cardiac output",
+                    "Evaluate for chest pain or discomfort",
+                    "Assess cardiovascular history for increased risk"
+                ],
+                "description": "Cardiac assessment is critical as hyperkalemia can cause life-threatening cardiac conduction abnormalities and arrhythmias"
+            },
+            {
+                "title": "Neuromuscular Assessment",
+                "points": [
+                    "Assess for muscle weakness",
+                    "Evaluate for paresthesias",
+                    "Assess deep tendon reflexes",
+                    "Evaluate for ascending paralysis",
+                    "Assess respiratory muscle strength if severe hyperkalemia",
+                    "Evaluate for gastrointestinal symptoms (nausea, diarrhea)",
+                    "Assess for fatigue",
+                    "Evaluate for confusion or altered mental status",
+                    "Assess ability to perform activities of daily living"
+                ],
+                "description": "Neuromuscular assessment helps identify manifestations of hyperkalemia that affect patient function and indicate severity"
+            },
+            {
+                "title": "Etiology Assessment",
+                "points": [
+                    "Assess medication history (ACE inhibitors, ARBs, potassium-sparing diuretics, NSAIDs)",
+                    "Evaluate dietary potassium intake",
+                    "Assess for potassium supplements",
+                    "Evaluate for cellular shifts (acidosis, insulin deficiency, beta-blockers)",
+                    "Assess for tissue breakdown (rhabdomyolysis, tumor lysis, hemolysis)",
+                    "Evaluate for adrenal insufficiency",
+                    "Assess for decreased renal excretion",
+                    "Evaluate for constipation (especially with potassium binders)",
+                    "Assess for use of salt substitutes"
+                ],
+                "description": "Etiology assessment helps identify the underlying cause of hyperkalemia, which guides specific interventions and prevention strategies"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Risk for Decreased Cardiac Output related to altered electrical conduction secondary to hyperkalemia",
+                "relatedFactors": [
+                    "Altered electrical conduction",
+                    "Electrolyte imbalance",
+                    "Medication effects",
+                    "Renal dysfunction"
+                ],
+                "definingCharacteristics": [
+                    "Not applicable as this is a risk diagnosis"
+                ],
+                "nandaCode": "00240"
+            },
+            {
+                "statement": "Risk for Injury related to altered sensory perception and neuromuscular function secondary to hyperkalemia",
+                "relatedFactors": [
+                    "Altered sensory perception",
+                    "Neuromuscular dysfunction",
+                    "Weakness",
+                    "Electrolyte imbalance"
+                ],
+                "definingCharacteristics": [
+                    "Not applicable as this is a risk diagnosis"
+                ],
+                "nandaCode": "00035"
+            },
+            {
+                "statement": "Deficient Knowledge regarding hyperkalemia management and prevention related to lack of exposure to information",
+                "relatedFactors": [
+                    "Lack of exposure to information",
+                    "Misinterpretation of information",
+                    "Cognitive limitation",
+                    "Lack of interest in learning"
+                ],
+                "definingCharacteristics": [
+                    "Inaccurate follow-through of instructions",
+                    "Inappropriate behaviors",
+                    "Insufficient knowledge",
+                    "Verbalization of the problem"
+                ],
+                "nandaCode": "00126"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will achieve and maintain normal serum potassium levels",
+                "indicators": [
+                    "Demonstrates serum potassium within normal range (3.5-5.0 mEq/L)",
+                    "Shows resolution of ECG changes related to hyperkalemia",
+                    "Maintains stable potassium levels with prescribed treatment",
+                    "Exhibits no symptoms of hyperkalemia",
+                    "Demonstrates improved renal function if applicable"
+                ],
+                "timeframe": "Within 24-48 hours for acute hyperkalemia; ongoing for chronic management",
+                "type": "Short-term and Long-term"
+            },
+            {
+                "statement": "Patient will remain free from complications of hyperkalemia",
+                "indicators": [
+                    "Maintains normal cardiac rhythm",
+                    "Demonstrates normal neuromuscular function",
+                    "Maintains adequate cardiac output",
+                    "Exhibits no respiratory compromise",
+                    "Maintains hemodynamic stability"
+                ],
+                "timeframe": "Throughout treatment",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will demonstrate understanding of hyperkalemia management and prevention",
+                "indicators": [
+                    "Identifies foods high in potassium",
+                    "Describes medication effects on potassium levels",
+                    "Verbalizes importance of medication adherence",
+                    "Identifies signs and symptoms requiring medical attention",
+                    "Demonstrates understanding of laboratory monitoring importance"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term and Long-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Acute Hyperkalemia Management",
+                "actions": [
+                    "Administer calcium gluconate or calcium chloride IV for cardiac membrane stabilization if ECG changes present",
+                    "Administer insulin with glucose to shift potassium intracellularly",
+                    "Administer beta-2 agonists (albuterol) via nebulizer as prescribed",
+                    "Administer sodium bicarbonate IV for significant acidosis",
+                    "Administer potassium binding resins (sodium polystyrene sulfonate, patiromer) as prescribed",
+                    "Prepare for and assist with dialysis if severe or refractory hyperkalemia",
+                    "Implement continuous cardiac monitoring",
+                    "Monitor serum potassium levels frequently during acute treatment",
+                    "Assess for and manage hypoglycemia related to insulin administration"
+                ],
+                "rationales": [
+                    "Calcium stabilizes cardiac membranes, protecting against arrhythmias",
+                    "Insulin drives potassium into cells, temporarily lowering serum levels",
+                    "Beta-2 agonists stimulate cellular potassium uptake",
+                    "Bicarbonate corrects acidosis and promotes potassium shift into cells",
+                    "Binding resins remove potassium via gastrointestinal tract",
+                    "Dialysis rapidly and effectively removes potassium",
+                    "Cardiac monitoring allows early detection of arrhythmias",
+                    "Frequent monitoring assesses treatment effectiveness",
+                    "Insulin administration can cause hypoglycemia requiring management"
+                ],
+                "frequency": "As needed for acute hyperkalemia",
+                "specialConsiderations": [
+                    "Calcium administration is temporizing and does not lower potassium levels",
+                    "Insulin/glucose and albuterol effects are temporary (2-6 hours)",
+                    "Monitor for rebound hyperkalemia after temporary treatments"
+                ]
+            },
+            {
+                "title": "Ongoing Hyperkalemia Management",
+                "actions": [
+                    "Administer loop or thiazide diuretics as prescribed",
+                    "Implement dietary potassium restrictions",
+                    "Administer oral potassium binders as prescribed",
+                    "Review and adjust medications that affect potassium levels",
+                    "Monitor renal function and urine output",
+                    "Implement fluid management as appropriate",
+                    "Monitor acid-base balance",
+                    "Administer sodium bicarbonate for chronic metabolic acidosis as prescribed",
+                    "Schedule regular laboratory monitoring of potassium levels",
+                    "Coordinate with nephrology for patients with kidney disease"
+                ],
+                "rationales": [
+                    "Diuretics enhance renal potassium excretion",
+                    "Dietary restriction reduces potassium intake",
+                    "Oral binders reduce potassium absorption from gut",
+                    "Medication adjustment addresses iatrogenic causes",
+                    "Renal function affects potassium excretion",
+                    "Appropriate hydration supports renal potassium excretion",
+                    "Acidosis correction helps normalize potassium distribution",
+                    "Chronic bicarbonate therapy may help with potassium control",
+                    "Regular monitoring allows timely intervention",
+                    "Specialist involvement optimizes management in complex cases"
+                ],
+                "frequency": "Daily and as needed based on potassium levels",
+                "specialConsiderations": [
+                    "Balance potassium restriction with overall nutritional needs",
+                    "Consider medication interactions with potassium binders",
+                    "Be aware of constipation risk with some potassium binders"
+                ]
+            },
+            {
+                "title": "Patient Education",
+                "actions": [
+                    "Teach about foods high in potassium and appropriate alternatives",
+                    "Educate about medications that affect potassium levels",
+                    "Instruct on proper use of prescribed potassium binders",
+                    "Teach signs and symptoms of hyperkalemia requiring medical attention",
+                    "Educate about importance of regular laboratory monitoring",
+                    "Instruct on proper use of diuretics if prescribed",
+                    "Teach about avoiding salt substitutes containing potassium",
+                    "Educate about proper hydration",
+                    "Instruct on medication adherence importance",
+                    "Provide written materials about potassium management"
+                ],
+                "rationales": [
+                    "Dietary knowledge allows appropriate food choices",
+                    "Medication knowledge prevents iatrogenic hyperkalemia",
+                    "Proper binder use maximizes effectiveness and minimizes side effects",
+                    "Symptom recognition allows early intervention",
+                    "Regular monitoring prevents severe hyperkalemia",
+                    "Proper diuretic use enhances potassium excretion",
+                    "Salt substitutes can be significant source of potassium",
+                    "Adequate hydration supports renal potassium excretion",
+                    "Medication adherence prevents fluctuations in potassium levels",
+                    "Written materials reinforce verbal teaching"
+                ],
+                "frequency": "Prior to discharge and at follow-up visits",
+                "specialConsiderations": [
+                    "Adapt education to health literacy level",
+                    "Consider cultural dietary preferences when providing alternatives",
+                    "Include family members or caregivers in education"
+                ]
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has normal serum potassium level been achieved and maintained?",
+                "expectedOutcomes": [
+                    "Demonstrates serum potassium within normal range (3.5-5.0 mEq/L)",
+                    "Shows resolution of ECG changes related to hyperkalemia",
+                    "Maintains stable potassium levels with prescribed treatment",
+                    "Exhibits no symptoms of hyperkalemia",
+                    "Demonstrates improved renal function if applicable"
+                ],
+                "evaluationMethods": [
+                    "Laboratory monitoring of serum potassium",
+                    "ECG evaluation",
+                    "Trend analysis of potassium levels",
+                    "Symptom assessment",
+                    "Renal function monitoring"
+                ]
+            },
+            {
+                "statement": "Has patient remained free from complications of hyperkalemia?",
+                "expectedOutcomes": [
+                    "Maintains normal cardiac rhythm",
+                    "Demonstrates normal neuromuscular function",
+                    "Maintains adequate cardiac output",
+                    "Exhibits no respiratory compromise",
+                    "Maintains hemodynamic stability"
+                ],
+                "evaluationMethods": [
+                    "Cardiac monitoring",
+                    "Neuromuscular assessment",
+                    "Cardiac output assessment",
+                    "Respiratory assessment",
+                    "Vital sign monitoring"
+                ]
+            },
+            {
+                "statement": "Does patient demonstrate understanding of hyperkalemia management and prevention?",
+                "expectedOutcomes": [
+                    "Identifies foods high in potassium",
+                    "Describes medication effects on potassium levels",
+                    "Verbalizes importance of medication adherence",
+                    "Identifies signs and symptoms requiring medical attention",
+                    "Demonstrates understanding of laboratory monitoring importance",
+                    "Develops appropriate meal plans considering potassium content"
+                ],
+                "evaluationMethods": [
+                    "Dietary knowledge assessment",
+                    "Medication knowledge assessment",
+                    "Adherence assessment",
+                    "Symptom recognition assessment",
+                    "Laboratory follow-up compliance",
+                    "Meal planning review"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Kovesdy CP",
+                "title": "Management of Hyperkalemia: An Update for the Internist",
+                "year": "2015",
+                "source": "American Journal of Medicine",
+                "doi": "10.1016/j.amjmed.2015.05.040"
+            },
+            {
+                "author": "Palmer BF, Clegg DJ",
+                "title": "Diagnosis and treatment of hyperkalemia",
+                "year": "2017",
+                "source": "Cleveland Clinic Journal of Medicine",
+                "doi": "10.3949/ccjm.84a.17056"
+            },
+            {
+                "author": "Rafique Z, Peacock WF, LoVecchio F, Levy PD",
+                "title": "Hyperkalemia in the Emergency Department: Causes, Symptoms, and Disposition",
+                "year": "2020",
+                "source": "Academic Emergency Medicine",
+                "doi": "10.1111/acem.13848"
+            }
+        ],
+        "notes": "Consider implementing a hyperkalemia protocol for standardized management. For patients with recurrent hyperkalemia, consider nephrology consultation for specialized management.",
+        "difficultyLevel": "Advanced",
+        "timeFrame": "Acute management 24-48 hours, ongoing management as needed",
+        "imageUrl": "assets/images/renal/Hyperkalemia Management.webp",
+        "isFeatured": false,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-15T00:00:00.415Z"
+    }
+]

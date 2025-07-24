@@ -1,0 +1,227 @@
+[
+    {
+        "id": "cv001",
+        "title": "Decreased Cardiac Output Management",
+        "category": "Cardiovascular",
+        "tags": [
+            "Heart Failure",
+            "Cardiac Function",
+            "Hemodynamics",
+            "Cardiomyopathy"
+        ],
+        "description": "A comprehensive care plan for managing decreased cardiac output, focusing on optimizing cardiac function, preventing complications, and improving tissue perfusion in patients with various cardiac conditions.",
+        "assessments": [
+            {
+                "title": "Cardiovascular Assessment",
+                "points": [
+                    "Assess heart rate, rhythm, and blood pressure q2-4h and PRN",
+                    "Auscultate heart sounds for S3, S4, murmurs, or gallops",
+                    "Evaluate for jugular venous distention",
+                    "Assess for presence of peripheral edema and document degree (1+ to 4+)",
+                    "Evaluate peripheral pulses and capillary refill time",
+                    "Monitor for chest pain or discomfort"
+                ],
+                "description": "Comprehensive cardiovascular assessment helps identify signs of decreased cardiac output and guides therapeutic interventions"
+            },
+            {
+                "title": "Respiratory Assessment",
+                "points": [
+                    "Assess respiratory rate, depth, and pattern q4h",
+                    "Auscultate lung sounds for crackles, wheezes, or decreased breath sounds",
+                    "Monitor oxygen saturation continuously or q4h",
+                    "Assess for orthopnea, dyspnea, or paroxysmal nocturnal dyspnea",
+                    "Evaluate for cough or hemoptysis",
+                    "Monitor for signs of pulmonary edema"
+                ],
+                "description": "Respiratory assessment helps detect pulmonary complications of decreased cardiac output, particularly pulmonary congestion"
+            },
+            {
+                "title": "Perfusion Assessment",
+                "points": [
+                    "Evaluate level of consciousness and mental status",
+                    "Assess skin color, temperature, and moisture",
+                    "Monitor urine output hourly in acute situations",
+                    "Assess for signs of decreased peripheral perfusion (cool extremities, delayed capillary refill)",
+                    "Evaluate for abdominal distention or hepatomegaly",
+                    "Monitor renal and liver function tests"
+                ],
+                "description": "Perfusion assessment helps identify end-organ effects of decreased cardiac output requiring intervention"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Decreased Cardiac Output related to altered contractility, preload, or afterload as evidenced by tachycardia, dyspnea, and fatigue",
+                "relatedFactors": [
+                    "Altered contractility (cardiomyopathy, myocardial infarction)",
+                    "Altered preload (hypovolemia, venous pooling)",
+                    "Altered afterload (hypertension, aortic stenosis)",
+                    "Altered heart rate/rhythm (tachycardia, bradycardia, heart blocks)",
+                    "Structural defects (valvular disease, septal defects)"
+                ],
+                "definingCharacteristics": [
+                    "Tachycardia or bradycardia",
+                    "Dyspnea or orthopnea",
+                    "Fatigue or weakness",
+                    "Decreased peripheral pulses",
+                    "Cool, clammy skin",
+                    "Decreased urine output",
+                    "Altered level of consciousness",
+                    "S3 heart sound"
+                ],
+                "nandaCode": "00029"
+            },
+            {
+                "statement": "Activity Intolerance related to imbalance between oxygen supply and demand as evidenced by dyspnea and fatigue with activity",
+                "relatedFactors": [
+                    "Decreased cardiac output",
+                    "Imbalance between oxygen supply and demand",
+                    "Bed rest deconditioning",
+                    "Generalized weakness"
+                ],
+                "definingCharacteristics": [
+                    "Abnormal heart rate or blood pressure response to activity",
+                    "Exertional dyspnea",
+                    "Fatigue or weakness",
+                    "Electrocardiographic changes reflecting ischemia or arrhythmias"
+                ],
+                "nandaCode": "00092"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate improved cardiac output as evidenced by stable vital signs and improved perfusion parameters",
+                "indicators": [
+                    "Heart rate 60-100 bpm",
+                    "Blood pressure within patient's normal range",
+                    "Respiratory rate 12-20/min",
+                    "Oxygen saturation >92%",
+                    "Adequate urine output (>0.5 mL/kg/hr)",
+                    "Clear mentation"
+                ],
+                "timeframe": "Within 24-48 hours",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will demonstrate improved activity tolerance with minimal symptoms",
+                "indicators": [
+                    "Able to perform ADLs with minimal fatigue",
+                    "Reports decreased dyspnea with activity",
+                    "Heart rate and blood pressure remain stable with activity",
+                    "Oxygen saturation remains >90% with activity",
+                    "Demonstrates use of energy conservation techniques"
+                ],
+                "timeframe": "Within 3-5 days",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Hemodynamic Regulation",
+                "actions": [
+                    "Administer cardiac medications as prescribed (diuretics, ACE inhibitors, beta-blockers, inotropes)",
+                    "Position patient in semi-Fowler's or high Fowler's position",
+                    "Implement fluid restrictions as ordered",
+                    "Monitor daily weights and strict intake and output",
+                    "Administer oxygen therapy to maintain SpO2 >92%",
+                    "Implement progressive activity plan based on tolerance"
+                ],
+                "rationales": [
+                    "Medications optimize cardiac contractility, preload, and afterload",
+                    "Upright positioning decreases preload and improves pulmonary ventilation",
+                    "Fluid restriction prevents volume overload in compromised heart",
+                    "Weight and I&O monitoring helps evaluate fluid status and diuretic response",
+                    "Supplemental oxygen improves myocardial oxygenation",
+                    "Gradual activity prevents deconditioning while avoiding cardiac strain"
+                ],
+                "frequency": "Ongoing throughout hospitalization",
+                "specialConsiderations": [
+                    "Adjust interventions based on etiology of decreased cardiac output",
+                    "Consider more intensive monitoring for severe cardiac dysfunction"
+                ]
+            },
+            {
+                "title": "Cardiac Care: Acute",
+                "actions": [
+                    "Maintain continuous cardiac monitoring",
+                    "Monitor for and treat arrhythmias per protocol",
+                    "Minimize unnecessary physical and emotional stress",
+                    "Cluster nursing activities to provide rest periods",
+                    "Assess response to medications and report adverse effects",
+                    "Prepare for and assist with advanced interventions if needed (IABP, mechanical circulatory support)"
+                ],
+                "rationales": [
+                    "Continuous monitoring detects arrhythmias that may further compromise output",
+                    "Prompt treatment of arrhythmias prevents further deterioration",
+                    "Stress reduction decreases myocardial oxygen demand",
+                    "Rest periods reduce cardiac workload",
+                    "Medication response assessment guides therapy adjustments",
+                    "Advanced interventions may be necessary for severe cardiac dysfunction"
+                ],
+                "frequency": "Continuous during acute phase"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has cardiac output improved?",
+                "expectedOutcomes": [
+                    "Vital signs within patient's normal range",
+                    "Improved peripheral perfusion (warm extremities, capillary refill <3 seconds)",
+                    "Adequate urine output (>0.5 mL/kg/hr)",
+                    "Clear mental status",
+                    "Decreased dyspnea and fatigue",
+                    "Resolution of S3 heart sound if previously present"
+                ],
+                "evaluationMethods": [
+                    "Vital sign monitoring",
+                    "Physical assessment",
+                    "Intake and output measurement",
+                    "Neurological assessment",
+                    "Patient symptom reporting",
+                    "Cardiac auscultation"
+                ]
+            },
+            {
+                "statement": "Has activity tolerance improved?",
+                "expectedOutcomes": [
+                    "Increased ability to perform ADLs",
+                    "Decreased symptoms with equivalent activity",
+                    "Stable vital signs during activity",
+                    "Oxygen saturation maintained during activity",
+                    "Improved endurance",
+                    "Effective use of energy conservation techniques"
+                ],
+                "evaluationMethods": [
+                    "Activity tolerance assessment",
+                    "Vital sign monitoring during activity",
+                    "Oxygen saturation monitoring",
+                    "Patient self-report",
+                    "Observation of ADL performance",
+                    "Functional capacity measurement"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Yancy CW, Jessup M, Bozkurt B, et al.",
+                "title": "2017 ACC/AHA/HFSA Focused Update of the 2013 ACCF/AHA Guideline for the Management of Heart Failure",
+                "year": "2017",
+                "source": "Journal of the American College of Cardiology",
+                "doi": "10.1016/j.jacc.2017.04.025"
+            },
+            {
+                "author": "Heidenreich PA, Bozkurt B, Aguilar D, et al.",
+                "title": "2022 AHA/ACC/HFSA Guideline for the Management of Heart Failure",
+                "year": "2022",
+                "source": "Circulation",
+                "doi": "10.1161/CIR.0000000000001063"
+            }
+        ],
+        "notes": "Consider palliative care consultation for patients with end-stage heart failure and refractory symptoms despite optimal medical therapy",
+        "difficultyLevel": "Advanced",
+        "timeFrame": "Acute management 3-5 days, ongoing for chronic management",
+        "imageUrl": "assets/images/cardiovascular/Decreased Cardiac Output Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-07-10T00:00:00.415Z"
+    }
+]

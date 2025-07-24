@@ -1,0 +1,718 @@
+[
+    {
+        "id": "en001",
+        "title": "Imbalanced Nutrition: Less Than Body Requirements Management",
+        "category": "Endocrine",
+        "tags": [
+            "Malnutrition",
+            "Weight Loss",
+            "Nutritional Support",
+            "Appetite"
+        ],
+        "description": "A comprehensive care plan for managing nutritional deficits, focusing on identifying causes of inadequate intake, implementing interventions to improve nutritional status, and preventing complications of malnutrition in patients with various conditions affecting nutrition.",
+        "assessments": [
+            {
+                "title": "Nutritional Status Assessment",
+                "points": [
+                    "Measure height, weight, and calculate BMI",
+                    "Assess for unintentional weight loss (amount and timeframe)",
+                    "Evaluate body composition and muscle mass",
+                    "Perform nutritional screening using validated tool (MNA, MUST, SGA)",
+                    "Assess for clinical signs of malnutrition (temporal wasting, loss of subcutaneous fat, muscle wasting)",
+                    "Measure mid-arm circumference and triceps skinfold thickness if indicated"
+                ],
+                "description": "Comprehensive nutritional assessment helps identify the severity of nutritional deficit and guides appropriate interventions"
+            },
+            {
+                "title": "Dietary Assessment",
+                "points": [
+                    "Conduct 24-hour dietary recall or food diary review",
+                    "Calculate estimated caloric and protein intake",
+                    "Assess for food preferences, allergies, and cultural considerations",
+                    "Evaluate meal patterns and eating habits",
+                    "Assess for factors affecting intake (appetite, nausea, dysphagia, dental issues)",
+                    "Evaluate ability to obtain and prepare food"
+                ],
+                "description": "Dietary assessment helps identify specific nutritional deficits and barriers to adequate intake"
+            },
+            {
+                "title": "Laboratory Assessment",
+                "points": [
+                    "Review serum albumin, prealbumin, and transferrin levels",
+                    "Assess complete blood count for anemia",
+                    "Evaluate electrolyte levels",
+                    "Review vitamin and mineral levels (iron, B12, folate, vitamin D)",
+                    "Assess blood glucose levels",
+                    "Evaluate thyroid function tests if indicated"
+                ],
+                "description": "Laboratory assessment helps identify specific nutrient deficiencies and metabolic abnormalities requiring intervention"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Imbalanced Nutrition: Less Than Body Requirements related to insufficient dietary intake as evidenced by weight loss and inadequate caloric intake",
+                "relatedFactors": [
+                    "Biological factors (malabsorption, increased metabolic demands)",
+                    "Psychological factors (depression, anxiety)",
+                    "Economic factors (insufficient finances)",
+                    "Physical factors (dysphagia, nausea, pain)",
+                    "Social factors (eating alone, lack of support)"
+                ],
+                "definingCharacteristics": [
+                    "Weight loss with adequate food intake",
+                    "Body weight 20% or more below ideal weight range",
+                    "Food intake less than recommended daily allowance",
+                    "Pale mucous membranes",
+                    "Poor muscle tone",
+                    "Reported or evidence of lack of food",
+                    "Altered taste sensation"
+                ],
+                "nandaCode": "00002"
+            },
+            {
+                "statement": "Risk for Impaired Skin Integrity related to malnutrition",
+                "relatedFactors": [
+                    "Inadequate nutrition",
+                    "Decreased serum albumin levels",
+                    "Vitamin deficiencies",
+                    "Decreased tissue perfusion",
+                    "Immunocompromise"
+                ],
+                "definingCharacteristics": [
+                    "Weight loss",
+                    "Decreased skin turgor",
+                    "Poor wound healing",
+                    "Dry, flaky skin",
+                    "Decreased tissue perfusion"
+                ],
+                "nandaCode": "00047"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate improved nutritional status as evidenced by weight gain or stabilization and increased dietary intake",
+                "indicators": [
+                    "Weight stabilization or gain of 0.5-1 kg per week",
+                    "Caloric intake meeting estimated requirements",
+                    "Protein intake of 1.2-1.5 g/kg/day",
+                    "Improved laboratory values (albumin, prealbumin)",
+                    "Reports improved energy levels"
+                ],
+                "timeframe": "Within 2-4 weeks",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will demonstrate knowledge of nutritional requirements and strategies to improve intake",
+                "indicators": [
+                    "Identifies foods high in calories and protein",
+                    "Describes appropriate meal planning strategies",
+                    "Demonstrates understanding of prescribed supplements",
+                    "Identifies barriers to adequate intake and solutions",
+                    "Verbalizes understanding of nutritional goals"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Nutrition Management",
+                "actions": [
+                    "Collaborate with dietitian for individualized nutrition plan",
+                    "Provide small, frequent, nutrient-dense meals",
+                    "Implement oral nutritional supplements between meals",
+                    "Monitor and document intake at each meal (percentage consumed)",
+                    "Weigh patient at same time of day, with same clothing, 2-3 times per week",
+                    "Administer vitamin and mineral supplements as prescribed",
+                    "Consider enteral or parenteral nutrition if oral intake remains inadequate"
+                ],
+                "rationales": [
+                    "Dietitian expertise ensures appropriate nutritional prescription",
+                    "Small, frequent meals are better tolerated and increase total intake",
+                    "Supplements provide concentrated nutrition without large volume",
+                    "Intake monitoring helps evaluate adequacy of nutrition plan",
+                    "Consistent weighing provides accurate trend data",
+                    "Supplements correct specific deficiencies",
+                    "Alternative feeding routes may be necessary for severe malnutrition"
+                ],
+                "frequency": "Daily with regular reassessment",
+                "specialConsiderations": [
+                    "Consider refeeding syndrome risk in severely malnourished patients",
+                    "Adjust approach based on underlying cause of malnutrition",
+                    "Consider cultural and personal food preferences"
+                ]
+            },
+            {
+                "title": "Eating Disorders Management",
+                "actions": [
+                    "Create positive, relaxed eating environment",
+                    "Provide emotional support during meals",
+                    "Implement behavioral contracts if appropriate",
+                    "Address psychological factors affecting intake",
+                    "Collaborate with mental health professionals if eating disorder suspected",
+                    "Educate about consequences of malnutrition",
+                    "Involve family/caregivers in nutrition plan"
+                ],
+                "rationales": [
+                    "Positive environment reduces anxiety around eating",
+                    "Support reduces stress that may decrease appetite",
+                    "Contracts provide structure and clear expectations",
+                    "Psychological factors often contribute to decreased intake",
+                    "Mental health expertise is essential for eating disorder treatment",
+                    "Understanding consequences may improve motivation",
+                    "Family involvement improves outcomes and sustainability"
+                ],
+                "frequency": "With each meal and ongoing"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has nutritional status improved?",
+                "expectedOutcomes": [
+                    "Weight stabilization or gain",
+                    "Increased caloric and protein intake",
+                    "Improved laboratory values",
+                    "Increased energy and strength",
+                    "Improved wound healing if applicable",
+                    "Improved skin turgor and appearance"
+                ],
+                "evaluationMethods": [
+                    "Weight measurements",
+                    "Calorie count records",
+                    "Laboratory data review",
+                    "Functional assessment",
+                    "Skin assessment",
+                    "Patient self-report of energy levels"
+                ]
+            },
+            {
+                "statement": "Does patient demonstrate knowledge of nutritional needs?",
+                "expectedOutcomes": [
+                    "Accurately identifies high-calorie, high-protein foods",
+                    "Describes appropriate meal planning strategies",
+                    "Demonstrates understanding of supplement use",
+                    "Identifies personal barriers to intake and solutions",
+                    "Verbalizes commitment to nutritional plan"
+                ],
+                "evaluationMethods": [
+                    "Teach-back assessment",
+                    "Menu planning exercise",
+                    "Verbal questioning",
+                    "Problem-solving scenarios",
+                    "Patient interview"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Cederholm T, Jensen GL, Correia MITD, et al.",
+                "title": "GLIM criteria for the diagnosis of malnutrition - A consensus report from the global clinical nutrition community",
+                "year": "2019",
+                "source": "Clinical Nutrition",
+                "doi": "10.1016/j.clnu.2018.08.002"
+            },
+            {
+                "author": "Volkert D, Beck AM, Cederholm T, et al.",
+                "title": "ESPEN guideline on clinical nutrition and hydration in geriatrics",
+                "year": "2019",
+                "source": "Clinical Nutrition",
+                "doi": "10.1016/j.clnu.2018.05.024"
+            }
+        ],
+        "notes": "Consider nutrition support team consultation for patients with complex nutritional needs or who require specialized feeding approaches",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Initial stabilization 1-2 weeks, ongoing management 4-12 weeks",
+        "imageUrl": "assets/images/endocrine/Imbalanced Nutrition Less Than Body Requirements Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-05T00:00:00.415Z"
+    },
+    {
+        "id": "en002",
+        "title": "Imbalanced Nutrition: More Than Body Requirements Management",
+        "category": "Endocrine",
+        "tags": [
+            "Obesity",
+            "Weight Management",
+            "Metabolic Syndrome",
+            "Lifestyle Modification"
+        ],
+        "description": "A comprehensive care plan for managing excess nutritional intake, focusing on identifying causes of overnutrition, implementing interventions to achieve healthy weight, and preventing complications associated with obesity in patients with various endocrine and metabolic conditions.",
+        "assessments": [
+            {
+                "title": "Anthropometric Assessment",
+                "points": [
+                    "Measure height, weight, and calculate BMI",
+                    "Measure waist circumference and waist-to-hip ratio",
+                    "Assess body composition using bioelectrical impedance analysis if available",
+                    "Evaluate weight history including maximum weight, weight fluctuations, and previous weight loss attempts",
+                    "Calculate ideal body weight and set realistic weight goals",
+                    "Assess for physical limitations affecting activity"
+                ],
+                "description": "Comprehensive anthropometric assessment helps quantify excess weight, determine fat distribution patterns, and establish realistic goals"
+            },
+            {
+                "title": "Dietary Assessment",
+                "points": [
+                    "Conduct 3-day food diary analysis",
+                    "Calculate estimated caloric and macronutrient intake",
+                    "Assess eating patterns (meal timing, portion sizes, snacking)",
+                    "Evaluate for emotional or stress eating",
+                    "Assess for food preferences, cultural considerations, and environmental factors",
+                    "Identify knowledge deficits regarding nutrition"
+                ],
+                "description": "Dietary assessment helps identify specific eating patterns and behaviors contributing to excess intake"
+            },
+            {
+                "title": "Metabolic Assessment",
+                "points": [
+                    "Review laboratory values (lipid panel, HbA1c, fasting glucose)",
+                    "Assess for signs of metabolic syndrome",
+                    "Evaluate thyroid function",
+                    "Assess for complications of obesity (hypertension, sleep apnea, joint pain)",
+                    "Review medication regimen for drugs that may contribute to weight gain",
+                    "Assess for endocrine disorders affecting metabolism"
+                ],
+                "description": "Metabolic assessment helps identify obesity-related complications and underlying conditions affecting weight management"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Imbalanced Nutrition: More Than Body Requirements related to excessive intake in relation to metabolic needs as evidenced by weight 20% over ideal for height and frame",
+                "relatedFactors": [
+                    "Excessive intake in relation to metabolic needs",
+                    "Sedentary lifestyle",
+                    "Psychological factors (stress, depression)",
+                    "Socioeconomic factors",
+                    "Cultural influences on eating patterns",
+                    "Endocrine disorders affecting metabolism"
+                ],
+                "definingCharacteristics": [
+                    "Weight 20% over ideal for height and frame",
+                    "BMI >30 kg/m²",
+                    "Sedentary activity level",
+                    "Dysfunctional eating patterns",
+                    "Reported or observed excessive food intake",
+                    "Concentrating food intake at end of day"
+                ],
+                "nandaCode": "00001"
+            },
+            {
+                "statement": "Sedentary Lifestyle related to insufficient knowledge of health benefits of physical exercise as evidenced by choice of daily routine lacking physical exercise",
+                "relatedFactors": [
+                    "Insufficient knowledge of health benefits",
+                    "Lack of motivation",
+                    "Lack of resources (time, money, facilities)",
+                    "Physical limitations",
+                    "Cultural influences"
+                ],
+                "definingCharacteristics": [
+                    "Choice of daily routine lacking physical exercise",
+                    "Demonstrates physical deconditioning",
+                    "Verbalizes preference for activities low in physical activity",
+                    "Decreased cardiovascular endurance",
+                    "Increased body fat percentage"
+                ],
+                "nandaCode": "00168"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate progress toward healthy weight as evidenced by gradual weight loss and improved eating patterns",
+                "indicators": [
+                    "Weight loss of 0.5-1 kg per week",
+                    "Decreased waist circumference",
+                    "Improved laboratory values (lipids, glucose)",
+                    "Demonstrates balanced eating patterns",
+                    "Reports increased physical activity"
+                ],
+                "timeframe": "Within 4-8 weeks",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will demonstrate knowledge of healthy nutrition and lifestyle principles for weight management",
+                "indicators": [
+                    "Identifies appropriate portion sizes",
+                    "Plans balanced meals using recommended guidelines",
+                    "Describes healthy cooking methods",
+                    "Demonstrates understanding of energy balance concept",
+                    "Identifies triggers for overeating and management strategies"
+                ],
+                "timeframe": "Prior to discharge or within 2 weeks",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Weight Reduction Assistance",
+                "actions": [
+                    "Collaborate with dietitian to develop individualized calorie-controlled meal plan",
+                    "Establish realistic weight loss goals (1-2 pounds per week)",
+                    "Implement portion control strategies",
+                    "Teach meal planning using plate method or exchange lists",
+                    "Encourage food diary keeping to increase awareness",
+                    "Develop strategies to manage eating triggers",
+                    "Provide positive reinforcement for progress"
+                ],
+                "rationales": [
+                    "Dietitian expertise ensures nutritionally balanced caloric restriction",
+                    "Realistic goals promote success and adherence",
+                    "Portion control directly addresses excess intake",
+                    "Structured approaches to meal planning improve nutritional quality",
+                    "Self-monitoring increases awareness and accountability",
+                    "Managing triggers reduces non-hunger eating",
+                    "Positive reinforcement increases motivation and adherence"
+                ],
+                "frequency": "Daily with weekly reassessment",
+                "specialConsiderations": [
+                    "Avoid very low calorie diets without medical supervision",
+                    "Consider cultural food preferences in meal planning",
+                    "Adjust approach for patients with binge eating disorder"
+                ]
+            },
+            {
+                "title": "Exercise Promotion",
+                "actions": [
+                    "Assess current activity level and preferences",
+                    "Develop individualized exercise plan starting with achievable goals",
+                    "Encourage gradual increase in physical activity (aim for 150 minutes/week)",
+                    "Incorporate both aerobic and resistance exercises",
+                    "Teach strategies to incorporate activity into daily routine",
+                    "Address barriers to physical activity",
+                    "Monitor response to exercise (heart rate, perceived exertion)"
+                ],
+                "rationales": [
+                    "Assessment ensures appropriate and enjoyable activities",
+                    "Starting with achievable goals builds confidence and success",
+                    "Gradual progression prevents injury and promotes adherence",
+                    "Combined exercise types optimize weight loss and health benefits",
+                    "Lifestyle integration promotes sustainability",
+                    "Addressing barriers increases likelihood of participation",
+                    "Monitoring ensures safety and appropriate intensity"
+                ],
+                "frequency": "Daily with progressive increases"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Is patient making progress toward weight management goals?",
+                "expectedOutcomes": [
+                    "Gradual weight loss (0.5-1 kg per week)",
+                    "Decreased waist circumference",
+                    "Improved laboratory values",
+                    "Increased physical activity level",
+                    "Improved eating patterns",
+                    "Reports increased energy and mobility"
+                ],
+                "evaluationMethods": [
+                    "Weekly weight measurements",
+                    "Anthropometric measurements",
+                    "Laboratory data review",
+                    "Activity log review",
+                    "Food diary analysis",
+                    "Patient self-report"
+                ]
+            },
+            {
+                "statement": "Does patient demonstrate knowledge of weight management principles?",
+                "expectedOutcomes": [
+                    "Accurately identifies appropriate portion sizes",
+                    "Plans balanced meals using recommended guidelines",
+                    "Demonstrates understanding of energy balance",
+                    "Identifies personal triggers for overeating",
+                    "Describes sustainable physical activity plan",
+                    "Verbalizes realistic expectations for weight loss"
+                ],
+                "evaluationMethods": [
+                    "Teach-back assessment",
+                    "Menu planning exercise",
+                    "Problem-solving scenarios",
+                    "Return demonstration",
+                    "Goal-setting exercise",
+                    "Verbal questioning"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Jensen MD, Ryan DH, Apovian CM, et al.",
+                "title": "2013 AHA/ACC/TOS guideline for the management of overweight and obesity in adults: a report of the American College of Cardiology/American Heart Association Task Force on Practice Guidelines and The Obesity Society",
+                "year": "2014",
+                "source": "Circulation",
+                "doi": "10.1161/01.cir.0000437739.71477.ee"
+            },
+            {
+                "author": "Yumuk V, Tsigos C, Fried M, et al.",
+                "title": "European Guidelines for Obesity Management in Adults",
+                "year": "2015",
+                "source": "Obesity Facts",
+                "doi": "10.1159/000442721"
+            }
+        ],
+        "notes": "Consider referral to weight management program, behavioral health specialist, or bariatric surgery evaluation for patients with severe obesity or failed previous weight loss attempts",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Initial phase 4-8 weeks, long-term management ongoing",
+        "imageUrl": "assets/images/endocrine/Imbalanced Nutrition More Than Body Requirements Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-10T00:00:00.415Z"
+    },
+    {
+        "id": "en003",
+        "title": "Risk for Unstable Blood Glucose Level Management",
+        "category": "Endocrine",
+        "tags": [
+            "Diabetes",
+            "Glycemic Control",
+            "Hypoglycemia",
+            "Hyperglycemia"
+        ],
+        "description": "A comprehensive care plan for preventing and managing unstable blood glucose levels, focusing on monitoring, medication management, dietary considerations, and patient education to maintain optimal glycemic control and prevent complications in patients with diabetes or other conditions affecting glucose metabolism.",
+        "assessments": [
+            {
+                "title": "Glucose Monitoring Assessment",
+                "points": [
+                    "Monitor blood glucose levels according to protocol (fasting, pre/post-meals, bedtime)",
+                    "Assess for patterns of hyperglycemia or hypoglycemia",
+                    "Evaluate glycosylated hemoglobin (HbA1c) levels",
+                    "Assess for signs and symptoms of hyperglycemia (polyuria, polydipsia, polyphagia, blurred vision)",
+                    "Assess for signs and symptoms of hypoglycemia (diaphoresis, tremors, tachycardia, confusion)",
+                    "Evaluate patient's ability to perform self-monitoring of blood glucose"
+                ],
+                "description": "Comprehensive glucose monitoring assessment helps identify patterns of glycemic instability and guides appropriate interventions"
+            },
+            {
+                "title": "Medication Assessment",
+                "points": [
+                    "Review current diabetes medication regimen (insulin, oral agents)",
+                    "Assess medication adherence and administration technique",
+                    "Evaluate for medication interactions affecting glucose levels",
+                    "Assess knowledge of medication action, timing, and side effects",
+                    "Evaluate insulin storage practices",
+                    "Assess for barriers to medication adherence"
+                ],
+                "description": "Medication assessment helps identify factors related to pharmacological management that may contribute to glucose instability"
+            },
+            {
+                "title": "Lifestyle Assessment",
+                "points": [
+                    "Evaluate dietary intake and meal patterns",
+                    "Assess carbohydrate counting skills if applicable",
+                    "Evaluate physical activity type, duration, and timing",
+                    "Assess for alcohol consumption",
+                    "Evaluate stress levels and coping mechanisms",
+                    "Assess sleep patterns and quality",
+                    "Evaluate illness management practices during sick days"
+                ],
+                "description": "Lifestyle assessment helps identify behavioral factors affecting glucose control and areas for education and intervention"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Risk for Unstable Blood Glucose Level related to inadequate blood glucose monitoring, dietary intake, medication management, and physical activity",
+                "relatedFactors": [
+                    "Inadequate blood glucose monitoring",
+                    "Insufficient diabetes management",
+                    "Inadequate medication management",
+                    "Insufficient dietary intake",
+                    "Excessive dietary intake",
+                    "Physical activity level",
+                    "Stress",
+                    "Rapid growth periods",
+                    "Pregnancy"
+                ],
+                "definingCharacteristics": [
+                    "History of unstable blood glucose levels",
+                    "Inadequate diabetes self-management",
+                    "Altered medication regimen",
+                    "Irregular eating patterns",
+                    "Weight fluctuations",
+                    "Inconsistent exercise patterns",
+                    "Stress or illness"
+                ],
+                "nandaCode": "00179"
+            },
+            {
+                "statement": "Deficient Knowledge related to diabetes self-management as evidenced by inaccurate follow-through of instructions and development of preventable complications",
+                "relatedFactors": [
+                    "Insufficient information",
+                    "Misinformation",
+                    "Insufficient interest in learning",
+                    "Cognitive limitation",
+                    "Unfamiliarity with information resources"
+                ],
+                "definingCharacteristics": [
+                    "Inaccurate follow-through of instructions",
+                    "Inappropriate behaviors",
+                    "Insufficient knowledge",
+                    "Development of preventable complications",
+                    "Verbalized misconceptions"
+                ],
+                "nandaCode": "00126"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will maintain blood glucose levels within target range",
+                "indicators": [
+                    "Fasting blood glucose 80-130 mg/dL (4.4-7.2 mmol/L)",
+                    "Postprandial blood glucose <180 mg/dL (<10.0 mmol/L)",
+                    "HbA1c <7.0% or individualized target",
+                    "No episodes of severe hypoglycemia",
+                    "No episodes of diabetic ketoacidosis or hyperosmolar hyperglycemic state"
+                ],
+                "timeframe": "Throughout hospitalization and ongoing",
+                "type": "Short-term and Long-term"
+            },
+            {
+                "statement": "Patient will demonstrate knowledge and skills for effective diabetes self-management",
+                "indicators": [
+                    "Correctly performs blood glucose monitoring",
+                    "Accurately administers medications",
+                    "Demonstrates understanding of diet-glucose relationship",
+                    "Identifies signs of hypo/hyperglycemia and appropriate actions",
+                    "Describes sick day management",
+                    "Demonstrates problem-solving for glucose fluctuations"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Hyperglycemia Management",
+                "actions": [
+                    "Monitor blood glucose levels according to protocol",
+                    "Administer insulin or oral antidiabetic medications as prescribed",
+                    "Implement consistent carbohydrate meal plan",
+                    "Ensure appropriate timing of meals and medications",
+                    "Encourage adequate hydration",
+                    "Monitor for signs and symptoms of hyperglycemia",
+                    "Adjust care during illness, stress, or corticosteroid therapy"
+                ],
+                "rationales": [
+                    "Regular monitoring detects patterns and guides treatment",
+                    "Appropriate medication administration maintains glycemic control",
+                    "Consistent carbohydrate intake improves glucose predictability",
+                    "Proper timing coordinates insulin action with food absorption",
+                    "Hydration helps prevent hyperglycemic crises",
+                    "Early detection allows prompt intervention",
+                    "Stress and illness increase insulin requirements"
+                ],
+                "frequency": "Multiple times daily according to protocol",
+                "specialConsiderations": [
+                    "Adjust monitoring frequency during acute illness or medication changes",
+                    "Consider insulin resistance in critically ill patients",
+                    "Monitor closely during corticosteroid therapy"
+                ]
+            },
+            {
+                "title": "Hypoglycemia Management",
+                "actions": [
+                    "Teach patient to recognize early signs of hypoglycemia",
+                    "Implement the 15-15 rule for mild-moderate hypoglycemia (15g carbohydrate, wait 15 minutes, recheck)",
+                    "Keep rapid-acting glucose sources readily available",
+                    "Administer glucagon for severe hypoglycemia as prescribed",
+                    "Document all hypoglycemic episodes and interventions",
+                    "Evaluate patterns and causes of hypoglycemia",
+                    "Adjust medication, meal timing, or activity as needed to prevent recurrence"
+                ],
+                "rationales": [
+                    "Early recognition allows prompt treatment",
+                    "Standardized approach prevents over-treatment",
+                    "Immediate availability ensures prompt treatment",
+                    "Glucagon raises blood glucose in severe cases",
+                    "Documentation helps identify patterns",
+                    "Pattern identification guides preventive strategies",
+                    "Adjustments address underlying causes"
+                ],
+                "frequency": "As needed and preventively"
+            },
+            {
+                "title": "Diabetes Self-Management Education",
+                "actions": [
+                    "Assess current knowledge and self-management skills",
+                    "Provide education on blood glucose monitoring technique",
+                    "Teach medication administration and action",
+                    "Educate about meal planning and carbohydrate counting",
+                    "Discuss exercise effects on blood glucose",
+                    "Teach recognition and management of hypo/hyperglycemia",
+                    "Provide sick day management guidelines",
+                    "Discuss importance of preventive care and regular follow-up"
+                ],
+                "rationales": [
+                    "Assessment identifies knowledge gaps",
+                    "Proper technique ensures accurate readings",
+                    "Understanding improves medication adherence and timing",
+                    "Dietary knowledge improves glucose predictability",
+                    "Exercise awareness allows appropriate adjustments",
+                    "Recognition skills enable prompt intervention",
+                    "Sick day protocols prevent serious complications",
+                    "Regular care prevents long-term complications"
+                ],
+                "frequency": "Daily during hospitalization and prior to discharge"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Are blood glucose levels maintained within target range?",
+                "expectedOutcomes": [
+                    "Blood glucose readings within individualized target range",
+                    "Decreased frequency and severity of hypo/hyperglycemic episodes",
+                    "HbA1c trending toward target",
+                    "Absence of acute complications",
+                    "Stable pattern of glucose readings"
+                ],
+                "evaluationMethods": [
+                    "Blood glucose monitoring records",
+                    "HbA1c results",
+                    "Symptom assessment",
+                    "Pattern analysis of glucose readings",
+                    "Medication effectiveness review"
+                ]
+            },
+            {
+                "statement": "Does patient demonstrate effective diabetes self-management knowledge and skills?",
+                "expectedOutcomes": [
+                    "Correctly performs blood glucose monitoring",
+                    "Accurately administers medications",
+                    "Makes appropriate food choices",
+                    "Recognizes and properly treats hypo/hyperglycemia",
+                    "Demonstrates problem-solving for glucose fluctuations",
+                    "Verbalizes understanding of sick day management"
+                ],
+                "evaluationMethods": [
+                    "Return demonstration",
+                    "Teach-back assessment",
+                    "Problem-solving scenarios",
+                    "Self-management skills checklist",
+                    "Patient self-efficacy rating",
+                    "Caregiver feedback if applicable"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "American Diabetes Association",
+                "title": "Standards of Medical Care in Diabetes",
+                "year": "2023",
+                "source": "Diabetes Care",
+                "doi": "10.2337/dc23-Sint"
+            },
+            {
+                "author": "Powers MA, Bardsley J, Cypress M, et al.",
+                "title": "Diabetes Self-management Education and Support in Type 2 Diabetes: A Joint Position Statement of the American Diabetes Association, the American Association of Diabetes Educators, and the Academy of Nutrition and Dietetics",
+                "year": "2015",
+                "source": "Diabetes Care",
+                "doi": "10.2337/dc15-0730"
+            }
+        ],
+        "notes": "Consider diabetes educator consultation for comprehensive education and insulin pump training if applicable",
+        "difficultyLevel": "Advanced",
+        "timeFrame": "Acute management 1-3 days, ongoing self-management education throughout hospitalization",
+        "imageUrl": "assets/images/endocrine/Risk for Unstable Blood Glucose Level Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-07-01T00:00:00.415Z"
+    }
+]

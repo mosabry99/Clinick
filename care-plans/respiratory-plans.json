@@ -1,0 +1,923 @@
+[
+    {
+        "id": "rp001",
+        "title": "Ineffective Airway Clearance Management",
+        "category": "Respiratory",
+        "tags": [
+            "Airway Clearance",
+            "Secretion Management",
+            "Suctioning",
+            "Respiratory Care"
+        ],
+        "description": "A comprehensive care plan for managing ineffective airway clearance, focusing on secretion mobilization, effective coughing techniques, and interventions to maintain patent airways in patients with various respiratory conditions.",
+        "assessments": [
+            {
+                "title": "Respiratory Assessment",
+                "points": [
+                    "Assess respiratory rate, rhythm, depth, and effort q2-4h and PRN",
+                    "Auscultate lung sounds in all fields q4h, noting adventitious sounds (crackles, wheezes, rhonchi)",
+                    "Evaluate effectiveness of cough and ability to clear secretions",
+                    "Assess sputum characteristics (amount, color, consistency, odor)",
+                    "Monitor oxygen saturation continuously or q4h",
+                    "Assess for signs of respiratory distress (nasal flaring, accessory muscle use, retractions)"
+                ],
+                "description": "Comprehensive respiratory assessment helps identify airway clearance problems and guides appropriate interventions"
+            },
+            {
+                "title": "Secretion Assessment",
+                "points": [
+                    "Evaluate quantity and quality of secretions",
+                    "Assess ability to mobilize and expectorate secretions",
+                    "Monitor for signs of retained secretions (increased respiratory rate, decreased oxygen saturation, rhonchi)",
+                    "Evaluate hydration status as it affects secretion viscosity",
+                    "Assess factors affecting secretion clearance (pain, sedation, weakness)"
+                ],
+                "description": "Secretion assessment helps determine the effectiveness of airway clearance techniques and need for intervention"
+            },
+            {
+                "title": "Functional Assessment",
+                "points": [
+                    "Evaluate level of consciousness and ability to follow instructions",
+                    "Assess mobility status and positioning limitations",
+                    "Evaluate energy level and fatigue that may affect airway clearance",
+                    "Assess ability to perform airway clearance techniques independently",
+                    "Evaluate need for assistive devices or suctioning"
+                ],
+                "description": "Functional assessment helps determine the patient's ability to participate in airway clearance activities and need for assistance"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Ineffective Airway Clearance related to retained secretions and ineffective cough as evidenced by abnormal breath sounds and ineffective cough",
+                "relatedFactors": [
+                    "Excessive secretions",
+                    "Thick, tenacious secretions",
+                    "Ineffective cough",
+                    "Fatigue and weakness",
+                    "Pain with coughing",
+                    "Artificial airway",
+                    "Neuromuscular impairment"
+                ],
+                "definingCharacteristics": [
+                    "Abnormal breath sounds (crackles, wheezes, rhonchi)",
+                    "Ineffective or absent cough",
+                    "Changes in respiratory rate and rhythm",
+                    "Dyspnea",
+                    "Reduced oxygen saturation",
+                    "Restlessness",
+                    "Excessive sputum"
+                ],
+                "nandaCode": "00031"
+            },
+            {
+                "statement": "Risk for Infection related to stasis of respiratory secretions",
+                "relatedFactors": [
+                    "Retained secretions",
+                    "Inadequate primary defenses (stasis of fluids)",
+                    "Chronic disease",
+                    "Immunosuppression",
+                    "Invasive procedures (intubation)"
+                ],
+                "definingCharacteristics": [
+                    "Retained secretions",
+                    "History of respiratory infections",
+                    "Presence of artificial airway",
+                    "Ineffective coughing",
+                    "Impaired mobility affecting secretion clearance"
+                ],
+                "nandaCode": "00004"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate improved airway clearance as evidenced by clear breath sounds and effective cough",
+                "indicators": [
+                    "Lungs clear to auscultation or improved from baseline",
+                    "Effective cough with expectoration of secretions",
+                    "Respiratory rate within normal range (12-20 breaths/min)",
+                    "Oxygen saturation >92% or at patient's baseline",
+                    "No signs of respiratory distress"
+                ],
+                "timeframe": "Within 24-48 hours",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient/caregiver will demonstrate effective airway clearance techniques",
+                "indicators": [
+                    "Demonstrates proper deep breathing and coughing techniques",
+                    "Correctly uses assistive devices (incentive spirometer, flutter valve)",
+                    "Maintains adequate hydration",
+                    "Positions self appropriately to facilitate airway clearance",
+                    "Recognizes signs of ineffective airway clearance requiring intervention"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Airway Management",
+                "actions": [
+                    "Position patient to maximize ventilation (semi-Fowler's or high Fowler's)",
+                    "Encourage deep breathing and effective coughing techniques",
+                    "Administer prescribed bronchodilators, mucolytics, and expectorants",
+                    "Provide adequate hydration (2-3 L/day unless contraindicated)",
+                    "Perform chest physiotherapy as ordered (percussion, vibration, postural drainage)",
+                    "Suction airway as needed, using appropriate technique"
+                ],
+                "rationales": [
+                    "Upright positioning promotes lung expansion and reduces work of breathing",
+                    "Deep breathing and coughing mobilize secretions and clear airways",
+                    "Medications improve bronchodilation and reduce secretion viscosity",
+                    "Adequate hydration thins secretions, making them easier to expectorate",
+                    "Chest physiotherapy helps mobilize secretions from peripheral airways",
+                    "Suctioning removes secretions when patient cannot clear them independently"
+                ],
+                "frequency": "Every 2-4 hours and PRN",
+                "specialConsiderations": [
+                    "Modify techniques based on patient's condition and tolerance",
+                    "Consider pain management before airway clearance activities if pain limits effectiveness",
+                    "Ensure adequate rest periods between airway clearance sessions"
+                ]
+            },
+            {
+                "title": "Respiratory Monitoring",
+                "actions": [
+                    "Monitor respiratory status q2-4h and PRN",
+                    "Auscultate lung sounds before and after airway clearance interventions",
+                    "Monitor oxygen saturation continuously or q4h",
+                    "Assess sputum characteristics with each expectoration",
+                    "Evaluate effectiveness of medications and airway clearance techniques",
+                    "Monitor for signs of respiratory fatigue or distress"
+                ],
+                "rationales": [
+                    "Regular monitoring detects changes in respiratory status requiring intervention",
+                    "Auscultation evaluates effectiveness of airway clearance interventions",
+                    "Oxygen saturation reflects adequacy of ventilation and oxygenation",
+                    "Changes in sputum characteristics may indicate infection or improvement",
+                    "Evaluation guides adjustments to treatment regimen",
+                    "Early detection of fatigue prevents respiratory decompensation"
+                ],
+                "frequency": "Every 2-4 hours and PRN"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has airway clearance improved?",
+                "expectedOutcomes": [
+                    "Improved or clear breath sounds on auscultation",
+                    "Effective cough with expectoration of secretions",
+                    "Respiratory rate within normal range",
+                    "Oxygen saturation >92% or at patient's baseline",
+                    "Decreased work of breathing",
+                    "Reduced or absent adventitious breath sounds"
+                ],
+                "evaluationMethods": [
+                    "Respiratory assessment",
+                    "Lung auscultation",
+                    "Oxygen saturation monitoring",
+                    "Observation of respiratory effort",
+                    "Sputum assessment",
+                    "Patient report of breathing comfort"
+                ]
+            },
+            {
+                "statement": "Can patient/caregiver effectively perform airway clearance techniques?",
+                "expectedOutcomes": [
+                    "Correctly demonstrates deep breathing and coughing techniques",
+                    "Properly uses assistive devices",
+                    "Maintains adequate hydration",
+                    "Positions self appropriately",
+                    "Identifies situations requiring additional intervention",
+                    "Verbalizes understanding of airway clearance plan"
+                ],
+                "evaluationMethods": [
+                    "Return demonstration",
+                    "Observation of technique",
+                    "Verbal questioning",
+                    "Teach-back assessment",
+                    "Caregiver demonstration if applicable"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Strickland SL, Rubin BK, Drescher GS, et al.",
+                "title": "AARC Clinical Practice Guideline: Effectiveness of Nonpharmacologic Airway Clearance Therapies in Hospitalized Patients",
+                "year": "2013",
+                "source": "Respiratory Care",
+                "doi": "10.4187/respcare.02925"
+            },
+            {
+                "author": "Volsko TA",
+                "title": "Airway Clearance Therapy: Finding the Evidence",
+                "year": "2013",
+                "source": "Respiratory Care",
+                "doi": "10.4187/respcare.02776"
+            }
+        ],
+        "notes": "Consider referral to respiratory therapy for specialized airway clearance techniques and device training",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Throughout acute respiratory episode with ongoing assessment",
+        "imageUrl": "assets/images/respiratory/Ineffective Airway Clearance Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-18T00:00:00.415Z"
+    },
+    {
+        "id": "rp002",
+        "title": "Impaired Gas Exchange Management",
+        "category": "Respiratory",
+        "tags": [
+            "Oxygenation",
+            "Ventilation",
+            "Respiratory Failure",
+            "ARDS"
+        ],
+        "description": "A comprehensive care plan for managing impaired gas exchange, focusing on optimizing oxygenation and ventilation, preventing complications, and monitoring respiratory status in patients with various pulmonary conditions.",
+        "assessments": [
+            {
+                "title": "Respiratory Assessment",
+                "points": [
+                    "Assess respiratory rate, rhythm, depth, and effort q2h and PRN",
+                    "Auscultate lung sounds in all fields q4h",
+                    "Monitor oxygen saturation continuously",
+                    "Assess arterial blood gas values and trends",
+                    "Evaluate for signs of hypoxemia (restlessness, confusion, cyanosis)",
+                    "Assess for signs of hypercapnia (headache, drowsiness, tachycardia)"
+                ],
+                "description": "Comprehensive respiratory assessment helps identify gas exchange problems and guides appropriate interventions"
+            },
+            {
+                "title": "Ventilation Assessment",
+                "points": [
+                    "Evaluate effectiveness of ventilation through ABG results",
+                    "Assess ventilation/perfusion matching",
+                    "Monitor end-tidal CO2 if available",
+                    "Assess chest expansion and symmetry",
+                    "Evaluate work of breathing",
+                    "Monitor ventilator parameters if mechanically ventilated"
+                ],
+                "description": "Ventilation assessment helps determine the effectiveness of CO2 elimination and need for intervention"
+            },
+            {
+                "title": "Systemic Assessment",
+                "points": [
+                    "Assess level of consciousness and mental status",
+                    "Monitor vital signs, particularly heart rate and blood pressure",
+                    "Evaluate skin color, temperature, and capillary refill",
+                    "Assess activity tolerance and fatigue",
+                    "Monitor fluid status and its impact on gas exchange",
+                    "Evaluate nutritional status and metabolic demands"
+                ],
+                "description": "Systemic assessment helps identify end-organ effects of impaired gas exchange requiring intervention"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Impaired Gas Exchange related to ventilation-perfusion imbalance as evidenced by hypoxemia and dyspnea",
+                "relatedFactors": [
+                    "Ventilation-perfusion mismatch",
+                    "Alveolar-capillary membrane changes",
+                    "Altered oxygen supply",
+                    "Altered blood flow",
+                    "Inflammatory process",
+                    "Pulmonary edema"
+                ],
+                "definingCharacteristics": [
+                    "Hypoxemia (PaO2 < 80 mmHg)",
+                    "Hypercapnia (PaCO2 > 45 mmHg)",
+                    "Abnormal arterial pH",
+                    "Dyspnea",
+                    "Restlessness",
+                    "Confusion",
+                    "Cyanosis",
+                    "Abnormal skin color (pale, dusky)"
+                ],
+                "nandaCode": "00030"
+            },
+            {
+                "statement": "Activity Intolerance related to imbalance between oxygen supply and demand as evidenced by dyspnea and fatigue with activity",
+                "relatedFactors": [
+                    "Impaired gas exchange",
+                    "Imbalance between oxygen supply and demand",
+                    "Respiratory muscle fatigue",
+                    "Increased metabolic demands"
+                ],
+                "definingCharacteristics": [
+                    "Exertional dyspnea",
+                    "Fatigue",
+                    "Abnormal heart rate or blood pressure response to activity",
+                    "Oxygen desaturation with activity",
+                    "Weakness"
+                ],
+                "nandaCode": "00092"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate improved gas exchange as evidenced by improved oxygenation and ventilation parameters",
+                "indicators": [
+                    "Oxygen saturation >92% or at patient's baseline",
+                    "PaO2 >80 mmHg or improved from baseline",
+                    "PaCO2 35-45 mmHg or improved from baseline",
+                    "pH within normal range (7.35-7.45)",
+                    "Respiratory rate 12-20 breaths/min",
+                    "Improved mental status"
+                ],
+                "timeframe": "Within 24-48 hours",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will demonstrate improved activity tolerance with minimal respiratory symptoms",
+                "indicators": [
+                    "Able to perform ADLs with minimal dyspnea",
+                    "Oxygen saturation remains >90% with activity",
+                    "Uses energy conservation techniques effectively",
+                    "Reports decreased fatigue with activity",
+                    "Demonstrates improved exercise capacity"
+                ],
+                "timeframe": "Within 3-5 days",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Oxygen Therapy Management",
+                "actions": [
+                    "Administer supplemental oxygen as prescribed",
+                    "Adjust oxygen delivery method and flow rate based on patient response",
+                    "Position patient to optimize ventilation (semi-Fowler's or high Fowler's)",
+                    "Implement lung expansion techniques (deep breathing, incentive spirometry)",
+                    "Administer prescribed respiratory medications (bronchodilators, anti-inflammatories)",
+                    "Prepare for and assist with advanced respiratory support if needed (NIPPV, mechanical ventilation)"
+                ],
+                "rationales": [
+                    "Supplemental oxygen improves arterial oxygenation",
+                    "Appropriate delivery method ensures optimal oxygenation",
+                    "Upright positioning improves lung expansion and ventilation",
+                    "Lung expansion techniques prevent atelectasis and improve ventilation",
+                    "Medications improve airflow and reduce inflammation",
+                    "Advanced support may be necessary for severe gas exchange impairment"
+                ],
+                "frequency": "Continuous with regular assessment",
+                "specialConsiderations": [
+                    "Monitor for oxygen-induced hypoventilation in patients with chronic CO2 retention",
+                    "Consider permissive hypercapnia in certain conditions (ARDS, COPD exacerbation)",
+                    "Adjust interventions based on underlying cause of gas exchange impairment"
+                ]
+            },
+            {
+                "title": "Respiratory Monitoring",
+                "actions": [
+                    "Monitor respiratory status q2h and PRN",
+                    "Continuously monitor oxygen saturation",
+                    "Obtain arterial blood gases as ordered and assess trends",
+                    "Monitor for signs of respiratory fatigue or failure",
+                    "Assess response to respiratory interventions",
+                    "Monitor fluid status and prevent overhydration",
+                    "Evaluate nutritional status and ensure adequate caloric intake"
+                ],
+                "rationales": [
+                    "Regular monitoring detects changes in respiratory status requiring intervention",
+                    "Continuous pulse oximetry provides real-time oxygenation data",
+                    "ABGs provide comprehensive assessment of gas exchange",
+                    "Early detection of fatigue prevents respiratory arrest",
+                    "Evaluation guides adjustments to treatment regimen",
+                    "Fluid overload can worsen gas exchange",
+                    "Adequate nutrition supports respiratory muscle function"
+                ],
+                "frequency": "Every 2 hours and PRN"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has gas exchange improved?",
+                "expectedOutcomes": [
+                    "Improved oxygen saturation (>92% or at baseline)",
+                    "Improved or normalized arterial blood gas values",
+                    "Respiratory rate within normal range",
+                    "Decreased work of breathing",
+                    "Improved mental status",
+                    "Pink, warm skin color"
+                ],
+                "evaluationMethods": [
+                    "Pulse oximetry monitoring",
+                    "Arterial blood gas analysis",
+                    "Respiratory assessment",
+                    "Mental status assessment",
+                    "Skin color assessment",
+                    "Vital sign monitoring"
+                ]
+            },
+            {
+                "statement": "Has activity tolerance improved?",
+                "expectedOutcomes": [
+                    "Increased ability to perform ADLs",
+                    "Oxygen saturation maintained during activity",
+                    "Decreased dyspnea with activity",
+                    "Reduced fatigue",
+                    "Improved exercise capacity",
+                    "Effective use of energy conservation techniques"
+                ],
+                "evaluationMethods": [
+                    "Activity tolerance assessment",
+                    "Oxygen saturation monitoring during activity",
+                    "Dyspnea scale assessment",
+                    "Fatigue scale assessment",
+                    "Functional capacity measurement",
+                    "Patient self-report"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Beasley R, Chien J, Douglas J, et al.",
+                "title": "Thoracic Society of Australia and New Zealand oxygen guidelines for acute oxygen use in adults: 'Swimming between the flags'",
+                "year": "2015",
+                "source": "Respirology",
+                "doi": "10.1111/resp.12620"
+            },
+            {
+                "author": "O'Driscoll BR, Howard LS, Earis J, Mak V",
+                "title": "BTS guideline for oxygen use in adults in healthcare and emergency settings",
+                "year": "2017",
+                "source": "Thorax",
+                "doi": "10.1136/thoraxjnl-2016-209729"
+            }
+        ],
+        "notes": "Consider prone positioning for patients with severe hypoxemia, particularly in ARDS",
+        "difficultyLevel": "Advanced",
+        "timeFrame": "Throughout acute respiratory episode with ongoing assessment",
+        "imageUrl": "assets/images/respiratory/Impaired Gas Exchange Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-22T00:00:00.415Z"
+    },
+    {
+        "id": "rp003",
+        "title": "Ineffective Breathing Pattern Management",
+        "category": "Respiratory",
+        "tags": [
+            "Breathing Techniques",
+            "Respiratory Rate",
+            "Dyspnea Management",
+            "Respiratory Muscle Fatigue"
+        ],
+        "description": "A comprehensive care plan for managing ineffective breathing patterns, focusing on optimizing respiratory mechanics, preventing respiratory muscle fatigue, and teaching effective breathing techniques for patients with various respiratory and neuromuscular conditions.",
+        "assessments": [
+            {
+                "title": "Breathing Pattern Assessment",
+                "points": [
+                    "Assess respiratory rate, rhythm, depth, and effort q2-4h and PRN",
+                    "Evaluate use of accessory muscles for breathing",
+                    "Assess for abnormal breathing patterns (tachypnea, bradypnea, Cheyne-Stokes, Kussmaul)",
+                    "Observe chest wall movement for symmetry and coordination",
+                    "Evaluate diaphragmatic versus chest breathing",
+                    "Assess for pursed-lip breathing or tripod positioning"
+                ],
+                "description": "Comprehensive breathing pattern assessment helps identify specific abnormalities and guides appropriate interventions"
+            },
+            {
+                "title": "Respiratory Function Assessment",
+                "points": [
+                    "Auscultate lung sounds in all fields",
+                    "Monitor oxygen saturation continuously or q4h",
+                    "Assess arterial blood gas values if available",
+                    "Evaluate pulmonary function test results if available",
+                    "Assess for signs of respiratory muscle fatigue",
+                    "Evaluate impact of breathing pattern on gas exchange"
+                ],
+                "description": "Respiratory function assessment helps determine the physiological impact of ineffective breathing patterns"
+            },
+            {
+                "title": "Contributing Factors Assessment",
+                "points": [
+                    "Assess for pain that may affect breathing",
+                    "Evaluate anxiety level and its impact on breathing pattern",
+                    "Assess for neurological impairment affecting respiratory control",
+                    "Evaluate for restrictive factors (obesity, ascites, tight dressings)",
+                    "Assess medication effects on respiratory drive",
+                    "Evaluate for underlying respiratory or cardiac conditions"
+                ],
+                "description": "Assessment of contributing factors helps identify modifiable causes of ineffective breathing patterns"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Ineffective Breathing Pattern related to respiratory muscle fatigue and anxiety as evidenced by tachypnea and use of accessory muscles",
+                "relatedFactors": [
+                    "Respiratory muscle fatigue",
+                    "Pain",
+                    "Anxiety",
+                    "Neurological impairment",
+                    "Musculoskeletal impairment",
+                    "Respiratory center depression",
+                    "Inflammatory process"
+                ],
+                "definingCharacteristics": [
+                    "Altered respiratory rate, depth, or rhythm",
+                    "Use of accessory muscles to breathe",
+                    "Dyspnea",
+                    "Decreased inspiratory/expiratory pressure",
+                    "Altered chest excursion",
+                    "Prolonged expiration phase",
+                    "Pursed-lip breathing"
+                ],
+                "nandaCode": "00032"
+            },
+            {
+                "statement": "Anxiety related to dyspnea and hypoxemia as evidenced by expressed concerns and increased tension",
+                "relatedFactors": [
+                    "Dyspnea",
+                    "Hypoxemia",
+                    "Threat to health status",
+                    "Fear of suffocation",
+                    "Situational crisis"
+                ],
+                "definingCharacteristics": [
+                    "Expressed concerns",
+                    "Increased tension",
+                    "Restlessness",
+                    "Increased respiratory rate",
+                    "Focus on self",
+                    "Worried about physiological responses"
+                ],
+                "nandaCode": "00146"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate improved breathing pattern as evidenced by normal respiratory rate and decreased work of breathing",
+                "indicators": [
+                    "Respiratory rate within normal range (12-20 breaths/min)",
+                    "Decreased use of accessory muscles",
+                    "Regular breathing rhythm",
+                    "Normal depth of respiration",
+                    "Symmetric chest expansion",
+                    "Oxygen saturation >92% or at patient's baseline"
+                ],
+                "timeframe": "Within 24-48 hours",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will demonstrate effective breathing techniques to control dyspnea",
+                "indicators": [
+                    "Demonstrates pursed-lip breathing correctly",
+                    "Uses diaphragmatic breathing appropriately",
+                    "Controls respiratory rate during periods of anxiety",
+                    "Reports decreased perception of dyspnea",
+                    "Maintains effective breathing pattern during activities"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Respiratory Monitoring and Management",
+                "actions": [
+                    "Position patient to optimize ventilation (semi-Fowler's or high Fowler's)",
+                    "Administer oxygen therapy as prescribed",
+                    "Teach and assist with breathing techniques (pursed-lip, diaphragmatic breathing)",
+                    "Implement relaxation techniques to reduce anxiety",
+                    "Administer prescribed medications that affect breathing (bronchodilators, anxiolytics)",
+                    "Provide adequate pain control if pain is affecting breathing",
+                    "Schedule activities to avoid respiratory fatigue"
+                ],
+                "rationales": [
+                    "Upright positioning decreases abdominal pressure on diaphragm and improves lung expansion",
+                    "Supplemental oxygen reduces work of breathing and anxiety",
+                    "Specific breathing techniques improve ventilation efficiency and reduce air trapping",
+                    "Relaxation reduces anxiety-induced tachypnea",
+                    "Medications address underlying causes of ineffective breathing",
+                    "Pain control prevents splinting and shallow breathing",
+                    "Appropriate pacing prevents respiratory muscle fatigue"
+                ],
+                "frequency": "Every 2-4 hours and PRN",
+                "specialConsiderations": [
+                    "Modify approach based on underlying cause of breathing pattern disturbance",
+                    "Consider mechanical ventilatory support for severe respiratory muscle fatigue",
+                    "Adjust interventions based on patient's cognitive status and ability to participate"
+                ]
+            },
+            {
+                "title": "Anxiety Reduction",
+                "actions": [
+                    "Provide calm, reassuring presence during episodes of dyspnea",
+                    "Teach anxiety-reduction techniques (guided imagery, progressive muscle relaxation)",
+                    "Explain all procedures and interventions",
+                    "Encourage expression of feelings about breathing difficulties",
+                    "Create a quiet, calm environment",
+                    "Administer anti-anxiety medications as prescribed",
+                    "Teach patient to recognize early signs of anxiety and dyspnea"
+                ],
+                "rationales": [
+                    "Reassurance reduces fear and panic that worsen breathing patterns",
+                    "Anxiety-reduction techniques interrupt anxiety-dyspnea cycle",
+                    "Understanding reduces fear of unknown",
+                    "Expression of feelings reduces anxiety",
+                    "Environmental modifications reduce stimuli that increase respiratory rate",
+                    "Medications may be necessary to break severe anxiety-dyspnea cycle",
+                    "Early intervention prevents escalation of symptoms"
+                ],
+                "frequency": "Ongoing throughout hospitalization"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has breathing pattern improved?",
+                "expectedOutcomes": [
+                    "Respiratory rate within normal range",
+                    "Decreased use of accessory muscles",
+                    "Regular breathing rhythm",
+                    "Normal depth of respiration",
+                    "Symmetric chest expansion",
+                    "Improved oxygen saturation"
+                ],
+                "evaluationMethods": [
+                    "Respiratory assessment",
+                    "Observation of breathing pattern",
+                    "Pulse oximetry monitoring",
+                    "Arterial blood gas analysis if available",
+                    "Patient report of breathing comfort",
+                    "Assessment of work of breathing"
+                ]
+            },
+            {
+                "statement": "Can patient effectively use breathing techniques?",
+                "expectedOutcomes": [
+                    "Correctly demonstrates pursed-lip breathing",
+                    "Properly performs diaphragmatic breathing",
+                    "Controls respiratory rate during anxiety",
+                    "Reports decreased perception of dyspnea",
+                    "Maintains effective breathing pattern during activities",
+                    "Identifies situations requiring use of breathing techniques"
+                ],
+                "evaluationMethods": [
+                    "Return demonstration",
+                    "Observation during periods of dyspnea",
+                    "Patient self-report",
+                    "Dyspnea scale assessment",
+                    "Observation during activities",
+                    "Teach-back assessment"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Borge CR, Hagen KB, Mengshoel AM, et al.",
+                "title": "Effects of controlled breathing exercises and respiratory muscle training in people with chronic obstructive pulmonary disease: results from evaluating the quality of evidence in systematic reviews",
+                "year": "2014",
+                "source": "BMC Pulmonary Medicine",
+                "doi": "10.1186/1471-2466-14-184"
+            },
+            {
+                "author": "Holland AE, Hill CJ, Jones AY, McDonald CF",
+                "title": "Breathing exercises for chronic obstructive pulmonary disease",
+                "year": "2012",
+                "source": "Cochrane Database of Systematic Reviews",
+                "doi": "10.1002/14651858.CD008250.pub2"
+            }
+        ],
+        "notes": "Consider pulmonary rehabilitation referral for patients with chronic respiratory conditions",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Throughout hospitalization with ongoing assessment",
+        "imageUrl": "assets/images/respiratory/Ineffective Breathing Pattern Management.webp",
+        "isFeatured": false,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-25T00:00:00.415Z"
+    },
+    {
+        "id": "rp004",
+        "title": "Risk for Aspiration Management",
+        "category": "Respiratory",
+        "tags": [
+            "Dysphagia",
+            "Swallowing",
+            "Aspiration Pneumonia",
+            "Enteral Feeding"
+        ],
+        "description": "A comprehensive care plan for preventing aspiration in at-risk patients, focusing on swallowing assessment, positioning, feeding techniques, and airway protection strategies for patients with various conditions affecting swallowing and airway protection.",
+        "assessments": [
+            {
+                "title": "Swallowing Assessment",
+                "points": [
+                    "Assess swallowing ability using standardized screening tool",
+                    "Evaluate for signs of dysphagia (coughing, choking, wet-sounding voice after swallowing)",
+                    "Assess gag reflex and cough strength",
+                    "Evaluate oral motor function and control",
+                    "Assess ability to manage secretions",
+                    "Monitor for food pocketing in oral cavity"
+                ],
+                "description": "Comprehensive swallowing assessment helps identify patients at risk for aspiration and guides preventive interventions"
+            },
+            {
+                "title": "Risk Factor Assessment",
+                "points": [
+                    "Assess level of consciousness and cognitive status",
+                    "Evaluate for conditions predisposing to aspiration (stroke, Parkinson's disease, dementia)",
+                    "Assess for presence of feeding tubes and proper placement",
+                    "Evaluate medication effects on swallowing and consciousness",
+                    "Assess for GERD or history of regurgitation",
+                    "Evaluate oral hygiene status"
+                ],
+                "description": "Risk factor assessment identifies modifiable and non-modifiable factors that contribute to aspiration risk"
+            },
+            {
+                "title": "Respiratory Assessment",
+                "points": [
+                    "Monitor respiratory rate, rhythm, and effort",
+                    "Auscultate lung sounds, particularly in dependent regions",
+                    "Monitor temperature for signs of aspiration pneumonia",
+                    "Assess oxygen saturation before, during, and after meals",
+                    "Evaluate for signs of respiratory distress during and after eating",
+                    "Monitor for changes in sputum characteristics"
+                ],
+                "description": "Respiratory assessment helps detect early signs of aspiration requiring prompt intervention"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Risk for Aspiration related to impaired swallowing and decreased level of consciousness",
+                "relatedFactors": [
+                    "Impaired swallowing",
+                    "Decreased level of consciousness",
+                    "Presence of feeding tube",
+                    "Impaired gag reflex",
+                    "Delayed gastric emptying",
+                    "Increased gastric residual volume",
+                    "Medication effects",
+                    "Neuromuscular dysfunction"
+                ],
+                "definingCharacteristics": [
+                    "Dysphagia",
+                    "Impaired cough reflex",
+                    "Decreased gag reflex",
+                    "Tube feeding",
+                    "History of aspiration",
+                    "Neurological disorders affecting swallowing",
+                    "Reduced level of consciousness"
+                ],
+                "nandaCode": "00039"
+            },
+            {
+                "statement": "Risk for Ineffective Airway Clearance related to retained secretions and aspiration",
+                "relatedFactors": [
+                    "Aspiration of food, fluid, or secretions",
+                    "Excessive secretions",
+                    "Ineffective cough",
+                    "Impaired swallowing",
+                    "Reduced level of consciousness"
+                ],
+                "definingCharacteristics": [
+                    "History of aspiration",
+                    "Dysphagia",
+                    "Ineffective cough",
+                    "Excessive secretions",
+                    "Altered mental status"
+                ],
+                "nandaCode": "00031"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will remain free from aspiration as evidenced by clear lung sounds and absence of respiratory distress",
+                "indicators": [
+                    "Clear lung sounds on auscultation",
+                    "No episodes of coughing, choking, or respiratory distress during meals",
+                    "Maintains oxygen saturation during and after meals",
+                    "Afebrile with no signs of aspiration pneumonia",
+                    "Demonstrates ability to safely manage oral intake if appropriate"
+                ],
+                "timeframe": "Throughout hospitalization",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient/caregiver will demonstrate knowledge of aspiration prevention techniques",
+                "indicators": [
+                    "Demonstrates proper positioning during and after meals",
+                    "Verbalizes understanding of food/fluid consistency modifications",
+                    "Demonstrates appropriate feeding techniques",
+                    "Correctly performs oral care to reduce bacteria",
+                    "Identifies signs of aspiration requiring intervention"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Aspiration Precautions",
+                "actions": [
+                    "Position patient upright at 30-45 degrees during meals and for 30-60 minutes after",
+                    "Implement diet modifications as recommended by speech therapy (thickened liquids, pureed foods)",
+                    "Provide small, frequent feedings with supervision",
+                    "Check feeding tube placement before each feeding or medication administration",
+                    "Monitor gastric residual volumes with tube feedings",
+                    "Implement oral care before and after meals",
+                    "Keep suction equipment readily available"
+                ],
+                "rationales": [
+                    "Upright positioning reduces risk of regurgitation and aspiration",
+                    "Modified diet consistency improves swallowing safety",
+                    "Small amounts reduce risk of overflow aspiration",
+                    "Confirmed tube placement ensures delivery to stomach, not lungs",
+                    "High residual volumes increase risk of regurgitation and aspiration",
+                    "Oral care reduces bacterial load if aspiration occurs",
+                    "Immediate suction availability allows prompt clearing of aspirated material"
+                ],
+                "frequency": "With each meal and medication administration",
+                "specialConsiderations": [
+                    "Consider alternative feeding methods for patients with severe dysphagia",
+                    "Implement more intensive monitoring for patients with decreased consciousness",
+                    "Consider medication timing to optimize alertness during meals"
+                ]
+            },
+            {
+                "title": "Swallowing Therapy",
+                "actions": [
+                    "Collaborate with speech therapy for swallowing evaluation and treatment",
+                    "Implement swallowing exercises as recommended",
+                    "Teach compensatory swallowing techniques (chin tuck, double swallow)",
+                    "Provide sensory stimulation before meals if recommended",
+                    "Schedule medications to optimize swallowing function",
+                    "Provide verbal cues during meals to enhance safety",
+                    "Document swallowing ability and progress"
+                ],
+                "rationales": [
+                    "Speech therapy provides specialized expertise in dysphagia management",
+                    "Exercises strengthen swallowing muscles and improve coordination",
+                    "Compensatory techniques improve swallowing safety",
+                    "Sensory stimulation increases awareness of food in mouth",
+                    "Proper medication timing improves alertness and muscle function",
+                    "Verbal cues enhance focus on swallowing technique",
+                    "Documentation ensures consistent approach and tracks progress"
+                ],
+                "frequency": "Multiple times daily according to therapy recommendations"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has patient remained free from aspiration?",
+                "expectedOutcomes": [
+                    "Clear lung sounds on auscultation",
+                    "No episodes of coughing, choking, or respiratory distress during meals",
+                    "Stable oxygen saturation during and after meals",
+                    "Afebrile with no signs of aspiration pneumonia",
+                    "No new infiltrates on chest imaging if obtained"
+                ],
+                "evaluationMethods": [
+                    "Respiratory assessment",
+                    "Lung auscultation",
+                    "Observation during meals",
+                    "Oxygen saturation monitoring",
+                    "Temperature monitoring",
+                    "Review of diagnostic imaging"
+                ]
+            },
+            {
+                "statement": "Can patient/caregiver demonstrate aspiration prevention techniques?",
+                "expectedOutcomes": [
+                    "Maintains proper positioning during and after meals",
+                    "Follows recommended diet modifications",
+                    "Demonstrates appropriate feeding techniques",
+                    "Performs oral care correctly",
+                    "Identifies signs of aspiration requiring intervention",
+                    "Verbalizes understanding of aspiration prevention plan"
+                ],
+                "evaluationMethods": [
+                    "Observation of positioning",
+                    "Meal observation",
+                    "Return demonstration",
+                    "Teach-back assessment",
+                    "Caregiver demonstration if applicable",
+                    "Verbal questioning"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Metheny NA, Davis-Jackson J, Stewart BJ",
+                "title": "Effectiveness of an Aspiration Risk-Reduction Protocol",
+                "year": "2010",
+                "source": "Nursing Research",
+                "doi": "10.1097/NNR.0b013e3181c3ba05"
+            },
+            {
+                "author": "Mandell LA, Niederman MS",
+                "title": "Aspiration Pneumonia",
+                "year": "2019",
+                "source": "New England Journal of Medicine",
+                "doi": "10.1056/NEJMra1714562"
+            }
+        ],
+        "notes": "Consider instrumental swallowing evaluation (videofluoroscopy or FEES) for patients with persistent dysphagia or high aspiration risk",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Throughout hospitalization with ongoing assessment",
+        "imageUrl": "assets/images/respiratory/Risk for Aspiration Management.webp",
+        "isFeatured": false,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-28T00:00:00.415Z"
+    }
+]

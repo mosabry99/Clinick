@@ -1,0 +1,1647 @@
+[
+    {
+        "id": "psych001",
+        "title": "Ineffective Coping Management",
+        "category": "Psychiatric",
+        "tags": [
+            "Coping",
+            "Stress Management",
+            "Adaptation",
+            "Crisis Intervention"
+        ],
+        "description": "A comprehensive care plan for managing ineffective coping, focusing on assessment of maladaptive coping mechanisms, development of healthy coping strategies, and promotion of psychological well-being in patients experiencing stress, crisis, or difficulty adapting to life changes.",
+        "assessments": [
+            {
+                "title": "Coping Assessment",
+                "points": [
+                    "Assess current coping strategies and their effectiveness",
+                    "Evaluate history of coping with previous stressors",
+                    "Identify maladaptive coping mechanisms (substance use, avoidance, aggression)",
+                    "Assess for signs of emotional distress (anxiety, depression, irritability)",
+                    "Evaluate impact of coping difficulties on daily functioning",
+                    "Assess problem-solving abilities and decision-making skills",
+                    "Identify strengths and resources that can support adaptive coping"
+                ],
+                "description": "Comprehensive coping assessment helps identify specific maladaptive patterns and potential areas for intervention to improve coping effectiveness"
+            },
+            {
+                "title": "Stress and Stressor Assessment",
+                "points": [
+                    "Identify current stressors (acute and chronic)",
+                    "Assess patient's perception of stressors and their significance",
+                    "Evaluate recent life changes or transitions",
+                    "Assess for traumatic experiences",
+                    "Identify cultural factors influencing stress perception and coping",
+                    "Evaluate physical manifestations of stress (sleep disturbance, appetite changes)",
+                    "Assess for suicidal ideation or self-harm behaviors related to overwhelming stress"
+                ],
+                "description": "Stressor assessment helps identify the nature, intensity, and impact of stressors affecting the patient's ability to cope effectively"
+            },
+            {
+                "title": "Support System Assessment",
+                "points": [
+                    "Assess availability and quality of social support",
+                    "Evaluate family relationships and dynamics",
+                    "Identify supportive individuals in patient's life",
+                    "Assess willingness to utilize support systems",
+                    "Evaluate spiritual or religious resources",
+                    "Identify community resources available to patient",
+                    "Assess barriers to accessing support"
+                ],
+                "description": "Support system assessment helps identify resources that can be mobilized to enhance coping abilities and provide emotional support"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Ineffective Coping related to inadequate coping skills and overwhelming stressors as evidenced by inability to meet basic needs, verbalization of inability to cope, and use of maladaptive coping strategies",
+                "relatedFactors": [
+                    "Inadequate coping resources",
+                    "High degree of threat",
+                    "Disturbance in pattern of appraisal of threat",
+                    "Inadequate level of confidence in ability to cope",
+                    "Inadequate social support",
+                    "Inadequate opportunity to prepare for stressor",
+                    "Situational or maturational crises"
+                ],
+                "definingCharacteristics": [
+                    "Inability to meet basic needs",
+                    "Inability to meet role expectations",
+                    "Verbalization of inability to cope",
+                    "Ineffective coping strategies",
+                    "Decreased use of social support",
+                    "Alteration in social participation",
+                    "Sleep disturbance",
+                    "Fatigue",
+                    "Destructive behavior toward self or others"
+                ],
+                "nandaCode": "00069"
+            },
+            {
+                "statement": "Anxiety related to situational crisis and stress as evidenced by expressed concerns and increased tension",
+                "relatedFactors": [
+                    "Situational crisis",
+                    "Stress",
+                    "Unmet needs",
+                    "Threat to self-concept",
+                    "Interpersonal transmission",
+                    "Familial association"
+                ],
+                "definingCharacteristics": [
+                    "Expressed concerns",
+                    "Increased tension",
+                    "Apprehension",
+                    "Uncertainty",
+                    "Worry",
+                    "Restlessness",
+                    "Poor eye contact",
+                    "Increased heart rate",
+                    "Difficulty concentrating"
+                ],
+                "nandaCode": "00146"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate improved coping strategies when dealing with stressors",
+                "indicators": [
+                    "Identifies ineffective coping behaviors",
+                    "Demonstrates use of at least two effective coping strategies",
+                    "Verbalizes decreased feelings of being overwhelmed",
+                    "Meets basic needs and role responsibilities",
+                    "Utilizes appropriate support systems"
+                ],
+                "timeframe": "Within 1-2 weeks",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will develop a sustainable plan for managing ongoing stressors",
+                "indicators": [
+                    "Identifies personal strengths and resources",
+                    "Demonstrates effective problem-solving skills",
+                    "Establishes realistic goals for stress management",
+                    "Incorporates stress-reduction techniques into daily routine",
+                    "Maintains adaptive functioning in daily life despite stressors"
+                ],
+                "timeframe": "Within 3-4 weeks",
+                "type": "Long-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Coping Enhancement",
+                "actions": [
+                    "Assist patient in identifying personal strengths and resources",
+                    "Teach specific coping skills (deep breathing, progressive muscle relaxation, mindfulness)",
+                    "Help patient identify and challenge negative thought patterns",
+                    "Encourage expression of feelings in appropriate ways",
+                    "Assist in breaking down problems into manageable parts",
+                    "Provide positive reinforcement for adaptive coping efforts",
+                    "Teach stress management techniques",
+                    "Assist in developing a crisis plan for overwhelming situations"
+                ],
+                "rationales": [
+                    "Awareness of strengths builds confidence in coping abilities",
+                    "Specific techniques provide concrete tools for managing stress",
+                    "Cognitive restructuring improves stress appraisal and response",
+                    "Emotional expression prevents buildup of distress",
+                    "Breaking down problems reduces feeling overwhelmed",
+                    "Positive reinforcement strengthens adaptive behaviors",
+                    "Stress management techniques reduce physiological arousal",
+                    "Crisis planning provides structure during overwhelming situations"
+                ],
+                "frequency": "Daily during acute phase, then 2-3 times weekly",
+                "specialConsiderations": [
+                    "Adapt interventions to patient's cultural background and beliefs",
+                    "Consider developmental stage when selecting appropriate coping strategies",
+                    "Modify approach based on patient's cognitive abilities and learning style"
+                ]
+            },
+            {
+                "title": "Support System Enhancement",
+                "actions": [
+                    "Assess barriers to utilizing support systems",
+                    "Encourage reconnection with supportive individuals",
+                    "Provide information about community resources and support groups",
+                    "Facilitate family meetings to improve understanding and support",
+                    "Teach effective communication skills for requesting help",
+                    "Role-play difficult social interactions",
+                    "Encourage gradual increase in social activities",
+                    "Assist in developing plan for maintaining support network"
+                ],
+                "rationales": [
+                    "Identifying barriers allows targeted interventions",
+                    "Social connection provides emotional support and practical assistance",
+                    "Community resources extend support beyond immediate circle",
+                    "Family involvement improves understanding and coordinated support",
+                    "Communication skills improve ability to access support",
+                    "Role-playing builds confidence in social interactions",
+                    "Gradual exposure prevents social overwhelm",
+                    "Ongoing support planning prevents relapse of ineffective coping"
+                ],
+                "frequency": "2-3 times weekly",
+                "specialConsiderations": [
+                    "Respect patient's autonomy in choosing support resources",
+                    "Consider cultural factors influencing help-seeking behaviors",
+                    "Be sensitive to family dynamics that may complicate support"
+                ]
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has patient demonstrated improved coping strategies?",
+                "expectedOutcomes": [
+                    "Identifies ineffective coping behaviors and their consequences",
+                    "Demonstrates use of effective coping strategies when stressed",
+                    "Reports decreased feelings of being overwhelmed",
+                    "Successfully meets basic needs and role responsibilities",
+                    "Appropriately utilizes support systems",
+                    "Shows reduced physical symptoms of stress"
+                ],
+                "evaluationMethods": [
+                    "Patient self-report of coping effectiveness",
+                    "Observation of coping behaviors during stressful situations",
+                    "Standardized coping assessment tools",
+                    "Feedback from family/support persons",
+                    "Assessment of role functioning and basic needs management",
+                    "Monitoring of physical symptoms related to stress"
+                ]
+            },
+            {
+                "statement": "Has patient developed a sustainable plan for managing ongoing stressors?",
+                "expectedOutcomes": [
+                    "Articulates personal strengths and resources",
+                    "Demonstrates effective problem-solving when facing challenges",
+                    "Follows established plan for stress management",
+                    "Incorporates stress-reduction techniques into daily routine",
+                    "Maintains adaptive functioning despite presence of stressors",
+                    "Expresses confidence in ability to manage future stressors"
+                ],
+                "evaluationMethods": [
+                    "Review of stress management plan",
+                    "Patient demonstration of problem-solving skills",
+                    "Self-monitoring logs of stress management activities",
+                    "Follow-up assessment of functioning in daily roles",
+                    "Patient self-efficacy rating for stress management",
+                    "Reassessment using standardized coping measures"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Folkman S, Moskowitz JT",
+                "title": "Coping: Pitfalls and Promise",
+                "year": "2004",
+                "source": "Annual Review of Psychology",
+                "doi": "10.1146/annurev.psych.55.090902.141456"
+            },
+            {
+                "author": "Lazarus RS, Folkman S",
+                "title": "Stress, Appraisal, and Coping",
+                "year": "1984",
+                "source": "Springer Publishing Company",
+                "doi": "10.1007/978-1-4419-1005-9_215"
+            },
+            {
+                "author": "Skinner EA, Edge K, Altman J, Sherwood H",
+                "title": "Searching for the structure of coping: a review and critique of category systems for classifying ways of coping",
+                "year": "2003",
+                "source": "Psychological Bulletin",
+                "doi": "10.1037/0033-2909.129.2.216"
+            }
+        ],
+        "notes": "Consider referral to specialized mental health services for patients with persistent maladaptive coping that significantly impairs functioning",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Initial intervention 2-3 weeks, ongoing support 4-8 weeks",
+        "imageUrl": "assets/images/psychiatric/Ineffective Coping Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-10T00:00:00.415Z"
+    },
+    {
+        "id": "psych002",
+        "title": "Anxiety Management",
+        "category": "Psychiatric",
+        "tags": [
+            "Anxiety",
+            "Panic",
+            "Stress",
+            "Relaxation Techniques"
+        ],
+        "description": "A comprehensive care plan for managing anxiety, focusing on assessment of anxiety severity and triggers, implementation of pharmacological and non-pharmacological interventions, and development of anxiety management skills in patients experiencing various anxiety disorders or situational anxiety.",
+        "assessments": [
+            {
+                "title": "Anxiety Assessment",
+                "points": [
+                    "Assess level of anxiety using standardized tools (GAD-7, Hamilton Anxiety Scale)",
+                    "Evaluate physical manifestations of anxiety (tachycardia, hyperventilation, tremors)",
+                    "Assess cognitive symptoms (worry, fear, catastrophizing, rumination)",
+                    "Identify behavioral responses (avoidance, restlessness, irritability)",
+                    "Determine impact of anxiety on daily functioning and relationships",
+                    "Assess for panic attacks and their frequency, duration, and intensity",
+                    "Evaluate for comorbid conditions (depression, substance use, medical conditions)"
+                ],
+                "description": "Comprehensive anxiety assessment helps determine the severity, manifestations, and impact of anxiety to guide appropriate interventions"
+            },
+            {
+                "title": "Trigger and Pattern Assessment",
+                "points": [
+                    "Identify specific anxiety triggers (situations, thoughts, physical sensations)",
+                    "Assess patterns of anxiety occurrence (time of day, context, preceding events)",
+                    "Evaluate patient's awareness of anxiety triggers",
+                    "Assess avoidance behaviors related to anxiety",
+                    "Identify early warning signs of escalating anxiety",
+                    "Evaluate safety concerns related to anxiety (driving avoidance, agoraphobia)",
+                    "Assess impact of anxiety on sleep patterns"
+                ],
+                "description": "Trigger assessment helps identify specific factors that precipitate or exacerbate anxiety, allowing for targeted interventions and prevention strategies"
+            },
+            {
+                "title": "Coping and Resource Assessment",
+                "points": [
+                    "Assess current coping strategies for anxiety management",
+                    "Evaluate effectiveness of previous treatments for anxiety",
+                    "Identify patient's knowledge about anxiety and its management",
+                    "Assess willingness to learn and implement new anxiety management techniques",
+                    "Evaluate support system understanding of anxiety",
+                    "Assess medication use, including prescribed anxiolytics and self-medication",
+                    "Identify strengths and resources that can support anxiety management"
+                ],
+                "description": "Coping assessment helps identify existing strategies, knowledge gaps, and resources that can be utilized or enhanced to improve anxiety management"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Anxiety related to situational crisis, threat to self-concept, and stress as evidenced by expressed worry, increased tension, and physiological symptoms",
+                "relatedFactors": [
+                    "Situational crisis",
+                    "Threat to self-concept",
+                    "Stress",
+                    "Unmet needs",
+                    "Interpersonal transmission",
+                    "Familial patterns",
+                    "Exposure to toxins",
+                    "Genetic predisposition"
+                ],
+                "definingCharacteristics": [
+                    "Expressed concerns",
+                    "Increased tension",
+                    "Apprehension",
+                    "Uncertainty",
+                    "Worry",
+                    "Restlessness",
+                    "Increased heart rate",
+                    "Difficulty concentrating",
+                    "Insomnia",
+                    "Scanning behavior"
+                ],
+                "nandaCode": "00146"
+            },
+            {
+                "statement": "Ineffective Coping related to high degree of threat as evidenced by inability to meet role expectations and destructive behavior toward self",
+                "relatedFactors": [
+                    "High degree of threat",
+                    "Inadequate resources",
+                    "Disturbance in pattern of tension release",
+                    "Inadequate level of perception of control",
+                    "Inadequate social support"
+                ],
+                "definingCharacteristics": [
+                    "Inability to meet role expectations",
+                    "Destructive behavior toward self",
+                    "Decreased use of social support",
+                    "Inadequate problem-solving",
+                    "Change in usual communication patterns",
+                    "Fatigue"
+                ],
+                "nandaCode": "00069"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate reduced anxiety as evidenced by decreased physical and psychological symptoms",
+                "indicators": [
+                    "Reports decreased subjective feelings of anxiety",
+                    "Demonstrates normalized vital signs during previously anxiety-provoking situations",
+                    "Shows reduced physical manifestations of anxiety (tremors, hyperventilation)",
+                    "Verbalizes reduced worry and rumination",
+                    "Demonstrates improved concentration and decision-making"
+                ],
+                "timeframe": "Within 1-2 weeks",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will demonstrate effective use of anxiety management techniques",
+                "indicators": [
+                    "Identifies personal anxiety triggers and early warning signs",
+                    "Demonstrates at least three anxiety reduction techniques",
+                    "Implements anxiety management strategies before anxiety escalates",
+                    "Reduces avoidance behaviors related to anxiety",
+                    "Reports improved ability to function despite presence of anxiety"
+                ],
+                "timeframe": "Within 2-4 weeks",
+                "type": "Short-term and Long-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Anxiety Reduction",
+                "actions": [
+                    "Create a calm, quiet environment with minimal stimulation",
+                    "Use a calm, reassuring approach during interactions",
+                    "Teach and assist with relaxation techniques (deep breathing, progressive muscle relaxation, guided imagery)",
+                    "Administer anti-anxiety medications as prescribed",
+                    "Monitor for and manage medication side effects",
+                    "Provide accurate information about anxiety and its management",
+                    "Maintain consistent caregivers when possible",
+                    "Use simple, clear communication during periods of high anxiety"
+                ],
+                "rationales": [
+                    "Calm environment reduces external stimuli that may trigger anxiety",
+                    "Calm approach prevents interpersonal transmission of anxiety",
+                    "Relaxation techniques activate parasympathetic nervous system",
+                    "Medications reduce acute anxiety symptoms when indicated",
+                    "Monitoring prevents adverse effects that may increase anxiety",
+                    "Accurate information reduces fear of the unknown",
+                    "Consistency provides security and reduces uncertainty",
+                    "Simple communication reduces cognitive demands during anxiety"
+                ],
+                "frequency": "Every 2-4 hours during acute anxiety; daily for ongoing management",
+                "specialConsiderations": [
+                    "Avoid benzodiazepines for patients with substance use disorders when possible",
+                    "Consider cultural factors that may influence anxiety expression and management",
+                    "Adapt relaxation techniques for patients with trauma histories who may find certain approaches triggering"
+                ]
+            },
+            {
+                "title": "Cognitive Behavioral Techniques",
+                "actions": [
+                    "Assist in identifying and challenging catastrophic thinking patterns",
+                    "Teach cognitive restructuring techniques",
+                    "Implement systematic desensitization for specific phobias",
+                    "Develop hierarchy of anxiety-provoking situations for gradual exposure",
+                    "Teach mindfulness-based approaches to manage worry",
+                    "Implement thought-stopping techniques for rumination",
+                    "Assist in developing realistic appraisals of threatening situations",
+                    "Teach problem-solving skills for manageable stressors"
+                ],
+                "rationales": [
+                    "Identifying catastrophic thinking interrupts anxiety cycle",
+                    "Cognitive restructuring replaces anxiety-provoking thoughts with realistic ones",
+                    "Systematic desensitization gradually reduces phobic responses",
+                    "Gradual exposure builds confidence and reduces avoidance",
+                    "Mindfulness reduces rumination and worry",
+                    "Thought-stopping interrupts repetitive anxiety-producing thoughts",
+                    "Realistic appraisals reduce threat perception",
+                    "Problem-solving provides sense of control over stressors"
+                ],
+                "frequency": "Daily during acute phase; 2-3 times weekly for maintenance",
+                "specialConsiderations": [
+                    "Ensure patient has adequate coping skills before implementing exposure techniques",
+                    "Modify cognitive approaches based on patient's educational level and cognitive abilities",
+                    "Consider combining with medication for severe anxiety"
+                ]
+            },
+            {
+                "title": "Patient Education",
+                "actions": [
+                    "Educate about the physiology of anxiety and fight-or-flight response",
+                    "Teach about the relationship between thoughts, feelings, and behaviors",
+                    "Provide information about medication action, timing, and side effects",
+                    "Instruct on identifying early warning signs of anxiety escalation",
+                    "Teach sleep hygiene practices to improve anxiety-related insomnia",
+                    "Provide guidance on lifestyle factors affecting anxiety (caffeine, exercise, nutrition)",
+                    "Develop a written anxiety management plan",
+                    "Educate family/support persons about helpful responses to patient's anxiety"
+                ],
+                "rationales": [
+                    "Understanding physiology normalizes and demystifies anxiety symptoms",
+                    "Cognitive-behavioral model provides framework for intervention",
+                    "Medication knowledge improves adherence and effectiveness",
+                    "Early recognition allows prompt intervention before escalation",
+                    "Improved sleep reduces vulnerability to anxiety",
+                    "Lifestyle modifications reduce physiological triggers for anxiety",
+                    "Written plan provides structure during high anxiety periods",
+                    "Educated support persons provide more effective assistance"
+                ],
+                "frequency": "Daily during hospitalization; reinforced at follow-up appointments"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has anxiety decreased?",
+                "expectedOutcomes": [
+                    "Reports decreased subjective anxiety levels",
+                    "Demonstrates reduced physical symptoms of anxiety",
+                    "Shows improved vital signs during anxiety-provoking situations",
+                    "Verbalizes decreased worry and rumination",
+                    "Demonstrates improved concentration and decision-making",
+                    "Reports improved sleep quality"
+                ],
+                "evaluationMethods": [
+                    "Standardized anxiety assessment tools (GAD-7, Hamilton)",
+                    "Physical assessment of anxiety symptoms",
+                    "Vital sign monitoring during stressful situations",
+                    "Patient self-report of worry and thought patterns",
+                    "Observation of concentration and task completion",
+                    "Sleep quality assessment"
+                ]
+            },
+            {
+                "statement": "Is patient effectively using anxiety management techniques?",
+                "expectedOutcomes": [
+                    "Correctly identifies personal anxiety triggers",
+                    "Demonstrates effective use of relaxation techniques",
+                    "Implements anxiety management strategies before escalation",
+                    "Shows reduced avoidance of anxiety-provoking situations",
+                    "Reports improved functioning despite presence of anxiety",
+                    "Demonstrates cognitive restructuring of anxious thoughts"
+                ],
+                "evaluationMethods": [
+                    "Review of anxiety trigger identification",
+                    "Observation of relaxation technique use",
+                    "Patient self-monitoring logs",
+                    "Assessment of behavioral avoidance",
+                    "Functional assessment in daily activities",
+                    "Cognitive assessment of thought patterns"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Bandelow B, Michaelis S, Wedekind D",
+                "title": "Treatment of anxiety disorders",
+                "year": "2017",
+                "source": "Dialogues in Clinical Neuroscience",
+                "doi": "10.31887/DCNS.2017.19.2/bbandelow"
+            },
+            {
+                "author": "Craske MG, Stein MB",
+                "title": "Anxiety",
+                "year": "2016",
+                "source": "Lancet",
+                "doi": "10.1016/S0140-6736(16)30381-6"
+            },
+            {
+                "author": "Hofmann SG, Sawyer AT, Witt AA, Oh D",
+                "title": "The effect of mindfulness-based therapy on anxiety and depression: A meta-analytic review",
+                "year": "2010",
+                "source": "Journal of Consulting and Clinical Psychology",
+                "doi": "10.1037/a0018555"
+            }
+        ],
+        "notes": "Consider referral to psychiatric services for patients with severe anxiety disorders not responding to initial interventions or those with comorbid conditions requiring specialized treatment",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Acute management 1-2 weeks, ongoing management 4-8 weeks",
+        "imageUrl": "assets/images/psychiatric/Anxiety Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-15T00:00:00.415Z"
+    },
+    {
+        "id": "psych003",
+        "title": "Fear Management",
+        "category": "Psychiatric",
+        "tags": [
+            "Phobia",
+            "Trauma",
+            "Exposure Therapy",
+            "Safety Planning"
+        ],
+        "description": "A comprehensive care plan for managing fear, focusing on assessment of specific fears and their impact, implementation of therapeutic interventions to reduce fear responses, and development of coping strategies for patients experiencing specific phobias, trauma-related fears, or situational fears.",
+        "assessments": [
+            {
+                "title": "Fear Assessment",
+                "points": [
+                    "Assess specific fear trigger(s) and context",
+                    "Evaluate intensity of fear response using subjective rating scales (0-10)",
+                    "Assess physical manifestations of fear (tachycardia, hyperventilation, trembling)",
+                    "Identify cognitive components (catastrophic thoughts, perceived threat)",
+                    "Evaluate behavioral responses (escape, avoidance, freezing, fighting)",
+                    "Assess impact of fear on daily functioning and quality of life",
+                    "Determine onset and development of fear (trauma-related, learned, inherited)"
+                ],
+                "description": "Comprehensive fear assessment helps identify specific fear triggers, manifestations, and impact to guide appropriate interventions and exposure planning"
+            },
+            {
+                "title": "Safety and Risk Assessment",
+                "points": [
+                    "Assess for presence of real versus perceived danger",
+                    "Evaluate risk of harm to self or others related to fear response",
+                    "Assess for suicidal ideation related to overwhelming fear",
+                    "Identify safety behaviors and their reinforcing effects",
+                    "Evaluate degree of functional impairment due to avoidance",
+                    "Assess for trauma history that may complicate fear response",
+                    "Identify environmental factors that increase or decrease perceived safety"
+                ],
+                "description": "Safety assessment helps distinguish between realistic and excessive fears, identify risk factors, and develop appropriate safety interventions"
+            },
+            {
+                "title": "Coping and Resource Assessment",
+                "points": [
+                    "Assess current coping strategies for managing fear",
+                    "Evaluate effectiveness of previous treatments for fear",
+                    "Identify patient's knowledge about fear responses and management",
+                    "Assess willingness to engage in exposure-based interventions",
+                    "Evaluate support system understanding of fear response",
+                    "Assess medication use related to fear management",
+                    "Identify strengths and resources that can support fear management"
+                ],
+                "description": "Coping assessment helps identify existing strategies, knowledge gaps, and resources that can be utilized or enhanced to improve fear management"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Fear related to identifiable threat or danger as evidenced by increased tension, apprehension, and physiological arousal",
+                "relatedFactors": [
+                    "Identifiable threat or danger (real or perceived)",
+                    "Phobic stimulus",
+                    "Traumatic experience",
+                    "Innate origin (noise, height, sudden movement)",
+                    "Learned response",
+                    "Separation from support system",
+                    "Unfamiliar environment or situation"
+                ],
+                "definingCharacteristics": [
+                    "Increased tension",
+                    "Apprehension",
+                    "Identification of object of fear",
+                    "Avoidance or escape behaviors",
+                    "Increased alertness",
+                    "Focus narrowed to source of fear",
+                    "Physiological responses (increased heart rate, respiratory rate)",
+                    "Expressions of being scared or frightened"
+                ],
+                "nandaCode": "00148"
+            },
+            {
+                "statement": "Impaired Social Interaction related to fear and anxiety as evidenced by discomfort in social situations and decreased social involvement",
+                "relatedFactors": [
+                    "Fear of rejection",
+                    "Fear of criticism",
+                    "Anxiety",
+                    "Phobic disorders",
+                    "Limited physical mobility due to fear",
+                    "Environmental barriers due to avoidance"
+                ],
+                "definingCharacteristics": [
+                    "Discomfort in social situations",
+                    "Decreased social involvement",
+                    "Difficulty establishing relationships",
+                    "Family report of changes in interaction",
+                    "Dysfunctional interaction with others",
+                    "Avoidance of social situations"
+                ],
+                "nandaCode": "00052"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate reduced fear response when exposed to fear trigger",
+                "indicators": [
+                    "Reports decreased subjective fear rating (reduction of at least 3 points on 0-10 scale)",
+                    "Demonstrates decreased physiological arousal during exposure",
+                    "Verbalizes more realistic appraisal of threat",
+                    "Shows reduced avoidance behaviors",
+                    "Maintains presence in feared situation for increasing periods"
+                ],
+                "timeframe": "Within 2-3 weeks",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will demonstrate effective use of fear management techniques",
+                "indicators": [
+                    "Identifies early warning signs of fear response",
+                    "Implements at least three fear reduction techniques",
+                    "Uses cognitive restructuring for fear-inducing thoughts",
+                    "Gradually approaches feared situations using learned techniques",
+                    "Reports improved ability to function despite presence of fear"
+                ],
+                "timeframe": "Within 3-4 weeks",
+                "type": "Short-term and Long-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Anxiety/Fear Reduction",
+                "actions": [
+                    "Create a safe, supportive environment",
+                    "Use calm, reassuring approach during interactions",
+                    "Teach relaxation techniques (deep breathing, progressive muscle relaxation)",
+                    "Administer anti-anxiety medications as prescribed for severe fear responses",
+                    "Provide accurate information about feared object/situation",
+                    "Teach grounding techniques for acute fear responses",
+                    "Implement distraction techniques when appropriate",
+                    "Provide opportunities to discuss fears in a non-judgmental environment"
+                ],
+                "rationales": [
+                    "Safe environment establishes foundation for fear reduction work",
+                    "Calm approach prevents interpersonal transmission of fear/anxiety",
+                    "Relaxation techniques reduce physiological arousal associated with fear",
+                    "Medications may be necessary for severe fear that prevents therapeutic work",
+                    "Accurate information corrects misconceptions about feared stimulus",
+                    "Grounding reconnects patient to present safety during acute fear",
+                    "Distraction temporarily reduces fear to manageable levels",
+                    "Discussion allows cognitive processing of fear in safe context"
+                ],
+                "frequency": "Every 2-4 hours during acute fear; daily for ongoing management",
+                "specialConsiderations": [
+                    "Avoid forcing exposure to feared stimulus before adequate coping skills are developed",
+                    "Consider trauma history when implementing fear reduction techniques",
+                    "Adapt approach based on type of fear (phobic vs. trauma-related)"
+                ]
+            },
+            {
+                "title": "Systematic Desensitization/Exposure",
+                "actions": [
+                    "Develop hierarchy of feared situations from least to most frightening",
+                    "Teach coping skills to use during exposure (relaxation, cognitive techniques)",
+                    "Begin exposure with least frightening item on hierarchy",
+                    "Provide support and encouragement during exposure sessions",
+                    "Gradually increase exposure duration and intensity",
+                    "Process thoughts and feelings after each exposure",
+                    "Prevent escape or avoidance during planned exposure",
+                    "Assign homework for real-world practice between sessions"
+                ],
+                "rationales": [
+                    "Hierarchy provides structured approach to gradually face fears",
+                    "Coping skills provide tools to manage fear during exposure",
+                    "Starting with least frightening builds confidence and success",
+                    "Support reduces likelihood of overwhelming fear during exposure",
+                    "Gradual progression builds tolerance to fear stimulus",
+                    "Processing consolidates learning from exposure experience",
+                    "Preventing escape allows habituation to occur",
+                    "Homework generalizes skills to real-world situations"
+                ],
+                "frequency": "2-3 times weekly for structured exposure; daily for self-directed practice",
+                "specialConsiderations": [
+                    "Ensure patient has adequate coping skills before implementing exposure",
+                    "Monitor for signs of overwhelming distress during exposure",
+                    "Consider imaginal exposure for situations that cannot be recreated safely"
+                ]
+            },
+            {
+                "title": "Cognitive Restructuring",
+                "actions": [
+                    "Help identify fear-producing thoughts and beliefs",
+                    "Assist in evaluating evidence for and against fearful thoughts",
+                    "Teach patient to challenge catastrophic thinking",
+                    "Develop more realistic alternative thoughts",
+                    "Practice cognitive reframing of feared situations",
+                    "Implement thought records to track and challenge fear-based thoughts",
+                    "Teach recognition of cognitive distortions that maintain fear",
+                    "Reinforce realistic thinking about feared object/situation"
+                ],
+                "rationales": [
+                    "Identifying thoughts reveals cognitive basis of fear",
+                    "Evidence evaluation promotes more balanced thinking",
+                    "Challenging catastrophic thinking reduces perceived threat",
+                    "Alternative thoughts provide replacement for fear-producing cognitions",
+                    "Reframing changes perception of feared situations",
+                    "Thought records increase awareness of automatic fear thoughts",
+                    "Recognizing distortions is first step in correcting them",
+                    "Reinforcement strengthens realistic thinking patterns"
+                ],
+                "frequency": "Daily during acute phase; 2-3 times weekly for maintenance"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has fear response decreased?",
+                "expectedOutcomes": [
+                    "Reports decreased subjective fear ratings",
+                    "Demonstrates reduced physiological arousal during exposure",
+                    "Verbalizes more realistic appraisal of threat",
+                    "Shows reduced avoidance behaviors",
+                    "Maintains presence in feared situation for increasing periods",
+                    "Reports decreased interference with daily functioning"
+                ],
+                "evaluationMethods": [
+                    "Subjective fear ratings (0-10 scale)",
+                    "Physiological assessment during exposure (heart rate, respiration)",
+                    "Cognitive assessment of threat appraisal",
+                    "Behavioral observation of approach/avoidance",
+                    "Measurement of exposure duration tolerance",
+                    "Functional assessment in daily activities"
+                ]
+            },
+            {
+                "statement": "Is patient effectively using fear management techniques?",
+                "expectedOutcomes": [
+                    "Correctly identifies early warning signs of fear response",
+                    "Demonstrates effective use of relaxation techniques during fear",
+                    "Implements cognitive restructuring for fear-inducing thoughts",
+                    "Gradually approaches feared situations using learned techniques",
+                    "Reports improved ability to function despite presence of fear",
+                    "Uses fear management strategies independently"
+                ],
+                "evaluationMethods": [
+                    "Patient demonstration of fear recognition",
+                    "Observation of technique use during exposure",
+                    "Review of thought records or cognitive exercises",
+                    "Behavioral assessment of approach behaviors",
+                    "Patient self-report of functioning",
+                    "Observation of independent strategy implementation"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Craske MG, Treanor M, Conway CC, Zbozinek T, Vervliet B",
+                "title": "Maximizing exposure therapy: An inhibitory learning approach",
+                "year": "2014",
+                "source": "Behaviour Research and Therapy",
+                "doi": "10.1016/j.brat.2014.04.006"
+            },
+            {
+                "author": "Hofmann SG, Smits JA",
+                "title": "Cognitive-behavioral therapy for adult anxiety disorders: a meta-analysis of randomized placebo-controlled trials",
+                "year": "2008",
+                "source": "Journal of Clinical Psychiatry",
+                "doi": "10.4088/jcp.v69n0415"
+            },
+            {
+                "author": "Wolitzky-Taylor KB, Horowitz JD, Powers MB, Telch MJ",
+                "title": "Psychological approaches in the treatment of specific phobias: A meta-analysis",
+                "year": "2008",
+                "source": "Clinical Psychology Review",
+                "doi": "10.1016/j.cpr.2008.02.007"
+            }
+        ],
+        "notes": "Consider referral to specialized mental health services for patients with complex phobias, trauma-related fears, or those requiring intensive exposure therapy",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Initial intervention 2-3 weeks, ongoing management 4-8 weeks",
+        "imageUrl": "assets/images/psychiatric/Fear Management.webp",
+        "isFeatured": false,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-20T00:00:00.415Z"
+    },
+    {
+        "id": "psych004",
+        "title": "Disturbed Body Image Management",
+        "category": "Psychiatric",
+        "tags": [
+            "Body Image",
+            "Self-Concept",
+            "Eating Disorders",
+            "Physical Changes"
+        ],
+        "description": "A comprehensive care plan for managing disturbed body image, focusing on assessment of body image perceptions and distortions, implementation of therapeutic interventions to improve body acceptance, and development of healthy self-concept in patients experiencing body image disturbance due to physical changes, eating disorders, or psychological factors.",
+        "assessments": [
+            {
+                "title": "Body Image Perception Assessment",
+                "points": [
+                    "Assess patient's perception of body appearance, function, and integrity",
+                    "Evaluate for presence of body image distortions using standardized tools",
+                    "Identify specific body areas or functions of concern",
+                    "Assess degree of preoccupation with perceived flaws",
+                    "Evaluate impact of body image concerns on daily functioning",
+                    "Assess for body-checking or body-avoidance behaviors",
+                    "Determine onset and development of body image concerns"
+                ],
+                "description": "Comprehensive body image assessment helps identify specific perceptions, distortions, and their impact to guide appropriate therapeutic interventions"
+            },
+            {
+                "title": "Physical and Functional Assessment",
+                "points": [
+                    "Assess for actual physical changes or differences (surgical changes, weight changes, disfigurement)",
+                    "Evaluate functional limitations related to physical condition",
+                    "Assess self-care abilities and limitations",
+                    "Identify adaptive equipment or prosthetics being used",
+                    "Evaluate hygiene and grooming practices",
+                    "Assess nutritional status and eating patterns",
+                    "Identify physical symptoms related to body image concerns (pain, fatigue)"
+                ],
+                "description": "Physical assessment helps identify actual changes or limitations that may be contributing to body image disturbance and areas requiring adaptation or rehabilitation"
+            },
+            {
+                "title": "Psychosocial Assessment",
+                "points": [
+                    "Assess emotional response to body image (shame, disgust, anxiety, depression)",
+                    "Evaluate impact on social relationships and interactions",
+                    "Assess for social isolation or avoidance due to body image concerns",
+                    "Identify cultural, societal, and family influences on body image",
+                    "Evaluate sexual self-concept and intimacy concerns",
+                    "Assess for comorbid conditions (eating disorders, depression, anxiety, OCD)",
+                    "Identify coping strategies used to manage body image distress"
+                ],
+                "description": "Psychosocial assessment helps identify emotional and social impacts of body image disturbance and factors that may maintain negative body image"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Disturbed Body Image related to altered body function or appearance as evidenced by negative feelings about body and preoccupation with change or loss",
+                "relatedFactors": [
+                    "Illness or injury",
+                    "Surgery or other medical procedures",
+                    "Developmental changes",
+                    "Cultural or social influences",
+                    "Cognitive distortions",
+                    "Trauma or abuse",
+                    "Unrealistic self-expectations"
+                ],
+                "definingCharacteristics": [
+                    "Verbalization of negative feelings about body",
+                    "Preoccupation with change or loss",
+                    "Refusal to verify actual change",
+                    "Perceptions that reflect altered view of body appearance",
+                    "Hiding or overexposing body part",
+                    "Change in social involvement",
+                    "Negative self-talk about body",
+                    "Feelings of helplessness or hopelessness about physical condition"
+                ],
+                "nandaCode": "00118"
+            },
+            {
+                "statement": "Situational Low Self-Esteem related to disturbed body image as evidenced by negative self-evaluation and verbalized negative feelings about self",
+                "relatedFactors": [
+                    "Disturbed body image",
+                    "Functional impairment",
+                    "Loss of valued body part or function",
+                    "Physical illness",
+                    "Unrealistic self-expectations",
+                    "Social role changes"
+                ],
+                "definingCharacteristics": [
+                    "Negative self-evaluation",
+                    "Verbalized negative feelings about self",
+                    "Self-negating verbalizations",
+                    "Expressions of shame or guilt",
+                    "Evaluates self as unable to deal with situations or events",
+                    "Difficulty making decisions"
+                ],
+                "nandaCode": "00120"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate improved body image acceptance",
+                "indicators": [
+                    "Verbalizes more realistic perception of body appearance and function",
+                    "Demonstrates decreased preoccupation with perceived flaws",
+                    "Expresses positive aspects of physical self",
+                    "Demonstrates appropriate self-care and grooming",
+                    "Engages in social activities despite body image concerns"
+                ],
+                "timeframe": "Within 3-4 weeks",
+                "type": "Short-term and Long-term"
+            },
+            {
+                "statement": "Patient will demonstrate effective coping with body changes or perceived flaws",
+                "indicators": [
+                    "Uses adaptive equipment or techniques effectively",
+                    "Implements healthy self-care behaviors",
+                    "Demonstrates reduced body-checking or avoidance behaviors",
+                    "Uses positive self-talk regarding body",
+                    "Participates in activities previously avoided due to body image"
+                ],
+                "timeframe": "Within 2-3 weeks",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Body Image Enhancement",
+                "actions": [
+                    "Establish therapeutic relationship based on acceptance and respect",
+                    "Assist in identifying positive body attributes and functions",
+                    "Help differentiate between changeable and unchangeable body characteristics",
+                    "Teach realistic self-assessment techniques",
+                    "Provide accurate information about normal body variations",
+                    "Assist in identifying unrealistic standards or expectations",
+                    "Encourage expression of feelings about body and self",
+                    "Facilitate grieving process for actual body changes or losses"
+                ],
+                "rationales": [
+                    "Therapeutic relationship provides foundation for body image work",
+                    "Identifying positives balances focus on perceived flaws",
+                    "Differentiation helps direct energy toward achievable changes",
+                    "Realistic assessment corrects distorted perceptions",
+                    "Accurate information normalizes body variations",
+                    "Identifying unrealistic standards allows challenging of internalized ideals",
+                    "Emotional expression facilitates processing of body-related feelings",
+                    "Grieving acknowledges real losses and facilitates adaptation"
+                ],
+                "frequency": "Daily during acute phase; 2-3 times weekly for maintenance",
+                "specialConsiderations": [
+                    "Adapt approach based on cause of body image disturbance (illness, trauma, eating disorder)",
+                    "Consider developmental stage and its impact on body image concerns",
+                    "Be sensitive to cultural factors influencing body image ideals"
+                ]
+            },
+            {
+                "title": "Cognitive Restructuring",
+                "actions": [
+                    "Help identify negative thoughts about body and appearance",
+                    "Teach recognition of cognitive distortions related to body image",
+                    "Assist in challenging body-related cognitive distortions",
+                    "Develop more balanced and realistic alternative thoughts",
+                    "Implement thought records to track and challenge negative body thoughts",
+                    "Teach mindfulness-based approaches to body image thoughts",
+                    "Practice cognitive reframing of body-related situations",
+                    "Reduce all-or-nothing thinking about appearance"
+                ],
+                "rationales": [
+                    "Identifying thoughts reveals cognitive basis of body image disturbance",
+                    "Recognizing distortions is first step in correcting them",
+                    "Challenging distortions promotes more accurate self-perception",
+                    "Alternative thoughts replace negative body-related cognitions",
+                    "Thought records increase awareness of automatic negative thoughts",
+                    "Mindfulness reduces overidentification with body-related thoughts",
+                    "Reframing changes perception of body-related situations",
+                    "Reducing dichotomous thinking promotes more nuanced body perception"
+                ],
+                "frequency": "Daily during acute phase; 2-3 times weekly for maintenance"
+            },
+            {
+                "title": "Self-Esteem Enhancement",
+                "actions": [
+                    "Encourage identification of strengths and positive attributes beyond appearance",
+                    "Assist in developing identity based on multiple aspects of self",
+                    "Teach positive self-talk and affirmations",
+                    "Encourage participation in activities that provide sense of accomplishment",
+                    "Facilitate connections with supportive others",
+                    "Provide feedback about positive behaviors and characteristics",
+                    "Assist in setting realistic, achievable goals",
+                    "Teach assertiveness skills to counter negative comments from others"
+                ],
+                "rationales": [
+                    "Identifying strengths broadens self-concept beyond body image",
+                    "Multifaceted identity reduces overemphasis on appearance",
+                    "Positive self-talk counters negative internal dialogue",
+                    "Accomplishment builds confidence in non-appearance domains",
+                    "Supportive connections provide validation beyond appearance",
+                    "Positive feedback reinforces non-appearance-based self-worth",
+                    "Achieving goals builds self-efficacy and confidence",
+                    "Assertiveness protects self-esteem from external criticism"
+                ],
+                "frequency": "Daily throughout treatment"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has body image acceptance improved?",
+                "expectedOutcomes": [
+                    "Verbalizes more realistic perception of body",
+                    "Demonstrates decreased preoccupation with perceived flaws",
+                    "Expresses positive aspects of physical self",
+                    "Demonstrates appropriate self-care and grooming",
+                    "Engages in social activities despite body image concerns",
+                    "Reports decreased distress related to body image"
+                ],
+                "evaluationMethods": [
+                    "Standardized body image assessment tools",
+                    "Patient self-report of body satisfaction",
+                    "Observation of body-related behaviors",
+                    "Assessment of time spent on body preoccupation",
+                    "Monitoring of social engagement",
+                    "Distress rating scales"
+                ]
+            },
+            {
+                "statement": "Is patient effectively coping with body changes or perceived flaws?",
+                "expectedOutcomes": [
+                    "Uses adaptive equipment or techniques effectively",
+                    "Implements healthy self-care behaviors",
+                    "Demonstrates reduced body-checking or avoidance behaviors",
+                    "Uses positive self-talk regarding body",
+                    "Participates in activities previously avoided due to body image",
+                    "Demonstrates flexibility in coping with body-related situations"
+                ],
+                "evaluationMethods": [
+                    "Observation of adaptive equipment use",
+                    "Self-care assessment",
+                    "Monitoring of body-checking behaviors",
+                    "Analysis of self-talk content",
+                    "Activity participation log",
+                    "Situational coping assessment"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Cash TF, Smolak L",
+                "title": "Body Image: A Handbook of Science, Practice, and Prevention",
+                "year": "2011",
+                "source": "Guilford Press",
+                "doi": "10.1080/10640266.2012.715476"
+            },
+            {
+                "author": "Alleva JM, Sheeran P, Webb TL, Martijn C, Miles E",
+                "title": "A Meta-Analytic Review of Stand-Alone Interventions to Improve Body Image",
+                "year": "2015",
+                "source": "PLoS ONE",
+                "doi": "10.1371/journal.pone.0139177"
+            },
+            {
+                "author": "Tylka TL, Wood-Barcalow NL",
+                "title": "What is and what is not positive body image? Conceptual foundations and construct definition",
+                "year": "2015",
+                "source": "Body Image",
+                "doi": "10.1016/j.bodyim.2015.04.001"
+            }
+        ],
+        "notes": "Consider referral to specialized services for patients with severe body image disturbance, especially those with comorbid eating disorders or body dysmorphic disorder",
+        "difficultyLevel": "Advanced",
+        "timeFrame": "Initial intervention 3-4 weeks, ongoing management 8-12 weeks",
+        "imageUrl": "assets/images/psychiatric/Disturbed Body Image Management.webp",
+        "isFeatured": false,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-25T00:00:00.415Z"
+    },
+    {
+        "id": "psych005",
+        "title": "Grieving Management",
+        "category": "Psychiatric",
+        "tags": [
+            "Grief",
+            "Loss",
+            "Bereavement",
+            "Mourning"
+        ],
+        "description": "A comprehensive care plan for supporting the grieving process, focusing on assessment of grief reactions, facilitation of healthy grieving, and prevention of complicated grief in patients experiencing loss through death, significant life changes, or other losses.",
+        "assessments": [
+            {
+                "title": "Grief Response Assessment",
+                "points": [
+                    "Assess type and significance of loss experienced",
+                    "Evaluate current stage or manifestations of grief",
+                    "Identify emotional responses (sadness, anger, guilt, relief)",
+                    "Assess cognitive responses (disbelief, preoccupation with loss, confusion)",
+                    "Evaluate behavioral responses (crying, searching, social withdrawal)",
+                    "Assess physical manifestations (sleep disturbance, appetite changes, fatigue)",
+                    "Identify spiritual or existential concerns related to loss"
+                ],
+                "description": "Comprehensive grief assessment helps identify the nature and manifestations of grief to guide appropriate supportive interventions"
+            },
+            {
+                "title": "Risk Assessment",
+                "points": [
+                    "Assess for risk factors for complicated grief",
+                    "Evaluate for signs of complicated or prolonged grief disorder",
+                    "Assess for suicidal ideation or intent",
+                    "Identify maladaptive coping mechanisms (substance use, risk-taking behaviors)",
+                    "Evaluate impact of grief on daily functioning and self-care",
+                    "Assess for co-occurring mental health conditions",
+                    "Identify previous losses and grief responses"
+                ],
+                "description": "Risk assessment helps identify factors that may complicate the grieving process and require specialized intervention"
+            },
+            {
+                "title": "Support and Resource Assessment",
+                "points": [
+                    "Assess availability and quality of social support",
+                    "Evaluate cultural and religious factors influencing grief expression",
+                    "Identify personal coping strengths and resources",
+                    "Assess knowledge about grief process and expectations",
+                    "Evaluate financial or practical concerns related to loss",
+                    "Identify community resources available for grief support",
+                    "Assess family functioning and impact of loss on family system"
+                ],
+                "description": "Support assessment helps identify resources that can facilitate healthy grieving and areas where additional support may be needed"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Grieving related to loss as evidenced by emotional distress, preoccupation with loss, and altered functioning",
+                "relatedFactors": [
+                    "Death of loved one",
+                    "Loss of significant object (job, home, possessions)",
+                    "Loss of physiological function or body part",
+                    "Loss of developmental or life stage",
+                    "End of significant relationship",
+                    "Loss of expected future or possibilities"
+                ],
+                "definingCharacteristics": [
+                    "Emotional distress (sadness, anger, guilt, yearning)",
+                    "Preoccupation with loss",
+                    "Altered eating habits",
+                    "Sleep disturbance",
+                    "Decreased energy",
+                    "Altered activity level",
+                    "Questioning the meaning of life or death",
+                    "Detachment from others"
+                ],
+                "nandaCode": "00136"
+            },
+            {
+                "statement": "Risk for Complicated Grieving related to sudden or unexpected nature of loss",
+                "relatedFactors": [
+                    "Sudden or unexpected loss",
+                    "Loss of multiple significant others",
+                    "Traumatic circumstances of loss",
+                    "Previous unresolved grief",
+                    "Lack of social support",
+                    "Emotional instability",
+                    "History of psychiatric disorder"
+                ],
+                "definingCharacteristics": [
+                    "Prolonged grief symptoms",
+                    "Persistent functional impairment",
+                    "Intense preoccupation with the deceased",
+                    "Difficulty accepting the loss",
+                    "Avoidance of reminders of the loss",
+                    "Persistent feelings of shock or disbelief",
+                    "Intense yearning or longing"
+                ],
+                "nandaCode": "00172"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate progression through the grieving process",
+                "indicators": [
+                    "Acknowledges the reality of the loss",
+                    "Expresses grief-related emotions appropriately",
+                    "Identifies and uses effective coping strategies",
+                    "Maintains adequate self-care despite grief",
+                    "Begins to adjust to life without the lost person/object"
+                ],
+                "timeframe": "Ongoing, with regular assessment of progress",
+                "type": "Long-term"
+            },
+            {
+                "statement": "Patient will maintain or re-establish functional daily living patterns",
+                "indicators": [
+                    "Maintains adequate nutrition and hydration",
+                    "Establishes healthy sleep patterns",
+                    "Participates in necessary daily activities",
+                    "Engages in appropriate social interactions",
+                    "Returns to work/school/normal roles as appropriate"
+                ],
+                "timeframe": "Within 4-8 weeks",
+                "type": "Short-term and Long-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Grief Work Facilitation",
+                "actions": [
+                    "Establish therapeutic relationship based on empathy and presence",
+                    "Create safe environment for expression of grief emotions",
+                    "Normalize grief reactions and educate about grief process",
+                    "Assist in identifying and expressing feelings about the loss",
+                    "Encourage reminiscence and life review related to the loss",
+                    "Support cultural and religious mourning practices",
+                    "Facilitate identification of personal meaning of the loss",
+                    "Assist in identifying and resolving secondary losses"
+                ],
+                "rationales": [
+                    "Therapeutic relationship provides foundation for grief work",
+                    "Safe environment allows authentic grief expression",
+                    "Normalization reduces fear about grief reactions",
+                    "Emotional expression is essential for grief processing",
+                    "Reminiscence helps integrate the loss into life narrative",
+                    "Cultural practices provide structure and meaning to mourning",
+                    "Finding meaning facilitates integration of the loss",
+                    "Addressing secondary losses acknowledges full impact of primary loss"
+                ],
+                "frequency": "Daily during acute grief; 1-2 times weekly for ongoing support",
+                "specialConsiderations": [
+                    "Adapt approach based on cultural background and beliefs about death/loss",
+                    "Consider developmental stage and its impact on grief understanding",
+                    "Respect individual timing and style of grieving"
+                ]
+            },
+            {
+                "title": "Emotional Support",
+                "actions": [
+                    "Provide non-judgmental listening and presence",
+                    "Validate grief emotions without minimizing or rushing",
+                    "Use touch appropriately if culturally acceptable",
+                    "Assist in identifying and challenging unhelpful grief beliefs",
+                    "Provide hope without false reassurance",
+                    "Support patient through anniversary dates and significant occasions",
+                    "Encourage self-compassion during difficult grief moments",
+                    "Provide anticipatory guidance about grief triggers and waves"
+                ],
+                "rationales": [
+                    "Non-judgmental presence allows authentic grief expression",
+                    "Validation acknowledges the reality and importance of grief",
+                    "Appropriate touch provides comfort and connection",
+                    "Challenging unhelpful beliefs reduces unnecessary suffering",
+                    "Hope acknowledges possibility of healing without denying pain",
+                    "Significant dates often trigger increased grief intensity",
+                    "Self-compassion reduces secondary suffering during grief",
+                    "Anticipatory guidance normalizes grief fluctuations"
+                ],
+                "frequency": "With each interaction",
+                "specialConsiderations": [
+                    "Be aware of personal reactions to patient's grief",
+                    "Avoid platitudes or statements that minimize the loss",
+                    "Recognize that grief is unique to each individual"
+                ]
+            },
+            {
+                "title": "Support System Enhancement",
+                "actions": [
+                    "Assess current support system and its effectiveness",
+                    "Identify barriers to utilizing available support",
+                    "Provide information about grief support groups",
+                    "Facilitate family communication about the loss",
+                    "Educate family/friends about helpful responses to grief",
+                    "Connect patient with spiritual support if desired",
+                    "Provide information about community bereavement resources",
+                    "Facilitate referrals to specialized grief counseling if needed"
+                ],
+                "rationales": [
+                    "Assessment identifies support gaps and strengths",
+                    "Addressing barriers increases likelihood of support utilization",
+                    "Support groups provide validation and normalization from peers",
+                    "Family communication prevents isolation and misunderstanding",
+                    "Education helps others provide more effective support",
+                    "Spiritual support addresses existential aspects of grief",
+                    "Community resources extend support beyond healthcare setting",
+                    "Specialized counseling addresses complicated grief reactions"
+                ],
+                "frequency": "Weekly and as needed"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Is patient progressing through the grieving process?",
+                "expectedOutcomes": [
+                    "Acknowledges the reality of the loss",
+                    "Expresses grief-related emotions appropriately",
+                    "Identifies and uses effective coping strategies",
+                    "Demonstrates decreased intensity of acute grief reactions over time",
+                    "Begins to adjust to life without the lost person/object",
+                    "Finds meaning or purpose despite the loss"
+                ],
+                "evaluationMethods": [
+                    "Patient self-report of grief experience",
+                    "Observation of grief expressions and behaviors",
+                    "Standardized grief assessment tools",
+                    "Monitoring of grief intensity over time",
+                    "Assessment of meaning-making related to loss",
+                    "Evaluation of integration of loss into life narrative"
+                ]
+            },
+            {
+                "statement": "Has patient maintained or re-established functional daily living patterns?",
+                "expectedOutcomes": [
+                    "Maintains adequate nutrition and hydration",
+                    "Establishes healthy sleep patterns",
+                    "Participates in necessary daily activities",
+                    "Engages in appropriate social interactions",
+                    "Returns to work/school/normal roles as appropriate",
+                    "Demonstrates self-care despite grief"
+                ],
+                "evaluationMethods": [
+                    "Nutritional assessment",
+                    "Sleep pattern assessment",
+                    "Functional assessment of daily activities",
+                    "Observation of social interactions",
+                    "Reports of role functioning",
+                    "Self-care assessment"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Stroebe M, Schut H",
+                "title": "The dual process model of coping with bereavement: rationale and description",
+                "year": "1999",
+                "source": "Death Studies",
+                "doi": "10.1080/074811899201046"
+            },
+            {
+                "author": "Shear MK, Reynolds CF, Simon NM, et al.",
+                "title": "Optimizing treatment of complicated grief: A randomized clinical trial",
+                "year": "2016",
+                "source": "JAMA Psychiatry",
+                "doi": "10.1001/jamapsychiatry.2016.0892"
+            },
+            {
+                "author": "Neimeyer RA, Klass D, Dennis MR",
+                "title": "A social constructionist account of grief: Loss and the narration of meaning",
+                "year": "2014",
+                "source": "Death Studies",
+                "doi": "10.1080/07481187.2014.913454"
+            }
+        ],
+        "notes": "Consider referral to specialized grief counseling for patients showing signs of complicated grief or those with multiple risk factors for complicated grief",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Initial support 4-8 weeks, ongoing support as needed (grief has no fixed timeline)",
+        "imageUrl": "assets/images/psychiatric/Grieving Management.webp",
+        "isFeatured": false,
+        "isFavorite": false,
+        "lastUpdated": "2025-07-01T00:00:00.415Z"
+    },
+    {
+        "id": "psych006",
+        "title": "Disturbed Thought Processes Management",
+        "category": "Psychiatric",
+        "tags": [
+            "Thought Disorders",
+            "Delusions",
+            "Hallucinations",
+            "Psychosis"
+        ],
+        "description": "A comprehensive care plan for managing disturbed thought processes, focusing on assessment of thought content and perceptual disturbances, implementation of therapeutic interventions to improve reality testing, and promotion of safety and functioning in patients experiencing psychosis, severe cognitive distortions, or thought disorders.",
+        "assessments": [
+            {
+                "title": "Thought Process Assessment",
+                "points": [
+                    "Assess form of thought (flight of ideas, tangentiality, circumstantiality, loose associations)",
+                    "Evaluate thought content (delusions, obsessions, phobias, suicidal/homicidal ideation)",
+                    "Assess for perceptual disturbances (hallucinations, illusions)",
+                    "Evaluate insight and judgment",
+                    "Assess orientation to person, place, time, and situation",
+                    "Evaluate concentration and attention span",
+                    "Assess abstract thinking and reasoning abilities"
+                ],
+                "description": "Comprehensive thought process assessment helps identify specific disturbances in thought form, content, and perception to guide appropriate interventions"
+            },
+            {
+                "title": "Safety Assessment",
+                "points": [
+                    "Assess for danger to self or others related to thought disturbance",
+                    "Evaluate ability to maintain basic self-care and safety",
+                    "Assess for command hallucinations or delusions involving harm",
+                    "Identify environmental hazards for patient with impaired judgment",
+                    "Evaluate medication adherence and understanding",
+                    "Assess ability to recognize warning signs of decompensation",
+                    "Identify previous patterns of psychotic episodes and effective interventions"
+                ],
+                "description": "Safety assessment helps identify risks related to thought disturbances and develop appropriate safety interventions"
+            },
+            {
+                "title": "Functional Assessment",
+                "points": [
+                    "Assess impact of thought disturbance on activities of daily living",
+                    "Evaluate effect on social functioning and relationships",
+                    "Assess ability to communicate needs effectively",
+                    "Evaluate impact on occupational or educational functioning",
+                    "Assess level of distress caused by thought disturbances",
+                    "Identify strengths and intact abilities despite thought disturbance",
+                    "Evaluate support system understanding and response to thought disturbances"
+                ],
+                "description": "Functional assessment helps identify areas of impairment requiring intervention and preserved abilities that can be leveraged in treatment"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Disturbed Thought Processes related to neurophysiological changes as evidenced by inaccurate interpretation of environment, cognitive dissonance, and delusional thinking",
+                "relatedFactors": [
+                    "Neurophysiological changes",
+                    "Psychological conflicts",
+                    "Sleep deprivation",
+                    "Sensory overload or deprivation",
+                    "Biochemical imbalances",
+                    "Substance use or withdrawal",
+                    "Cerebral hypoxia"
+                ],
+                "definingCharacteristics": [
+                    "Inaccurate interpretation of environment",
+                    "Cognitive dissonance",
+                    "Delusional thinking",
+                    "Hallucinations",
+                    "Altered attention span",
+                    "Distractibility",
+                    "Inappropriate social behavior",
+                    "Impaired ability to make decisions or problem-solve"
+                ],
+                "nandaCode": "00130"
+            },
+            {
+                "statement": "Impaired Social Interaction related to disturbed thought processes as evidenced by dysfunctional interaction with others and decreased social involvement",
+                "relatedFactors": [
+                    "Disturbed thought processes",
+                    "Communication barriers",
+                    "Self-concept disturbance",
+                    "Altered perception",
+                    "Sociocultural dissonance"
+                ],
+                "definingCharacteristics": [
+                    "Dysfunctional interaction with others",
+                    "Decreased social involvement",
+                    "Inappropriate social behavior",
+                    "Family report of changes in interaction",
+                    "Difficulty establishing relationships",
+                    "Discomfort in social situations"
+                ],
+                "nandaCode": "00052"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate improved reality testing and thought organization",
+                "indicators": [
+                    "Distinguishes between hallucinations/delusions and reality",
+                    "Demonstrates decreased preoccupation with disturbed thoughts",
+                    "Communicates in more organized, logical manner",
+                    "Shows improved concentration and attention",
+                    "Demonstrates improved insight into illness"
+                ],
+                "timeframe": "Within 1-2 weeks and ongoing",
+                "type": "Short-term and Long-term"
+            },
+            {
+                "statement": "Patient will maintain safety despite presence of thought disturbances",
+                "indicators": [
+                    "Refrains from acting on harmful commands or delusions",
+                    "Identifies and reports increased thought disturbance",
+                    "Maintains adequate nutrition, hydration, and self-care",
+                    "Takes medications as prescribed",
+                    "Uses appropriate coping strategies when experiencing disturbed thoughts"
+                ],
+                "timeframe": "Throughout hospitalization and ongoing",
+                "type": "Short-term and Long-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Thought Disturbance Management",
+                "actions": [
+                    "Create a calm, structured environment with reduced stimulation",
+                    "Maintain reality-based interactions using clear, concrete communication",
+                    "Avoid challenging delusions directly; focus on feelings underlying delusions",
+                    "Redirect from delusional or hallucinatory content to reality-based topics",
+                    "Assist in distinguishing between real and unreal perceptions",
+                    "Provide reality orientation as appropriate (person, place, time)",
+                    "Administer antipsychotic medications as prescribed",
+                    "Monitor for and manage medication side effects"
+                ],
+                "rationales": [
+                    "Calm environment reduces sensory overload that can worsen thought disturbances",
+                    "Clear communication reduces misinterpretation and confusion",
+                    "Challenging delusions directly often increases defensiveness",
+                    "Redirection shifts focus to reality-based content",
+                    "Distinguishing real from unreal improves reality testing",
+                    "Reality orientation reinforces accurate perception of environment",
+                    "Antipsychotic medications reduce neurochemical basis of thought disturbances",
+                    "Side effect management improves medication adherence and outcomes"
+                ],
+                "frequency": "Ongoing throughout hospitalization",
+                "specialConsiderations": [
+                    "Adjust approach based on patient's level of agitation and insight",
+                    "Consider cultural beliefs that may influence interpretation of thought content",
+                    "Recognize that some patients may require longer-term management of residual symptoms"
+                ]
+            },
+            {
+                "title": "Safety Management",
+                "actions": [
+                    "Implement appropriate level of observation based on risk assessment",
+                    "Remove potential weapons or hazardous items from environment",
+                    "Establish safety contract for reporting harmful thoughts or commands",
+                    "Implement structured daily routine to reduce anxiety and confusion",
+                    "Use de-escalation techniques for agitation related to thought disturbances",
+                    "Administer PRN medications for acute agitation per protocol",
+                    "Provide supervision during activities requiring judgment or safety awareness",
+                    "Teach recognition of early warning signs of decompensation"
+                ],
+                "rationales": [
+                    "Appropriate observation prevents harm while maintaining dignity",
+                    "Environmental safety reduces access to means of harm",
+                    "Safety contract establishes shared responsibility for safety",
+                    "Structure reduces anxiety that can worsen thought disturbances",
+                    "De-escalation prevents need for more restrictive interventions",
+                    "PRN medications manage acute symptoms that threaten safety",
+                    "Supervision compensates for impaired judgment",
+                    "Early recognition allows prompt intervention before severe decompensation"
+                ],
+                "frequency": "Continuous with regular reassessment",
+                "specialConsiderations": [
+                    "Balance safety needs with least restrictive environment principles",
+                    "Consider legal and ethical aspects of involuntary treatment if necessary",
+                    "Involve family/support persons in safety planning when appropriate"
+                ]
+            },
+            {
+                "title": "Cognitive Skill Building",
+                "actions": [
+                    "Provide reality testing exercises for delusional beliefs",
+                    "Teach cognitive behavioral techniques to manage hallucinations",
+                    "Implement attention-focusing activities for distractibility",
+                    "Provide simple, step-by-step instructions for tasks",
+                    "Use written reminders and visual cues to support memory",
+                    "Teach problem-solving framework for decision-making",
+                    "Provide feedback about appropriate versus inappropriate behaviors",
+                    "Practice social skills and communication in structured settings"
+                ],
+                "rationales": [
+                    "Reality testing exercises strengthen connection to accurate perceptions",
+                    "CBT techniques help manage responses to persistent symptoms",
+                    "Attention activities improve concentration and focus",
+                    "Simple instructions accommodate cognitive processing difficulties",
+                    "Visual cues bypass verbal processing deficits",
+                    "Problem-solving framework compensates for executive function deficits",
+                    "Feedback clarifies social expectations and norms",
+                    "Practice builds social skills affected by thought disturbances"
+                ],
+                "frequency": "2-3 times daily in brief sessions"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has reality testing and thought organization improved?",
+                "expectedOutcomes": [
+                    "Distinguishes between hallucinations/delusions and reality",
+                    "Demonstrates decreased preoccupation with disturbed thoughts",
+                    "Communicates in more organized, logical manner",
+                    "Shows improved concentration and attention",
+                    "Demonstrates improved insight into illness",
+                    "Reports decreased distress from thought disturbances"
+                ],
+                "evaluationMethods": [
+                    "Mental status examination",
+                    "Observation of communication patterns",
+                    "Assessment of delusional conviction",
+                    "Monitoring of hallucination frequency and response",
+                    "Insight assessment scale",
+                    "Patient self-report of symptom distress"
+                ]
+            },
+            {
+                "statement": "Is patient maintaining safety despite thought disturbances?",
+                "expectedOutcomes": [
+                    "Refrains from acting on harmful commands or delusions",
+                    "Identifies and reports increased thought disturbance",
+                    "Maintains adequate nutrition, hydration, and self-care",
+                    "Takes medications as prescribed",
+                    "Uses appropriate coping strategies when experiencing disturbed thoughts",
+                    "Demonstrates decreased need for intensive supervision"
+                ],
+                "evaluationMethods": [
+                    "Observation of response to internal stimuli",
+                    "Documentation of self-reporting of symptoms",
+                    "Physical assessment and weight monitoring",
+                    "Medication adherence tracking",
+                    "Observation of coping strategy use",
+                    "Risk assessment updates"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Lehman AF, Lieberman JA, Dixon LB, et al.",
+                "title": "Practice guideline for the treatment of patients with schizophrenia",
+                "year": "2004",
+                "source": "American Journal of Psychiatry",
+                "doi": "10.1176/appi.books.9780890423363.45859"
+            },
+            {
+                "author": "Beck AT, Rector NA, Stolar N, Grant P",
+                "title": "Schizophrenia: Cognitive Theory, Research, and Therapy",
+                "year": "2009",
+                "source": "Guilford Press",
+                "doi": "10.1080/09515070.2010.530484"
+            },
+            {
+                "author": "Wykes T, Huddy V, Cellard C, McGurk SR, Czobor P",
+                "title": "A meta-analysis of cognitive remediation for schizophrenia: methodology and effect sizes",
+                "year": "2011",
+                "source": "American Journal of Psychiatry",
+                "doi": "10.1176/appi.ajp.2010.10060855"
+            }
+        ],
+        "notes": "Consider referral to specialized psychiatric services for comprehensive evaluation and long-term management of thought disorders, particularly for first-episode psychosis",
+        "difficultyLevel": "Advanced",
+        "timeFrame": "Acute management 1-2 weeks, ongoing management indefinitely for chronic thought disorders",
+        "imageUrl": "assets/images/psychiatric/Disturbed Thought Processes Management.webp",
+        "isFeatured": false,
+        "isFavorite": false,
+        "lastUpdated": "2025-07-05T00:00:00.415Z"
+    }
+]

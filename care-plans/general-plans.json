@@ -1,0 +1,1866 @@
+
+[
+    {
+        "id": "gen001",
+        "title": "Risk for Injury Management",
+        "category": "General",
+        "tags": [
+            "Safety",
+            "Fall Prevention",
+            "Risk Management",
+            "Environmental Safety"
+        ],
+        "description": "A comprehensive care plan for patients at risk for injury, focusing on assessment, prevention strategies, and environmental modifications to promote safety and prevent harm.",
+        "assessments": [
+            {
+                "title": "Risk Factor Assessment",
+                "points": [
+                    "Evaluate sensory-perceptual deficits (vision, hearing, tactile)",
+                    "Assess cognitive status including orientation, memory, and judgment",
+                    "Evaluate mobility status including balance, gait, and use of assistive devices",
+                    "Assess medication regimen for medications that increase fall risk",
+                    "Evaluate environmental hazards in patient area"
+                ],
+                "description": "Comprehensive risk assessment identifies factors that contribute to injury risk and guides preventive interventions"
+            },
+            {
+                "title": "Fall Risk Assessment",
+                "points": [
+                    "Complete standardized fall risk assessment tool (Morse Fall Scale, STRATIFY, etc.)",
+                    "Assess history of previous falls including circumstances and outcomes",
+                    "Evaluate orthostatic blood pressure changes",
+                    "Assess footwear and clothing for safety",
+                    "Evaluate toileting patterns and ability to request assistance"
+                ],
+                "description": "Standardized fall risk assessment helps quantify risk level and determine appropriate preventive measures"
+            },
+            {
+                "title": "Environmental Assessment",
+                "points": [
+                    "Evaluate lighting adequacy in all areas used by patient",
+                    "Assess floor surfaces for slip/trip hazards",
+                    "Check furniture stability and appropriateness",
+                    "Evaluate bathroom safety including grab bars and non-slip surfaces",
+                    "Assess accessibility of call light and personal items"
+                ],
+                "description": "Environmental assessment identifies modifiable hazards that can be addressed to reduce injury risk"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Risk for Injury related to sensory-perceptual alterations, cognitive impairment, and environmental hazards",
+                "relatedFactors": [
+                    "Impaired mobility",
+                    "Sensory-perceptual deficits",
+                    "Cognitive impairment",
+                    "Medication effects",
+                    "Environmental hazards"
+                ],
+                "definingCharacteristics": [
+                    "History of falls",
+                    "Impaired balance",
+                    "Disorientation",
+                    "Visual impairment",
+                    "Use of assistive devices",
+                    "Unfamiliar environment"
+                ],
+                "nandaCode": "00155"
+            },
+            {
+                "statement": "Risk for Falls related to altered mobility and environmental hazards",
+                "relatedFactors": [
+                    "Impaired physical mobility",
+                    "Altered gait",
+                    "History of falls",
+                    "Postural hypotension",
+                    "Medication side effects"
+                ],
+                "definingCharacteristics": [
+                    "Age > 65 years",
+                    "Use of assistive devices",
+                    "Impaired balance",
+                    "Diminished lower extremity strength",
+                    "Urinary urgency"
+                ],
+                "nandaCode": "00155"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will remain free from injury during hospitalization",
+                "indicators": [
+                    "No falls or injuries",
+                    "Demonstrates use of call light for assistance",
+                    "Utilizes assistive devices appropriately",
+                    "Maintains safe environment",
+                    "Verbalizes understanding of safety measures"
+                ],
+                "timeframe": "Throughout hospitalization",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient/caregiver will demonstrate knowledge of injury prevention strategies prior to discharge",
+                "indicators": [
+                    "Identifies personal risk factors",
+                    "Describes home safety modifications",
+                    "Demonstrates proper use of assistive devices",
+                    "Verbalizes medication safety awareness",
+                    "Describes when to seek assistance"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Fall Prevention",
+                "actions": [
+                    "Implement fall precautions according to facility protocol",
+                    "Orient patient to environment and location of call light",
+                    "Ensure bed is in lowest position with brakes locked when patient is in bed",
+                    "Use bed/chair alarms for high-risk patients",
+                    "Assist with toileting on regular schedule",
+                    "Ensure adequate lighting, especially at night"
+                ],
+                "rationales": [
+                    "Standardized precautions provide consistent approach to fall prevention",
+                    "Orientation reduces confusion and promotes independence",
+                    "Low bed height minimizes injury potential if fall occurs",
+                    "Alarms alert staff to unauthorized movement",
+                    "Scheduled toileting reduces urgency-related falls",
+                    "Adequate lighting improves visibility and reduces trip hazards"
+                ],
+                "frequency": "Ongoing throughout hospitalization",
+                "specialConsiderations": [
+                    "Avoid physical restraints when possible as they may increase injury risk",
+                    "Consider 1:1 observation for extremely high-risk patients"
+                ]
+            },
+            {
+                "title": "Environmental Management: Safety",
+                "actions": [
+                    "Remove clutter and obstacles from walkways",
+                    "Secure electrical cords away from traffic areas",
+                    "Ensure non-slip surfaces in bathroom and shower",
+                    "Keep frequently used items within reach",
+                    "Recommend appropriate footwear (non-slip, proper fit)",
+                    "Evaluate need for assistive devices and ensure proper use"
+                ],
+                "rationales": [
+                    "Clear pathways reduce trip hazards",
+                    "Secured cords prevent tripping",
+                    "Non-slip surfaces reduce fall risk in wet areas",
+                    "Accessible items reduce need for reaching or bending",
+                    "Proper footwear improves stability and traction",
+                    "Correctly used assistive devices improve mobility safety"
+                ],
+                "frequency": "Daily and PRN"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has the patient remained free from injury?",
+                "expectedOutcomes": [
+                    "No falls or injuries documented",
+                    "Patient uses call light appropriately",
+                    "Patient adheres to safety precautions",
+                    "Environment remains free of hazards",
+                    "Patient demonstrates safe mobility"
+                ],
+                "evaluationMethods": [
+                    "Incident report review",
+                    "Direct observation",
+                    "Safety rounds",
+                    "Patient interview",
+                    "Staff reporting"
+                ]
+            },
+            {
+                "statement": "Does patient/caregiver demonstrate knowledge of injury prevention?",
+                "expectedOutcomes": [
+                    "Verbalizes personal risk factors",
+                    "Describes appropriate safety measures",
+                    "Demonstrates proper use of assistive devices",
+                    "Identifies environmental modifications needed at home",
+                    "Describes plan for continued safety after discharge"
+                ],
+                "evaluationMethods": [
+                    "Teach-back assessment",
+                    "Return demonstration",
+                    "Pre-discharge interview",
+                    "Home safety assessment if available"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "LeLaurin JH, Shorr RI",
+                "title": "Preventing Falls in Hospitalized Patients: State of the Science",
+                "year": "2019",
+                "source": "Clinics in Geriatric Medicine",
+                "doi": "10.1016/j.cger.2018.11.001"
+            },
+            {
+                "author": "Zhao YL, Kim H",
+                "title": "Older Adult Inpatient Falls in Acute Care Hospitals: Intrinsic, Extrinsic, and Environmental Factors",
+                "year": "2015",
+                "source": "Journal of Gerontological Nursing",
+                "doi": "10.3928/00989134-20150616-05"
+            }
+        ],
+        "notes": "Consider referral to physical therapy for gait training and strengthening exercises for patients with mobility impairments",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Throughout hospitalization and discharge planning",
+        "imageUrl": "assets/images/general/Risk for Injury Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-07-01T00:00:00.415Z"
+    },
+    {
+        "id": "gen002",
+        "title": "Fatigue Management",
+        "category": "General",
+        "tags": [
+            "Energy Conservation",
+            "Activity Management",
+            "Rest",
+            "Chronic Fatigue"
+        ],
+        "description": "A structured care plan for managing fatigue in patients with acute or chronic conditions, focusing on energy conservation, activity pacing, and addressing underlying causes.",
+        "assessments": [
+            {
+                "title": "Fatigue Assessment",
+                "points": [
+                    "Assess fatigue severity using standardized scale (0-10 or Fatigue Severity Scale)",
+                    "Evaluate pattern of fatigue including onset, duration, and alleviating/aggravating factors",
+                    "Assess impact on activities of daily living and quality of life",
+                    "Evaluate sleep patterns including quality, duration, and disruptions",
+                    "Assess for psychological factors contributing to fatigue (depression, anxiety)"
+                ],
+                "description": "Comprehensive fatigue assessment helps identify patterns, severity, and impact on function to guide interventions"
+            },
+            {
+                "title": "Physical Assessment",
+                "points": [
+                    "Assess vital signs including orthostatic blood pressure changes",
+                    "Evaluate nutritional status and hydration",
+                    "Assess activity tolerance and exercise capacity",
+                    "Evaluate for signs of anemia or other physiological causes of fatigue",
+                    "Review medication regimen for drugs that may contribute to fatigue"
+                ],
+                "description": "Physical assessment helps identify underlying physiological causes of fatigue that may be treatable"
+            },
+            {
+                "title": "Functional Assessment",
+                "points": [
+                    "Evaluate ability to perform ADLs independently",
+                    "Assess energy expenditure during various activities",
+                    "Evaluate home environment for factors increasing energy demands",
+                    "Assess availability of support systems",
+                    "Evaluate current activity and rest patterns"
+                ],
+                "description": "Functional assessment helps identify areas where energy conservation techniques can be implemented"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Fatigue related to physiological states, psychological states, and situational factors as evidenced by verbalization of overwhelming lack of energy and inability to maintain usual routines",
+                "relatedFactors": [
+                    "Physiological condition (anemia, infection, chronic disease)",
+                    "Psychological stress",
+                    "Sleep disturbance",
+                    "Medication effects",
+                    "Increased physical exertion"
+                ],
+                "definingCharacteristics": [
+                    "Verbalization of unremitting exhaustion",
+                    "Inability to maintain usual routines",
+                    "Decreased performance",
+                    "Increased rest requirements",
+                    "Lethargy or listlessness",
+                    "Disinterest in surroundings"
+                ],
+                "nandaCode": "00093"
+            },
+            {
+                "statement": "Activity Intolerance related to imbalance between oxygen supply and demand as evidenced by abnormal heart rate or blood pressure response to activity",
+                "relatedFactors": [
+                    "Bed rest or immobility",
+                    "Generalized weakness",
+                    "Imbalance between oxygen supply and demand",
+                    "Sedentary lifestyle"
+                ],
+                "definingCharacteristics": [
+                    "Abnormal heart rate or blood pressure response to activity",
+                    "Exertional discomfort or dyspnea",
+                    "Fatigue or weakness",
+                    "Verbal report of fatigue or weakness"
+                ],
+                "nandaCode": "00092"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will report decreased fatigue levels and improved energy",
+                "indicators": [
+                    "Reports fatigue reduced by at least 2 points on 0-10 scale",
+                    "Demonstrates increased participation in ADLs",
+                    "Identifies energy-conserving techniques",
+                    "Reports improved sleep quality",
+                    "Balances activity and rest throughout day"
+                ],
+                "timeframe": "Within 5-7 days",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will demonstrate effective energy management strategies",
+                "indicators": [
+                    "Prioritizes activities based on energy levels",
+                    "Implements planned rest periods",
+                    "Uses energy conservation techniques",
+                    "Modifies environment to reduce energy expenditure",
+                    "Maintains adequate nutrition and hydration"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Energy Management",
+                "actions": [
+                    "Determine causes of fatigue in collaboration with healthcare team",
+                    "Assist patient to schedule activities for periods when energy levels are highest",
+                    "Teach energy conservation techniques (sitting instead of standing, using assistive devices)",
+                    "Implement planned rest periods between activities",
+                    "Prioritize activities and eliminate non-essential tasks",
+                    "Monitor nutritional and fluid intake"
+                ],
+                "rationales": [
+                    "Addressing underlying causes may reduce fatigue",
+                    "Scheduling activities during peak energy times improves performance",
+                    "Energy conservation techniques reduce unnecessary energy expenditure",
+                    "Planned rest prevents exhaustion and promotes recovery",
+                    "Prioritization ensures essential activities are completed",
+                    "Adequate nutrition and hydration support energy production"
+                ],
+                "frequency": "Daily and PRN",
+                "specialConsiderations": [
+                    "Adjust interventions based on underlying cause of fatigue",
+                    "Consider cultural factors that may influence rest/activity patterns"
+                ]
+            },
+            {
+                "title": "Sleep Enhancement",
+                "actions": [
+                    "Establish consistent sleep-wake schedule",
+                    "Create restful environment (reduce noise, adjust lighting, comfortable temperature)",
+                    "Limit caffeine, alcohol, and nicotine, especially before bedtime",
+                    "Teach relaxation techniques to use before sleep",
+                    "Discourage daytime napping if it interferes with night sleep",
+                    "Recommend light physical activity during the day"
+                ],
+                "rationales": [
+                    "Consistent schedule helps regulate circadian rhythms",
+                    "Environmental modifications promote sleep initiation and maintenance",
+                    "Stimulants and depressants disrupt sleep quality",
+                    "Relaxation techniques reduce anxiety and promote sleep onset",
+                    "Excessive daytime napping can disrupt nighttime sleep",
+                    "Physical activity promotes better sleep quality"
+                ],
+                "frequency": "Daily"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has fatigue level decreased?",
+                "expectedOutcomes": [
+                    "Reports decreased fatigue on standardized scale",
+                    "Demonstrates increased activity tolerance",
+                    "Participates more in self-care and desired activities",
+                    "Reports improved quality of life",
+                    "Demonstrates increased energy levels"
+                ],
+                "evaluationMethods": [
+                    "Fatigue severity scale reassessment",
+                    "Activity tolerance assessment",
+                    "Patient self-report",
+                    "Observation of participation in activities",
+                    "Sleep diary review"
+                ]
+            },
+            {
+                "statement": "Is patient effectively managing energy?",
+                "expectedOutcomes": [
+                    "Demonstrates use of energy conservation techniques",
+                    "Plans activities based on energy levels",
+                    "Incorporates rest periods appropriately",
+                    "Prioritizes activities effectively",
+                    "Modifies environment to reduce energy demands"
+                ],
+                "evaluationMethods": [
+                    "Observation of technique use",
+                    "Review of activity schedule",
+                    "Patient interview",
+                    "Return demonstration",
+                    "Caregiver feedback"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Matura LA, Malone S, Jaime-Lara R, et al.",
+                "title": "A Systematic Review of Biological Mechanisms and Fatigue Interventions, During Acute and Chronic Illness",
+                "year": "2018",
+                "source": "Biological Research for Nursing",
+                "doi": "10.1177/1099800418764326"
+            },
+            {
+                "author": "Barsevick AM, Irwin MR, Hinds P, et al.",
+                "title": "Recommendations for High-Priority Research on Cancer-Related Fatigue in Children and Adults",
+                "year": "2013",
+                "source": "Journal of the National Cancer Institute",
+                "doi": "10.1093/jnci/djt242"
+            }
+        ],
+        "notes": "Consider referral to occupational therapy for personalized energy conservation strategies and assistive device recommendations",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Initial management 5-7 days, ongoing management as needed",
+        "imageUrl": "assets/images/general/Fatigue Management.webp",
+        "isFeatured": false,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-15T00:00:00.415Z"
+    },
+    {
+        "id": "gen003",
+        "title": "Risk for Infection Management",
+        "category": "General",
+        "tags": [
+            "Infection Prevention",
+            "Immunocompromised",
+            "Wound Care",
+            "Hygiene"
+        ],
+        "description": "A comprehensive care plan for preventing infection in at-risk patients, focusing on identification of risk factors, implementation of preventive measures, and early detection of infection signs.",
+        "assessments": [
+            {
+                "title": "Risk Factor Assessment",
+                "points": [
+                    "Identify presence of invasive devices (IV lines, urinary catheters, drains)",
+                    "Assess integrity of skin and mucous membranes",
+                    "Evaluate nutritional status and hydration",
+                    "Assess immune function and presence of immunosuppression",
+                    "Evaluate laboratory values (WBC count, neutrophil count, inflammatory markers)"
+                ],
+                "description": "Comprehensive risk assessment identifies factors that increase infection susceptibility and guides preventive interventions"
+            },
+            {
+                "title": "Wound/Incision Assessment",
+                "points": [
+                    "Assess wound characteristics (appearance, drainage, odor)",
+                    "Measure wound dimensions if applicable",
+                    "Evaluate for signs of infection (redness, warmth, swelling, pain)",
+                    "Assess surrounding tissue condition",
+                    "Document wound healing progress"
+                ],
+                "description": "Regular wound assessment helps detect early signs of infection and evaluate healing progress"
+            },
+            {
+                "title": "Systemic Assessment",
+                "points": [
+                    "Monitor vital signs including temperature q4h and PRN",
+                    "Assess for systemic signs of infection (fever, chills, malaise)",
+                    "Evaluate respiratory status for signs of respiratory infection",
+                    "Assess urinary characteristics for signs of UTI",
+                    "Monitor for signs of line-related infections at insertion sites"
+                ],
+                "description": "Systemic assessment helps detect early signs of infection before progression to serious complications"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Risk for Infection related to inadequate primary defenses, invasive procedures, and immunosuppression",
+                "relatedFactors": [
+                    "Invasive procedures",
+                    "Inadequate primary defenses (broken skin, traumatized tissue)",
+                    "Immunosuppression",
+                    "Chronic disease",
+                    "Malnutrition"
+                ],
+                "definingCharacteristics": [
+                    "Presence of invasive devices",
+                    "Compromised skin integrity",
+                    "Altered immune function",
+                    "Inadequate vaccination status",
+                    "Exposure to pathogens"
+                ],
+                "nandaCode": "00004"
+            },
+            {
+                "statement": "Risk for Impaired Skin Integrity related to external factors as evidenced by mechanical factors and moisture",
+                "relatedFactors": [
+                    "Immobility",
+                    "Pressure over bony prominences",
+                    "Excessive moisture",
+                    "Shearing forces",
+                    "Altered nutritional state"
+                ],
+                "definingCharacteristics": [
+                    "Prolonged bed rest",
+                    "Incontinence",
+                    "Decreased mobility",
+                    "Altered sensation",
+                    "Poor nutritional status"
+                ],
+                "nandaCode": "00047"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will remain free from signs and symptoms of infection",
+                "indicators": [
+                    "Temperature within normal range (36.5-37.5°C)",
+                    "WBC count within normal limits",
+                    "No purulent drainage from wounds or invasive device sites",
+                    "No redness, warmth, or swelling at potential infection sites",
+                    "No signs of systemic inflammatory response"
+                ],
+                "timeframe": "Throughout hospitalization",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient/caregiver will demonstrate knowledge of infection prevention measures",
+                "indicators": [
+                    "Demonstrates proper hand hygiene technique",
+                    "Describes signs and symptoms of infection to report",
+                    "Demonstrates proper care of invasive devices if applicable",
+                    "Verbalizes understanding of protective measures",
+                    "Describes appropriate wound care techniques if applicable"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Infection Protection",
+                "actions": [
+                    "Implement standard precautions and additional transmission-based precautions as indicated",
+                    "Perform hand hygiene before and after patient contact",
+                    "Maintain aseptic technique during procedures and dressing changes",
+                    "Assess and care for invasive device sites according to protocol",
+                    "Administer prophylactic antibiotics if prescribed",
+                    "Ensure proper environmental cleaning"
+                ],
+                "rationales": [
+                    "Standard precautions prevent transmission of infectious agents",
+                    "Hand hygiene is the most effective method to prevent infection transmission",
+                    "Aseptic technique prevents introduction of pathogens",
+                    "Regular site care prevents device-related infections",
+                    "Prophylactic antibiotics may prevent infection in high-risk situations",
+                    "Environmental cleanliness reduces pathogen reservoirs"
+                ],
+                "frequency": "Ongoing throughout hospitalization",
+                "specialConsiderations": [
+                    "Implement neutropenic precautions for severely immunocompromised patients",
+                    "Consider private room for patients at high risk of infection or colonized with resistant organisms"
+                ]
+            },
+            {
+                "title": "Wound Care",
+                "actions": [
+                    "Perform wound care using aseptic technique",
+                    "Clean wounds with appropriate solutions as prescribed",
+                    "Apply dressings that maintain moist wound environment while absorbing excess drainage",
+                    "Change dressings according to protocol or when soiled/saturated",
+                    "Monitor wound healing progress",
+                    "Protect intact skin around wounds"
+                ],
+                "rationales": [
+                    "Aseptic technique prevents wound contamination",
+                    "Appropriate cleaning removes debris without damaging tissue",
+                    "Moist wound environment promotes healing while managing exudate",
+                    "Timely dressing changes prevent maceration and contamination",
+                    "Monitoring detects complications early",
+                    "Protecting periwound skin prevents further breakdown"
+                ],
+                "frequency": "As prescribed or per facility protocol"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has patient remained free from infection?",
+                "expectedOutcomes": [
+                    "Vital signs within normal limits",
+                    "No signs of localized infection at wound or device sites",
+                    "Normal or improving laboratory values",
+                    "No systemic signs of infection",
+                    "Wounds healing appropriately"
+                ],
+                "evaluationMethods": [
+                    "Physical assessment",
+                    "Vital sign monitoring",
+                    "Laboratory data review",
+                    "Wound assessment",
+                    "Device site inspection"
+                ]
+            },
+            {
+                "statement": "Does patient/caregiver demonstrate knowledge of infection prevention?",
+                "expectedOutcomes": [
+                    "Correctly performs hand hygiene",
+                    "Accurately describes signs of infection to report",
+                    "Demonstrates proper technique for wound care if applicable",
+                    "Maintains clean environment",
+                    "Verbalizes understanding of protective measures"
+                ],
+                "evaluationMethods": [
+                    "Return demonstration",
+                    "Teach-back assessment",
+                    "Observation of technique",
+                    "Verbal questioning",
+                    "Caregiver interview"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Centers for Disease Control and Prevention",
+                "title": "Guidelines for the Prevention of Intravascular Catheter-Related Infections",
+                "year": "2017",
+                "source": "CDC",
+                "doi": "10.1093/cid/cir257"
+            },
+            {
+                "author": "World Health Organization",
+                "title": "Global Guidelines for the Prevention of Surgical Site Infection",
+                "year": "2018",
+                "source": "World Health Organization",
+                "doi": "10.1016/S1473-3099(16)30398-X"
+            }
+        ],
+        "notes": "For immunocompromised patients, consider additional protective measures including dietary restrictions and visitor limitations",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Throughout hospitalization and discharge planning",
+        "imageUrl": "assets/images/general/Risk for Infection Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-20T00:00:00.415Z"
+    },
+    {
+        "id": "gen004",
+        "title": "Impaired Physical Mobility Management",
+        "category": "General",
+        "tags": [
+            "Mobility",
+            "Rehabilitation",
+            "Positioning",
+            "Transfer Techniques"
+        ],
+        "description": "A comprehensive care plan for patients with impaired physical mobility, focusing on maintaining joint function, preventing complications, and maximizing independence in mobility.",
+        "assessments": [
+            {
+                "title": "Mobility Assessment",
+                "points": [
+                    "Assess range of motion of all joints",
+                    "Evaluate muscle strength using 0-5 scale",
+                    "Assess gait pattern and stability",
+                    "Evaluate transfer ability and need for assistance",
+                    "Assess balance while sitting and standing",
+                    "Evaluate endurance during mobility activities"
+                ],
+                "description": "Comprehensive mobility assessment establishes baseline function and guides intervention planning"
+            },
+            {
+                "title": "Risk Assessment",
+                "points": [
+                    "Assess for pressure injury risk using Braden Scale or similar tool",
+                    "Evaluate risk for venous thromboembolism",
+                    "Assess for contracture development",
+                    "Evaluate respiratory status related to immobility",
+                    "Assess for orthostatic hypotension with position changes"
+                ],
+                "description": "Risk assessment identifies potential complications of impaired mobility that require preventive interventions"
+            },
+            {
+                "title": "Functional Assessment",
+                "points": [
+                    "Evaluate ability to perform ADLs independently",
+                    "Assess need for assistive devices",
+                    "Evaluate home environment for accessibility",
+                    "Assess caregiver availability and ability",
+                    "Determine prior level of function and mobility goals"
+                ],
+                "description": "Functional assessment helps establish realistic goals and identify needed supports for discharge planning"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Impaired Physical Mobility related to decreased muscle strength, pain, and musculoskeletal impairment as evidenced by limited range of motion and difficulty turning or repositioning",
+                "relatedFactors": [
+                    "Neuromuscular impairment",
+                    "Musculoskeletal disorders",
+                    "Pain",
+                    "Cognitive impairment",
+                    "Deconditioning",
+                    "Prescribed movement restrictions"
+                ],
+                "definingCharacteristics": [
+                    "Limited range of motion",
+                    "Difficulty turning or repositioning",
+                    "Decreased muscle strength",
+                    "Unsteady gait",
+                    "Postural instability",
+                    "Reluctance to attempt movement"
+                ],
+                "nandaCode": "00085"
+            },
+            {
+                "statement": "Risk for Disuse Syndrome related to physical immobility",
+                "relatedFactors": [
+                    "Prescribed bed rest",
+                    "Paralysis",
+                    "Severe pain with movement",
+                    "Mechanical immobilization",
+                    "Altered level of consciousness"
+                ],
+                "definingCharacteristics": [
+                    "Prolonged immobility",
+                    "Inability to bear weight",
+                    "Neuromuscular impairment",
+                    "Cognitive impairment affecting mobility",
+                    "Severe weakness"
+                ],
+                "nandaCode": "00040"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate improved mobility within limitations of condition",
+                "indicators": [
+                    "Increased strength and endurance",
+                    "Improved range of motion",
+                    "Increased independence in transfers",
+                    "Demonstrates safe use of assistive devices",
+                    "Participates in progressive mobility program"
+                ],
+                "timeframe": "Within 5-7 days",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will remain free from complications of immobility",
+                "indicators": [
+                    "Skin remains intact without pressure injuries",
+                    "No evidence of venous thromboembolism",
+                    "Maintains joint range of motion",
+                    "Maintains respiratory function",
+                    "No constipation related to immobility"
+                ],
+                "timeframe": "Throughout hospitalization",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Exercise Therapy: Joint Mobility",
+                "actions": [
+                    "Perform passive range of motion exercises for immobile patients",
+                    "Assist with active range of motion exercises as tolerated",
+                    "Implement progressive mobility protocol (dangling, standing, ambulation)",
+                    "Apply splints or positioning devices as prescribed",
+                    "Encourage frequent position changes at least every 2 hours",
+                    "Consult physical therapy for specialized exercise program"
+                ],
+                "rationales": [
+                    "Range of motion exercises prevent contractures and maintain joint function",
+                    "Active exercises improve strength and endurance",
+                    "Progressive mobility prevents deconditioning and complications",
+                    "Splints maintain functional position and prevent deformity",
+                    "Position changes prevent pressure injuries and promote circulation",
+                    "Physical therapy provides specialized expertise for mobility rehabilitation"
+                ],
+                "frequency": "2-3 times daily and PRN",
+                "specialConsiderations": [
+                    "Modify exercises based on patient's pain level and tolerance",
+                    "Consider cultural factors that may influence mobility practices"
+                ]
+            },
+            {
+                "title": "Transfer Technique",
+                "actions": [
+                    "Assess for appropriate transfer method (stand-pivot, sliding board, mechanical lift)",
+                    "Ensure adequate staff assistance for safe transfers",
+                    "Teach patient proper body mechanics for transfers",
+                    "Use transfer aids as appropriate (gait belt, slide sheets)",
+                    "Provide verbal cues and guidance during transfers",
+                    "Document transfer status and assistance required"
+                ],
+                "rationales": [
+                    "Appropriate transfer method ensures safety for patient and staff",
+                    "Adequate assistance prevents falls and injury",
+                    "Proper body mechanics reduce strain and promote independence",
+                    "Transfer aids reduce friction and shearing forces",
+                    "Verbal cues enhance learning and participation",
+                    "Documentation ensures consistency in approach"
+                ],
+                "frequency": "With each transfer"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has mobility improved?",
+                "expectedOutcomes": [
+                    "Demonstrates increased strength and endurance",
+                    "Shows improved range of motion",
+                    "Requires less assistance with transfers and ambulation",
+                    "Uses assistive devices correctly and safely",
+                    "Participates more actively in mobility activities"
+                ],
+                "evaluationMethods": [
+                    "Muscle strength assessment",
+                    "Range of motion measurement",
+                    "Functional mobility assessment",
+                    "Observation of technique",
+                    "Patient self-report of mobility"
+                ]
+            },
+            {
+                "statement": "Has patient remained free from complications of immobility?",
+                "expectedOutcomes": [
+                    "Skin remains intact without breakdown",
+                    "No signs or symptoms of venous thromboembolism",
+                    "Maintains or improves joint range of motion",
+                    "Maintains clear lung sounds and adequate oxygenation",
+                    "Regular bowel movements without constipation"
+                ],
+                "evaluationMethods": [
+                    "Skin assessment",
+                    "Physical examination",
+                    "Range of motion assessment",
+                    "Respiratory assessment",
+                    "Bowel function monitoring"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Kalisch BJ, Lee S, Dabney BW",
+                "title": "Outcomes of inpatient mobilization: a literature review",
+                "year": "2014",
+                "source": "Journal of Clinical Nursing",
+                "doi": "10.1111/jocn.12315"
+            },
+            {
+                "author": "Pashikanti L, Von Ah D",
+                "title": "Impact of early mobilization protocol on the medical-surgical inpatient population: an integrated review of literature",
+                "year": "2012",
+                "source": "Clinical Nurse Specialist",
+                "doi": "10.1097/NUR.0b013e31824590e6"
+            }
+        ],
+        "notes": "Consider interdisciplinary approach including physical therapy, occupational therapy, and rehabilitation nursing for complex mobility impairments",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Throughout hospitalization with ongoing assessment and adjustment",
+        "imageUrl": "assets/images/general/Impaired Physical Mobility Management.webp",
+        "isFeatured": false,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-25T00:00:00.415Z"
+    },
+    {
+        "id": "gen005",
+        "title": "Deficient Knowledge Management",
+        "category": "General",
+        "tags": [
+            "Patient Education",
+            "Health Literacy",
+            "Self-Management",
+            "Teaching"
+        ],
+        "description": "A comprehensive care plan for addressing knowledge deficits related to health conditions, treatments, and self-care, focusing on effective teaching strategies and evaluation of learning outcomes.",
+        "assessments": [
+            {
+                "title": "Learning Needs Assessment",
+                "points": [
+                    "Assess current knowledge level regarding condition and treatment",
+                    "Evaluate health literacy using standardized tool",
+                    "Identify patient's learning style (visual, auditory, kinesthetic)",
+                    "Assess barriers to learning (language, cognitive limitations, sensory deficits)",
+                    "Determine patient's priorities and concerns regarding learning needs"
+                ],
+                "description": "Comprehensive learning assessment helps tailor educational interventions to patient's needs and abilities"
+            },
+            {
+                "title": "Readiness to Learn Assessment",
+                "points": [
+                    "Evaluate emotional readiness to receive information",
+                    "Assess motivation and perceived importance of learning",
+                    "Evaluate attention span and concentration ability",
+                    "Assess for pain, fatigue, or other physical barriers to learning",
+                    "Identify optimal time of day for teaching sessions"
+                ],
+                "description": "Readiness assessment helps identify the optimal timing and approach for educational interventions"
+            },
+            {
+                "title": "Support System Assessment",
+                "points": [
+                    "Identify key family members or caregivers involved in patient's care",
+                    "Assess caregiver knowledge and learning needs",
+                    "Evaluate home environment for implementation of new knowledge",
+                    "Assess financial resources for obtaining necessary supplies or medications",
+                    "Identify community resources available to support learning and self-care"
+                ],
+                "description": "Support system assessment helps identify additional learners and resources to reinforce education"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Deficient Knowledge related to insufficient information and unfamiliarity with resources as evidenced by inaccurate statements about condition and treatment",
+                "relatedFactors": [
+                    "Insufficient information",
+                    "Misinformation",
+                    "Unfamiliarity with information resources",
+                    "Cognitive limitation",
+                    "Low health literacy"
+                ],
+                "definingCharacteristics": [
+                    "Inaccurate statements about condition or treatment",
+                    "Inappropriate or exaggerated behaviors",
+                    "Inadequate follow-through with instructions",
+                    "Verbalized misconceptions",
+                    "Expressed need to learn more"
+                ],
+                "nandaCode": "00126"
+            },
+            {
+                "statement": "Ineffective Health Management related to insufficient knowledge of therapeutic regimen as evidenced by failure to include treatment regimen in daily living",
+                "relatedFactors": [
+                    "Complexity of therapeutic regimen",
+                    "Insufficient knowledge",
+                    "Perceived barriers",
+                    "Economic difficulties",
+                    "Family patterns of health care"
+                ],
+                "definingCharacteristics": [
+                    "Failure to include treatment regimen in daily living",
+                    "Ineffective choices in daily living for meeting health goals",
+                    "Verbalized difficulty with prescribed regimen",
+                    "Unexpected acceleration of illness symptoms"
+                ],
+                "nandaCode": "00078"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate increased knowledge about health condition and treatment regimen",
+                "indicators": [
+                    "Accurately describes health condition",
+                    "Explains rationale for treatments and medications",
+                    "Identifies signs and symptoms requiring medical attention",
+                    "Describes necessary lifestyle modifications",
+                    "Demonstrates required self-care skills"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will demonstrate ability to implement knowledge in self-care activities",
+                "indicators": [
+                    "Performs required procedures correctly",
+                    "Makes appropriate decisions regarding self-care",
+                    "Correctly interprets and responds to symptoms",
+                    "Follows medication regimen accurately",
+                    "Verbalizes plan for follow-up care"
+                ],
+                "timeframe": "Prior to discharge and at follow-up",
+                "type": "Long-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Teaching: Disease Process",
+                "actions": [
+                    "Assess current knowledge and understanding of condition",
+                    "Provide information about disease process, causes, and contributing factors",
+                    "Explain relationship between disease and symptoms",
+                    "Describe potential complications and warning signs",
+                    "Use multiple teaching methods (verbal, written, visual, demonstration)",
+                    "Provide information at appropriate health literacy level"
+                ],
+                "rationales": [
+                    "Assessment identifies knowledge gaps and misconceptions",
+                    "Understanding disease process improves adherence to treatment",
+                    "Connecting symptoms to disease improves recognition and reporting",
+                    "Knowledge of complications promotes early intervention",
+                    "Multiple methods address different learning styles",
+                    "Appropriate literacy level improves comprehension and retention"
+                ],
+                "frequency": "Daily during hospitalization and prior to discharge",
+                "specialConsiderations": [
+                    "Use interpreter services for non-English speaking patients",
+                    "Consider cultural beliefs that may influence understanding of disease"
+                ]
+            },
+            {
+                "title": "Teaching: Prescribed Medication",
+                "actions": [
+                    "Provide information about medication names, purposes, and doses",
+                    "Explain administration techniques and timing",
+                    "Discuss potential side effects and management strategies",
+                    "Identify drug interactions and foods to avoid",
+                    "Provide written medication schedule",
+                    "Demonstrate and have patient return-demonstrate medication administration"
+                ],
+                "rationales": [
+                    "Knowledge of medications improves adherence",
+                    "Proper administration ensures therapeutic effect",
+                    "Awareness of side effects promotes early recognition and management",
+                    "Understanding interactions prevents adverse effects",
+                    "Written schedules serve as memory aids",
+                    "Return demonstration confirms understanding and ability"
+                ],
+                "frequency": "Prior to administering new medications and before discharge"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has knowledge level improved?",
+                "expectedOutcomes": [
+                    "Accurately describes condition, treatments, and medications",
+                    "Explains rationale for therapeutic interventions",
+                    "Identifies signs and symptoms requiring medical attention",
+                    "Describes necessary lifestyle modifications",
+                    "Demonstrates understanding of follow-up care requirements"
+                ],
+                "evaluationMethods": [
+                    "Teach-back assessment",
+                    "Verbal questioning",
+                    "Written questionnaires",
+                    "Observation of demonstrations",
+                    "Pre/post knowledge assessment"
+                ]
+            },
+            {
+                "statement": "Can patient apply knowledge to self-care?",
+                "expectedOutcomes": [
+                    "Correctly performs required procedures",
+                    "Makes appropriate decisions regarding self-care",
+                    "Demonstrates proper medication administration",
+                    "Implements necessary lifestyle modifications",
+                    "Verbalizes plan for ongoing management"
+                ],
+                "evaluationMethods": [
+                    "Return demonstration",
+                    "Scenario-based questions",
+                    "Observation of self-care activities",
+                    "Patient self-report of confidence",
+                    "Follow-up assessment of knowledge application"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Bergh AL, Friberg F, Persson E, Dahlborg-Lyckhage E",
+                "title": "Registered nurses' patient education in everyday primary care practice: Implications for the use of theory in practice",
+                "year": "2015",
+                "source": "Journal of Clinical Nursing",
+                "doi": "10.1111/jocn.12776"
+            },
+            {
+                "author": "Kessels RP",
+                "title": "Patients' memory for medical information",
+                "year": "2003",
+                "source": "Journal of the Royal Society of Medicine",
+                "doi": "10.1258/jrsm.96.5.219"
+            }
+        ],
+        "notes": "Consider providing audio recordings of teaching sessions or video demonstrations for reinforcement after discharge",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Throughout hospitalization with emphasis before discharge",
+        "imageUrl": "assets/images/general/Deficient Knowledge Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-07-05T00:00:00.415Z"
+    },
+    {
+        "id": "gen006",
+        "title": "Activity Intolerance Management",
+        "category": "General",
+        "tags": [
+            "Exercise",
+            "Energy Conservation",
+            "Cardiac Rehabilitation",
+            "Endurance"
+        ],
+        "description": "A comprehensive care plan for patients experiencing activity intolerance, focusing on gradual activity progression, energy conservation, and addressing underlying physiological causes.",
+        "assessments": [
+            {
+                "title": "Activity Tolerance Assessment",
+                "points": [
+                    "Assess vital sign response to activity (heart rate, blood pressure, respiratory rate, oxygen saturation)",
+                    "Evaluate subjective symptoms during activity (dyspnea, chest pain, dizziness, fatigue)",
+                    "Assess duration and intensity of activity that produces symptoms",
+                    "Evaluate recovery time after activity",
+                    "Assess impact of activity intolerance on ADLs and quality of life"
+                ],
+                "description": "Comprehensive activity assessment establishes baseline tolerance and guides activity progression planning"
+            },
+            {
+                "title": "Cardiopulmonary Assessment",
+                "points": [
+                    "Auscultate heart sounds for abnormalities",
+                    "Assess lung sounds for crackles, wheezes, or decreased breath sounds",
+                    "Evaluate for peripheral edema",
+                    "Assess for signs of respiratory distress at rest and with activity",
+                    "Review cardiac and pulmonary function tests if available"
+                ],
+                "description": "Cardiopulmonary assessment helps identify underlying physiological causes of activity intolerance"
+            },
+            {
+                "title": "Functional Capacity Assessment",
+                "points": [
+                    "Determine baseline functional capacity using standardized tool (6-minute walk test, MET level)",
+                    "Assess ability to perform ADLs independently",
+                    "Evaluate need for assistive devices during activity",
+                    "Assess home environment for barriers to activity",
+                    "Determine prior level of function and activity goals"
+                ],
+                "description": "Functional assessment helps establish realistic goals and measure progress in activity tolerance"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Activity Intolerance related to imbalance between oxygen supply and demand as evidenced by abnormal heart rate or blood pressure response to activity and exertional dyspnea",
+                "relatedFactors": [
+                    "Cardiopulmonary disorders",
+                    "Bed rest deconditioning",
+                    "Generalized weakness",
+                    "Sedentary lifestyle",
+                    "Imbalance between oxygen supply and demand"
+                ],
+                "definingCharacteristics": [
+                    "Abnormal heart rate or blood pressure response to activity",
+                    "Exertional dyspnea",
+                    "Fatigue or weakness",
+                    "Discomfort or pain with activity",
+                    "ECG changes reflecting arrhythmias or ischemia"
+                ],
+                "nandaCode": "00092"
+            },
+            {
+                "statement": "Ineffective Breathing Pattern related to respiratory muscle fatigue as evidenced by dyspnea and altered chest excursion",
+                "relatedFactors": [
+                    "Respiratory muscle fatigue",
+                    "Neuromuscular impairment",
+                    "Pain",
+                    "Anxiety",
+                    "Respiratory muscle weakness"
+                ],
+                "definingCharacteristics": [
+                    "Dyspnea",
+                    "Altered chest excursion",
+                    "Use of accessory muscles to breathe",
+                    "Altered respiratory rate or depth",
+                    "Prolonged expiration phase"
+                ],
+                "nandaCode": "00032"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate improved activity tolerance with stable vital signs during activity",
+                "indicators": [
+                    "Heart rate increases no more than 20 bpm above resting with activity",
+                    "Blood pressure remains within 20 mmHg of baseline during activity",
+                    "Respiratory rate returns to baseline within 3-5 minutes after activity",
+                    "Oxygen saturation remains >92% during activity",
+                    "Reports decreased symptoms during equivalent activity"
+                ],
+                "timeframe": "Within 5-7 days",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will perform ADLs with minimal symptoms of activity intolerance",
+                "indicators": [
+                    "Completes self-care activities with minimal assistance",
+                    "Reports fatigue level <3 on 0-10 scale after ADLs",
+                    "Demonstrates use of energy conservation techniques",
+                    "Maintains adequate oxygenation during activities",
+                    "Participates in progressive activity program"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Activity Therapy",
+                "actions": [
+                    "Implement progressive activity protocol based on tolerance",
+                    "Monitor vital signs before, during, and after activity",
+                    "Schedule activities during periods of highest energy",
+                    "Provide rest periods before and after activity",
+                    "Administer oxygen therapy during activity if prescribed",
+                    "Collaborate with physical therapy for individualized exercise program"
+                ],
+                "rationales": [
+                    "Progressive activity builds endurance and prevents deconditioning",
+                    "Vital sign monitoring detects adverse responses to activity",
+                    "Energy levels fluctuate throughout the day",
+                    "Rest periods prevent excessive fatigue",
+                    "Supplemental oxygen supports increased metabolic demands",
+                    "Physical therapy provides specialized expertise for activity progression"
+                ],
+                "frequency": "2-3 times daily with gradual increases",
+                "specialConsiderations": [
+                    "Terminate activity if patient develops chest pain, severe dyspnea, dizziness, or pallor",
+                    "Consider cardiac monitoring during initial activity trials for high-risk patients"
+                ]
+            },
+            {
+                "title": "Energy Management",
+                "actions": [
+                    "Teach energy conservation techniques (sitting instead of standing, using assistive devices)",
+                    "Prioritize activities based on importance and energy requirements",
+                    "Implement work simplification techniques",
+                    "Arrange environment to minimize energy expenditure",
+                    "Teach pursed-lip breathing during activity",
+                    "Ensure adequate nutrition and hydration"
+                ],
+                "rationales": [
+                    "Energy conservation techniques reduce unnecessary energy expenditure",
+                    "Prioritization ensures essential activities are completed",
+                    "Work simplification reduces energy demands",
+                    "Environmental modifications reduce unnecessary movement",
+                    "Pursed-lip breathing improves ventilation and reduces dyspnea",
+                    "Proper nutrition and hydration support energy production"
+                ],
+                "frequency": "Daily throughout hospitalization"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has activity tolerance improved?",
+                "expectedOutcomes": [
+                    "Demonstrates increased duration and intensity of activity",
+                    "Shows improved vital sign response to activity",
+                    "Reports decreased symptoms with equivalent activity",
+                    "Recovers more quickly after activity",
+                    "Requires less assistance with ADLs"
+                ],
+                "evaluationMethods": [
+                    "Vital sign monitoring during activity",
+                    "Functional capacity reassessment",
+                    "Patient symptom reporting",
+                    "Observation of ADL performance",
+                    "Activity diary review"
+                ]
+            },
+            {
+                "statement": "Is patient effectively managing energy during activities?",
+                "expectedOutcomes": [
+                    "Demonstrates use of energy conservation techniques",
+                    "Prioritizes activities appropriately",
+                    "Incorporates rest periods as needed",
+                    "Modifies environment to reduce energy demands",
+                    "Reports less fatigue with daily activities"
+                ],
+                "evaluationMethods": [
+                    "Observation of technique use",
+                    "Patient interview",
+                    "Fatigue scale assessment",
+                    "Return demonstration",
+                    "Caregiver feedback"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Doherty P, Lewin R",
+                "title": "The RAMIT trial, a pragmatic RCT of cardiac rehabilitation versus usual care: what does it tell us?",
+                "year": "2012",
+                "source": "Heart",
+                "doi": "10.1136/heartjnl-2012-302305"
+            },
+            {
+                "author": "Bartels MN",
+                "title": "Pathophysiology and management of exercise intolerance in patients with chronic pulmonary disease",
+                "year": "2013",
+                "source": "Clinics in Chest Medicine",
+                "doi": "10.1016/j.ccm.2013.08.013"
+            }
+        ],
+        "notes": "Consider referral to cardiac or pulmonary rehabilitation program after discharge for patients with chronic cardiopulmonary conditions",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Throughout hospitalization with ongoing assessment and adjustment",
+        "imageUrl": "assets/images/general/Activity Intolerance Management.webp",
+        "isFeatured": false,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-10T00:00:00.415Z"
+    },
+    {
+        "id": "gen007",
+        "title": "Acute Pain Management",
+        "category": "General",
+        "tags": [
+            "Pain Control",
+            "Comfort Measures",
+            "Analgesia",
+            "Non-pharmacological"
+        ],
+        "description": "A comprehensive care plan for managing acute pain, focusing on assessment, pharmacological and non-pharmacological interventions, and prevention of complications associated with pain and pain management.",
+        "assessments": [
+            {
+                "title": "Pain Assessment",
+                "points": [
+                    "Assess pain using appropriate scale (0-10 numeric, FACES, FLACC, etc.)",
+                    "Evaluate pain characteristics (location, quality, radiation, timing, duration)",
+                    "Assess aggravating and alleviating factors",
+                    "Evaluate impact of pain on function, sleep, and mood",
+                    "Assess for nonverbal indicators of pain",
+                    "Reassess pain after interventions"
+                ],
+                "description": "Comprehensive pain assessment guides appropriate interventions and evaluates their effectiveness"
+            },
+            {
+                "title": "Functional Assessment",
+                "points": [
+                    "Evaluate impact of pain on mobility and activities of daily living",
+                    "Assess ability to perform deep breathing and coughing exercises",
+                    "Evaluate effect of pain on sleep and rest",
+                    "Assess impact on appetite and nutrition",
+                    "Evaluate psychological response to pain (anxiety, fear, depression)"
+                ],
+                "description": "Functional assessment helps identify how pain affects recovery and guides holistic interventions"
+            },
+            {
+                "title": "Medication Assessment",
+                "points": [
+                    "Review current analgesic regimen and effectiveness",
+                    "Assess for side effects of pain medications",
+                    "Evaluate risk factors for opioid-related adverse events",
+                    "Assess patient's understanding of pain management plan",
+                    "Evaluate for signs of tolerance, dependence, or aberrant medication behaviors"
+                ],
+                "description": "Medication assessment ensures safe and effective pharmacological pain management"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Acute Pain related to physical injury agent as evidenced by verbal reports of pain and guarding behavior",
+                "relatedFactors": [
+                    "Tissue trauma",
+                    "Inflammation",
+                    "Surgical intervention",
+                    "Disease process",
+                    "Diagnostic procedures"
+                ],
+                "definingCharacteristics": [
+                    "Verbal reports of pain",
+                    "Guarding behavior",
+                    "Facial grimacing",
+                    "Changes in vital signs during pain",
+                    "Self-focusing",
+                    "Altered sleep pattern"
+                ],
+                "nandaCode": "00132"
+            },
+            {
+                "statement": "Impaired Physical Mobility related to pain as evidenced by limited range of motion and reluctance to attempt movement",
+                "relatedFactors": [
+                    "Pain",
+                    "Prescribed movement restrictions",
+                    "Fear of pain with movement",
+                    "Musculoskeletal impairment"
+                ],
+                "definingCharacteristics": [
+                    "Limited range of motion",
+                    "Reluctance to attempt movement",
+                    "Slowed movement",
+                    "Guarding behavior",
+                    "Postural instability"
+                ],
+                "nandaCode": "00085"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will report pain at acceptable level (≤3/10 or patient-defined goal) with interventions",
+                "indicators": [
+                    "Reports pain at ≤3/10 or at patient's acceptable level",
+                    "Demonstrates relaxed facial expression and body posture",
+                    "Participates in necessary activities with minimal pain interference",
+                    "Verbalizes satisfaction with pain management",
+                    "Demonstrates improved sleep and rest"
+                ],
+                "timeframe": "Within 24-48 hours",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will demonstrate effective use of pharmacological and non-pharmacological pain management strategies",
+                "indicators": [
+                    "Requests analgesics appropriately before pain becomes severe",
+                    "Uses non-pharmacological techniques effectively",
+                    "Reports decreased need for rescue doses of analgesics",
+                    "Demonstrates proper use of patient-controlled analgesia if applicable",
+                    "Identifies factors that worsen or alleviate pain"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Pain Management: Pharmacological",
+                "actions": [
+                    "Administer analgesics as prescribed, using around-the-clock dosing for continuous pain",
+                    "Implement patient-controlled analgesia (PCA) if ordered",
+                    "Administer adjuvant medications as prescribed (NSAIDs, muscle relaxants, anticonvulsants)",
+                    "Assess effectiveness 30-60 minutes after administration",
+                    "Monitor for and manage side effects (constipation, nausea, sedation)",
+                    "Advocate for changes in pain regimen if inadequate relief"
+                ],
+                "rationales": [
+                    "Around-the-clock dosing prevents pain escalation",
+                    "PCA allows patient control and improves satisfaction",
+                    "Adjuvant medications enhance analgesia and reduce opioid requirements",
+                    "Timely assessment determines intervention effectiveness",
+                    "Proactive management of side effects improves adherence",
+                    "Regimen adjustments ensure optimal pain control"
+                ],
+                "frequency": "As prescribed and PRN",
+                "specialConsiderations": [
+                    "Consider opioid-sparing approaches when possible",
+                    "Adjust approach for patients with renal or hepatic impairment"
+                ]
+            },
+            {
+                "title": "Pain Management: Non-pharmacological",
+                "actions": [
+                    "Apply cold or heat therapy as appropriate for condition",
+                    "Teach and assist with relaxation techniques (deep breathing, guided imagery)",
+                    "Implement position changes and proper body alignment",
+                    "Provide distraction activities appropriate to age and preferences",
+                    "Use therapeutic touch or massage if acceptable to patient",
+                    "Ensure adequate rest periods between activities"
+                ],
+                "rationales": [
+                    "Cold reduces inflammation; heat relaxes muscles",
+                    "Relaxation techniques reduce muscle tension and anxiety",
+                    "Proper positioning reduces strain on painful areas",
+                    "Distraction shifts focus away from pain",
+                    "Touch and massage stimulate large nerve fibers and block pain transmission",
+                    "Rest periods prevent pain exacerbation from fatigue"
+                ],
+                "frequency": "Every 2-4 hours and PRN"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has pain been reduced to acceptable level?",
+                "expectedOutcomes": [
+                    "Reports pain at ≤3/10 or patient-defined acceptable level",
+                    "Demonstrates relaxed facial expression and body posture",
+                    "Participates in necessary activities with minimal pain interference",
+                    "Verbalizes satisfaction with pain management",
+                    "Demonstrates improved sleep patterns"
+                ],
+                "evaluationMethods": [
+                    "Pain scale reassessment",
+                    "Observation of nonverbal cues",
+                    "Functional assessment",
+                    "Patient satisfaction rating",
+                    "Sleep quality assessment"
+                ]
+            },
+            {
+                "statement": "Is patient effectively using pain management strategies?",
+                "expectedOutcomes": [
+                    "Requests analgesics before pain becomes severe",
+                    "Demonstrates use of non-pharmacological techniques",
+                    "Reports decreased need for rescue doses",
+                    "Uses PCA appropriately if applicable",
+                    "Identifies and avoids pain-exacerbating factors"
+                ],
+                "evaluationMethods": [
+                    "Medication administration record review",
+                    "Observation of technique use",
+                    "Patient interview",
+                    "PCA usage data if applicable",
+                    "Return demonstration"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Chou R, Gordon DB, de Leon-Casasola OA, et al.",
+                "title": "Management of Postoperative Pain: A Clinical Practice Guideline From the American Pain Society, the American Society of Regional Anesthesia and Pain Medicine, and the American Society of Anesthesiologists' Committee on Regional Anesthesia, Executive Committee, and Administrative Council",
+                "year": "2016",
+                "source": "Journal of Pain",
+                "doi": "10.1016/j.jpain.2015.12.008"
+            },
+            {
+                "author": "Schug SA, Palmer GM, Scott DA, Halliwell R, Trinca J",
+                "title": "Acute Pain Management: Scientific Evidence",
+                "year": "2015",
+                "source": "Australian and New Zealand College of Anaesthetists",
+                "doi": "10.1097/00000542-200212000-00032"
+            }
+        ],
+        "notes": "Consider pain management consultation for patients with complex pain issues or history of chronic pain",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Throughout acute pain episode with regular reassessment",
+        "imageUrl": "assets/images/general/Acute Pain Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-06-30T00:00:00.415Z"
+    },
+    {
+        "id": "gen008",
+        "title": "Risk for Shock Management",
+        "category": "General",
+        "tags": [
+            "Shock",
+            "Hemodynamics",
+            "Fluid Resuscitation",
+            "Circulatory Support"
+        ],
+        "description": "A comprehensive care plan for preventing and managing shock, focusing on early recognition of warning signs, hemodynamic monitoring, and prompt interventions to maintain tissue perfusion.",
+        "assessments": [
+            {
+                "title": "Hemodynamic Assessment",
+                "points": [
+                    "Monitor vital signs including blood pressure, heart rate, respiratory rate q15-30min",
+                    "Assess for orthostatic hypotension if patient condition permits",
+                    "Evaluate peripheral pulses (strength, equality, regularity)",
+                    "Assess capillary refill time",
+                    "Monitor central venous pressure (CVP) if central line present",
+                    "Evaluate cardiac output/index if advanced monitoring available"
+                ],
+                "description": "Comprehensive hemodynamic assessment helps detect early signs of shock and guides resuscitation efforts"
+            },
+            {
+                "title": "Tissue Perfusion Assessment",
+                "points": [
+                    "Assess skin color, temperature, and moisture",
+                    "Evaluate level of consciousness and mental status",
+                    "Monitor urine output hourly",
+                    "Assess for mottling or cyanosis of extremities",
+                    "Evaluate for delayed capillary refill (>3 seconds)",
+                    "Monitor for changes in respiratory pattern"
+                ],
+                "description": "Tissue perfusion assessment helps identify end-organ hypoperfusion requiring immediate intervention"
+            },
+            {
+                "title": "Laboratory Assessment",
+                "points": [
+                    "Monitor hemoglobin and hematocrit levels",
+                    "Evaluate serum lactate levels",
+                    "Assess arterial blood gases",
+                    "Monitor electrolytes, particularly potassium and calcium",
+                    "Evaluate coagulation studies",
+                    "Monitor renal function tests"
+                ],
+                "description": "Laboratory assessment helps identify shock etiology, severity, and response to treatment"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Risk for Shock related to hypovolemia, infection, or cardiac dysfunction",
+                "relatedFactors": [
+                    "Hypovolemia (hemorrhage, dehydration, third-spacing)",
+                    "Infection/sepsis",
+                    "Myocardial dysfunction",
+                    "Anaphylaxis",
+                    "Neurogenic causes",
+                    "Medication effects"
+                ],
+                "definingCharacteristics": [
+                    "Hypotension or trend toward hypotension",
+                    "Tachycardia",
+                    "Decreased urine output (<0.5 mL/kg/hr)",
+                    "Altered mental status",
+                    "Cool, clammy skin",
+                    "Delayed capillary refill"
+                ],
+                "nandaCode": "00205"
+            },
+            {
+                "statement": "Decreased Cardiac Output related to altered preload, afterload, or contractility as evidenced by hemodynamic instability",
+                "relatedFactors": [
+                    "Hypovolemia",
+                    "Cardiac dysfunction",
+                    "Altered vascular resistance",
+                    "Dysrhythmias",
+                    "Medication effects"
+                ],
+                "definingCharacteristics": [
+                    "Hypotension",
+                    "Tachycardia",
+                    "Decreased peripheral pulses",
+                    "Cool extremities",
+                    "Decreased urine output",
+                    "Altered level of consciousness"
+                ],
+                "nandaCode": "00029"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will maintain adequate tissue perfusion as evidenced by stable vital signs and improved perfusion parameters",
+                "indicators": [
+                    "Blood pressure within patient's normal range or MAP >65 mmHg",
+                    "Heart rate 60-100 bpm",
+                    "Warm, dry skin with normal color",
+                    "Capillary refill <3 seconds",
+                    "Urine output >0.5 mL/kg/hr",
+                    "Alert and oriented mental status"
+                ],
+                "timeframe": "Within 1-2 hours of intervention initiation",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will show resolution of shock state with normalization of laboratory values",
+                "indicators": [
+                    "Decreasing serum lactate levels",
+                    "Improving acid-base balance",
+                    "Normalized hemoglobin/hematocrit",
+                    "Stable electrolytes",
+                    "Improving renal function tests",
+                    "Normalized coagulation studies"
+                ],
+                "timeframe": "Within 24-48 hours",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Shock Management",
+                "actions": [
+                    "Establish and maintain patent airway",
+                    "Administer oxygen therapy to maintain SpO2 >94%",
+                    "Establish IV access with large-bore catheters (16-18 gauge)",
+                    "Administer fluid resuscitation as prescribed",
+                    "Position patient flat with legs elevated if hypovolemic shock suspected",
+                    "Administer blood products as prescribed",
+                    "Prepare for and assist with vasopressor administration if ordered"
+                ],
+                "rationales": [
+                    "Patent airway ensures adequate oxygenation",
+                    "Supplemental oxygen improves tissue oxygenation",
+                    "Large-bore access allows rapid fluid administration",
+                    "Fluid resuscitation restores intravascular volume",
+                    "Trendelenburg position increases venous return",
+                    "Blood products restore oxygen-carrying capacity",
+                    "Vasopressors maintain perfusion pressure when fluids insufficient"
+                ],
+                "frequency": "Continuous during acute phase",
+                "specialConsiderations": [
+                    "Modify approach based on shock type (hypovolemic, cardiogenic, distributive, obstructive)",
+                    "Consider central line placement for patients requiring multiple infusions or hemodynamic monitoring"
+                ]
+            },
+            {
+                "title": "Hemodynamic Monitoring",
+                "actions": [
+                    "Monitor vital signs q15min until stable, then q30-60min",
+                    "Maintain continuous cardiac monitoring",
+                    "Monitor urine output hourly",
+                    "Assess peripheral perfusion q1-2h",
+                    "Monitor CVP, pulmonary artery pressures, or cardiac output if available",
+                    "Obtain laboratory studies as ordered (lactate, ABGs, CBC, electrolytes)",
+                    "Document intake and output accurately"
+                ],
+                "rationales": [
+                    "Frequent vital sign monitoring detects trends and response to treatment",
+                    "Cardiac monitoring identifies dysrhythmias affecting cardiac output",
+                    "Urine output reflects renal perfusion and volume status",
+                    "Peripheral perfusion assessment detects changes in tissue perfusion",
+                    "Advanced hemodynamic monitoring guides targeted therapy",
+                    "Laboratory studies evaluate shock severity and response to treatment",
+                    "I&O monitoring helps evaluate fluid balance"
+                ],
+                "frequency": "Continuous during acute phase"
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has adequate tissue perfusion been maintained or restored?",
+                "expectedOutcomes": [
+                    "Vital signs within acceptable parameters",
+                    "Warm, dry skin with normal color",
+                    "Capillary refill <3 seconds",
+                    "Urine output >0.5 mL/kg/hr",
+                    "Alert and oriented mental status",
+                    "Strong, equal peripheral pulses"
+                ],
+                "evaluationMethods": [
+                    "Vital sign monitoring",
+                    "Physical assessment",
+                    "Urine output measurement",
+                    "Neurological assessment",
+                    "Hemodynamic parameter monitoring"
+                ]
+            },
+            {
+                "statement": "Have laboratory values improved, indicating resolution of shock?",
+                "expectedOutcomes": [
+                    "Decreasing serum lactate levels",
+                    "Normalized or improving acid-base balance",
+                    "Stable or improving hemoglobin/hematocrit",
+                    "Normalized electrolytes",
+                    "Improving renal function tests",
+                    "Normalized coagulation studies"
+                ],
+                "evaluationMethods": [
+                    "Serial laboratory testing",
+                    "Trend analysis of values",
+                    "Arterial blood gas interpretation",
+                    "Comparison with baseline values",
+                    "Evaluation of response to interventions"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Levy MM, Evans LE, Rhodes A",
+                "title": "The Surviving Sepsis Campaign Bundle: 2018 update",
+                "year": "2018",
+                "source": "Intensive Care Medicine",
+                "doi": "10.1007/s00134-018-5085-0"
+            },
+            {
+                "author": "Vincent JL, De Backer D",
+                "title": "Circulatory Shock",
+                "year": "2013",
+                "source": "New England Journal of Medicine",
+                "doi": "10.1056/NEJMra1208943"
+            }
+        ],
+        "notes": "Consider early ICU transfer for patients with progressive shock despite initial interventions",
+        "difficultyLevel": "Advanced",
+        "timeFrame": "Immediate intervention with continuous monitoring until stabilized",
+        "imageUrl": "assets/images/general/Risk for Shock Management.webp",
+        "isFeatured": false,
+        "isFavorite": false,
+        "lastUpdated": "2025-07-15T00:00:00.415Z"
+    },
+    {
+        "id": "gen009",
+        "title": "Diarrhea Management",
+        "category": "General",
+        "tags": [
+            "Gastrointestinal",
+            "Fluid Balance",
+            "Bowel Management",
+            "Infection Control"
+        ],
+        "description": "A comprehensive care plan for managing diarrhea, focusing on identifying causes, preventing complications, maintaining fluid and electrolyte balance, and promoting comfort and dignity.",
+        "assessments": [
+            {
+                "title": "Diarrhea Characteristics Assessment",
+                "points": [
+                    "Assess frequency, volume, consistency, and color of stools",
+                    "Evaluate for presence of blood, mucus, or undigested food",
+                    "Assess for associated symptoms (cramping, urgency, tenesmus)",
+                    "Determine onset, duration, and pattern of diarrhea",
+                    "Identify potential causes (medications, diet, infection, stress)"
+                ],
+                "description": "Detailed stool assessment helps identify potential causes and severity of diarrhea"
+            },
+            {
+                "title": "Hydration and Electrolyte Assessment",
+                "points": [
+                    "Assess for signs of dehydration (dry mucous membranes, poor skin turgor, thirst)",
+                    "Monitor vital signs including orthostatic blood pressure changes",
+                    "Evaluate intake and output balance",
+                    "Monitor weight daily",
+                    "Assess laboratory values (electrolytes, BUN, creatinine)"
+                ],
+                "description": "Hydration assessment helps detect and prevent fluid and electrolyte imbalances associated with diarrhea"
+            },
+            {
+                "title": "Skin Integrity Assessment",
+                "points": [
+                    "Assess perianal and perineal skin for irritation, breakdown, or excoriation",
+                    "Evaluate for moisture-associated skin damage",
+                    "Assess patient's ability to perform personal hygiene",
+                    "Evaluate need for containment devices",
+                    "Monitor for pressure injury risk in bedbound patients with diarrhea"
+                ],
+                "description": "Skin assessment helps prevent and detect complications related to frequent liquid stools"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Diarrhea related to infectious process, medication effects, or dietary factors as evidenced by frequent loose liquid stools",
+                "relatedFactors": [
+                    "Infectious processes",
+                    "Medication side effects",
+                    "Dietary factors",
+                    "Inflammatory bowel disease",
+                    "Malabsorption syndromes",
+                    "Psychological stress"
+                ],
+                "definingCharacteristics": [
+                    "Frequent loose liquid stools",
+                    "Abdominal cramping or pain",
+                    "Urgency",
+                    "Hyperactive bowel sounds",
+                    "Increased frequency of bowel movements"
+                ],
+                "nandaCode": "00013"
+            },
+            {
+                "statement": "Risk for Deficient Fluid Volume related to active fluid loss as evidenced by diarrhea",
+                "relatedFactors": [
+                    "Excessive fluid loss through diarrhea",
+                    "Inadequate fluid intake",
+                    "Altered absorption",
+                    "Extremes of age increasing risk"
+                ],
+                "definingCharacteristics": [
+                    "Diarrhea",
+                    "Decreased urine output",
+                    "Dry mucous membranes",
+                    "Poor skin turgor",
+                    "Thirst",
+                    "Weakness"
+                ],
+                "nandaCode": "00028"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will experience reduction in frequency and volume of diarrhea",
+                "indicators": [
+                    "Decreased number of liquid stools per day",
+                    "Formed or semi-formed stool consistency",
+                    "Reduced abdominal cramping and urgency",
+                    "Normal bowel sounds",
+                    "Reports increased comfort"
+                ],
+                "timeframe": "Within 24-48 hours",
+                "type": "Short-term"
+            },
+            {
+                "statement": "Patient will maintain adequate hydration and electrolyte balance",
+                "indicators": [
+                    "Moist mucous membranes",
+                    "Good skin turgor",
+                    "Stable vital signs without orthostatic changes",
+                    "Urine output >0.5 mL/kg/hr",
+                    "Electrolytes within normal range",
+                    "Stable weight"
+                ],
+                "timeframe": "Throughout episode of diarrhea",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Diarrhea Management",
+                "actions": [
+                    "Identify and address underlying cause when possible",
+                    "Administer antidiarrheal medications as prescribed",
+                    "Implement appropriate diet modifications (BRAT diet, low-fiber, lactose-free)",
+                    "Provide small, frequent

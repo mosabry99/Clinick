@@ -1,0 +1,882 @@
+[
+    {
+        "id": "matnb001",
+        "title": "Risk for Postpartum Hemorrhage Management",
+        "category": "Maternal-Newborn",
+        "tags": [
+            "Postpartum",
+            "Hemorrhage",
+            "Bleeding",
+            "Uterine Atony"
+        ],
+        "description": "A comprehensive care plan for preventing and managing postpartum hemorrhage, focusing on risk assessment, early recognition of bleeding, prompt intervention, and prevention of complications in the immediate postpartum period.",
+        "assessments": [
+            {
+                "title": "Risk Factor Assessment",
+                "points": [
+                    "Assess for history of previous postpartum hemorrhage",
+                    "Evaluate for uterine overdistention (multiple gestation, polyhydramnios, macrosomia)",
+                    "Assess for prolonged labor (>24 hours)",
+                    "Evaluate for precipitous labor (<3 hours)",
+                    "Assess for use of oxytocin during labor",
+                    "Evaluate for operative delivery (cesarean section, instrumental delivery)",
+                    "Assess for placental abnormalities (placenta previa, placenta accreta)",
+                    "Evaluate for pre-existing bleeding disorders or anticoagulant use",
+                    "Assess for grand multiparity (>5 previous births)",
+                    "Evaluate for chorioamnionitis or other infection"
+                ],
+                "description": "Comprehensive risk factor assessment helps identify patients at increased risk for postpartum hemorrhage, allowing for preventive interventions and heightened surveillance"
+            },
+            {
+                "title": "Physical Assessment",
+                "points": [
+                    "Assess vital signs (blood pressure, pulse, respiratory rate, temperature)",
+                    "Evaluate uterine tone and fundal height",
+                    "Assess lochia (amount, color, consistency, presence of clots)",
+                    "Evaluate perineal, vaginal, or cesarean incision for bleeding",
+                    "Assess for signs of hypovolemic shock (tachycardia, hypotension, decreased urine output, pallor)",
+                    "Evaluate for bladder distention that may impair uterine contraction",
+                    "Assess hemoglobin and hematocrit levels",
+                    "Evaluate coagulation studies if indicated",
+                    "Assess pain level and location"
+                ],
+                "description": "Physical assessment helps identify early signs of hemorrhage and provides baseline data for ongoing monitoring and evaluation of interventions"
+            },
+            {
+                "title": "Psychosocial Assessment",
+                "points": [
+                    "Assess patient's understanding of postpartum bleeding and warning signs",
+                    "Evaluate anxiety level related to bleeding risk or actual bleeding",
+                    "Assess support system availability",
+                    "Evaluate impact of hemorrhage risk or actual bleeding on maternal-infant bonding",
+                    "Assess cultural beliefs or practices related to postpartum bleeding",
+                    "Evaluate coping mechanisms"
+                ],
+                "description": "Psychosocial assessment helps identify educational needs and emotional support requirements for the patient and family during this potentially stressful situation"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Risk for Bleeding related to pregnancy complications and postpartum factors",
+                "relatedFactors": [
+                    "Uterine atony",
+                    "Retained placental fragments",
+                    "Genital tract trauma",
+                    "Coagulation disorders",
+                    "History of postpartum hemorrhage",
+                    "Multiple gestation",
+                    "Prolonged labor",
+                    "Precipitous labor",
+                    "Grand multiparity",
+                    "Placental abnormalities"
+                ],
+                "definingCharacteristics": [
+                    "Not applicable as this is a risk diagnosis"
+                ],
+                "nandaCode": "00206"
+            },
+            {
+                "statement": "Deficient Fluid Volume related to active fluid volume loss as evidenced by increased heart rate, decreased blood pressure, and decreased urine output",
+                "relatedFactors": [
+                    "Active fluid loss",
+                    "Hemorrhage",
+                    "Failure of regulatory mechanisms"
+                ],
+                "definingCharacteristics": [
+                    "Increased heart rate",
+                    "Decreased blood pressure",
+                    "Decreased urine output",
+                    "Decreased skin turgor",
+                    "Dry mucous membranes",
+                    "Weakness",
+                    "Thirst",
+                    "Altered mental status"
+                ],
+                "nandaCode": "00027"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will not experience postpartum hemorrhage",
+                "indicators": [
+                    "Maintains normal vital signs (HR <100, BP within patient's normal range)",
+                    "Demonstrates firm uterine tone",
+                    "Exhibits normal lochia flow (saturates <1 pad per hour)",
+                    "Maintains hemoglobin and hematocrit within normal limits",
+                    "Verbalizes understanding of warning signs requiring immediate attention"
+                ],
+                "timeframe": "Throughout postpartum period",
+                "type": "Short-term"
+            },
+            {
+                "statement": "If hemorrhage occurs, patient will demonstrate adequate tissue perfusion and hemodynamic stability",
+                "indicators": [
+                    "Returns to hemodynamic stability within 2 hours of intervention",
+                    "Maintains adequate urine output (>30 mL/hour)",
+                    "Demonstrates improved or stabilized hemoglobin and hematocrit levels",
+                    "Reports decreased anxiety related to bleeding",
+                    "Exhibits normal skin color and temperature"
+                ],
+                "timeframe": "Within 24 hours of hemorrhage",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Hemorrhage Prevention",
+                "actions": [
+                    "Administer prophylactic uterotonics (oxytocin, methylergonovine, or prostaglandins) as prescribed",
+                    "Perform frequent fundal checks to ensure firm uterine tone",
+                    "Teach patient proper fundal massage technique",
+                    "Ensure empty bladder to promote uterine contraction",
+                    "Facilitate early breastfeeding to stimulate natural oxytocin release",
+                    "Minimize perineal trauma during delivery when possible",
+                    "Monitor vital signs according to protocol (q15min for 1 hour, q30min for 2 hours, then q4h if stable)",
+                    "Quantify blood loss accurately using calibrated drapes or weighing pads"
+                ],
+                "rationales": [
+                    "Uterotonics promote uterine contraction and prevent atony",
+                    "Regular fundal checks allow early detection of uterine atony",
+                    "Patient-performed fundal massage promotes self-care and ongoing assessment",
+                    "Full bladder can displace uterus and prevent effective contraction",
+                    "Breastfeeding stimulates natural oxytocin release promoting uterine contraction",
+                    "Minimizing trauma reduces bleeding from lacerations",
+                    "Frequent vital sign monitoring allows early detection of hemodynamic changes",
+                    "Accurate blood loss quantification prevents underestimation of hemorrhage"
+                ],
+                "frequency": "Continuous during first 24 hours postpartum, then as indicated",
+                "specialConsiderations": [
+                    "Modify frequency of assessments based on risk factors and clinical status",
+                    "Consider cultural practices regarding postpartum care and adapt accordingly",
+                    "Be aware of medication contraindications (e.g., methylergonovine is contraindicated in hypertensive patients)"
+                ]
+            },
+            {
+                "title": "Hemorrhage Management",
+                "actions": [
+                    "Activate postpartum hemorrhage protocol per facility policy",
+                    "Perform bimanual uterine compression if atony present",
+                    "Administer additional uterotonics as prescribed (methylergonovine, carboprost, misoprostol)",
+                    "Establish large-bore IV access if not already present",
+                    "Administer crystalloid fluid resuscitation as ordered",
+                    "Prepare for blood product administration if indicated",
+                    "Assist with identification and repair of lacerations",
+                    "Prepare for surgical intervention if bleeding persists (D&C, balloon tamponade, uterine artery embolization, hysterectomy)",
+                    "Implement continuous vital sign monitoring",
+                    "Insert indwelling urinary catheter to monitor output",
+                    "Position patient flat with legs elevated if hypotensive"
+                ],
+                "rationales": [
+                    "Protocol activation ensures coordinated team response",
+                    "Bimanual compression mechanically controls atonic bleeding",
+                    "Additional uterotonics address uterine atony through different mechanisms",
+                    "Large-bore IV access allows rapid fluid and blood product administration",
+                    "Crystalloid fluids restore intravascular volume temporarily",
+                    "Blood products replace lost components and improve coagulation",
+                    "Repair of lacerations addresses traumatic sources of bleeding",
+                    "Surgical interventions may be necessary for persistent hemorrhage",
+                    "Continuous monitoring tracks response to interventions",
+                    "Urinary catheter allows accurate measurement of renal perfusion",
+                    "Positioning improves venous return and cardiac output"
+                ],
+                "frequency": "Continuous until hemorrhage controlled",
+                "specialConsiderations": [
+                    "Consider point-of-care testing for hemoglobin and coagulation if available",
+                    "Maintain awareness of potential for disseminated intravascular coagulation",
+                    "Recognize that visual estimation of blood loss typically underestimates actual loss by 30-50%"
+                ]
+            },
+            {
+                "title": "Patient Education and Support",
+                "actions": [
+                    "Explain all procedures and interventions",
+                    "Teach patient to report increased bleeding immediately",
+                    "Provide emotional support during hemorrhage management",
+                    "Include support person in education when appropriate",
+                    "Explain normal vs. abnormal postpartum bleeding patterns",
+                    "Teach signs of delayed postpartum hemorrhage to report after discharge",
+                    "Provide written discharge instructions regarding bleeding concerns",
+                    "Address concerns about impact on breastfeeding and bonding"
+                ],
+                "rationales": [
+                    "Explanation reduces anxiety and promotes cooperation",
+                    "Early reporting allows prompt intervention",
+                    "Emotional support reduces psychological trauma",
+                    "Including support person extends monitoring after discharge",
+                    "Understanding normal patterns helps identify abnormal bleeding",
+                    "Education on delayed hemorrhage promotes safety after discharge",
+                    "Written instructions serve as reference after discharge",
+                    "Addressing breastfeeding concerns promotes continued bonding"
+                ],
+                "frequency": "Throughout hospitalization and at discharge",
+                "specialConsiderations": [
+                    "Adapt education to patient's language and health literacy level",
+                    "Consider cultural beliefs about postpartum bleeding",
+                    "Recognize potential for posttraumatic stress following severe hemorrhage"
+                ]
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has postpartum hemorrhage been prevented or effectively managed?",
+                "expectedOutcomes": [
+                    "Maintains normal vital signs (HR <100, BP within patient's normal range)",
+                    "Demonstrates firm uterine tone",
+                    "Exhibits normal lochia flow (saturates <1 pad per hour)",
+                    "Maintains or returns to normal hemoglobin and hematocrit levels",
+                    "Maintains adequate urine output (>30 mL/hour)",
+                    "Reports comfort with uterine tone and minimal cramping"
+                ],
+                "evaluationMethods": [
+                    "Vital sign monitoring",
+                    "Fundal assessment",
+                    "Lochia assessment",
+                    "Laboratory values review",
+                    "Intake and output measurement",
+                    "Patient self-report of comfort"
+                ]
+            },
+            {
+                "statement": "Does patient demonstrate understanding of postpartum bleeding management?",
+                "expectedOutcomes": [
+                    "Verbalizes understanding of warning signs requiring immediate attention",
+                    "Demonstrates proper fundal massage technique",
+                    "Accurately describes normal vs. abnormal bleeding patterns",
+                    "Identifies appropriate actions if increased bleeding occurs",
+                    "Expresses confidence in self-monitoring after discharge"
+                ],
+                "evaluationMethods": [
+                    "Verbal return demonstration",
+                    "Teach-back assessment",
+                    "Observation of self-care activities",
+                    "Pre-discharge knowledge assessment",
+                    "Follow-up phone call after discharge"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "ACOG Committee on Practice Bulletins-Obstetrics",
+                "title": "Postpartum Hemorrhage",
+                "year": "2017",
+                "source": "American College of Obstetricians and Gynecologists Practice Bulletin No. 183",
+                "doi": "10.1097/AOG.0000000000002351"
+            },
+            {
+                "author": "Evensen A, Anderson JM, Fontaine P",
+                "title": "Postpartum Hemorrhage: Prevention and Treatment",
+                "year": "2017",
+                "source": "American Family Physician",
+                "doi": "10.1016/j.ajog.2016.04.018"
+            },
+            {
+                "author": "World Health Organization",
+                "title": "WHO recommendations for the prevention and treatment of postpartum haemorrhage",
+                "year": "2018",
+                "source": "World Health Organization",
+                "doi": "10.1016/S0140-6736(18)31666-X"
+            }
+        ],
+        "notes": "Consider implementing a postpartum hemorrhage risk assessment tool at admission to identify high-risk patients. Ensure availability of massive transfusion protocol and emergency equipment.",
+        "difficultyLevel": "Advanced",
+        "timeFrame": "Immediate postpartum period (first 24 hours) with extended monitoring for high-risk patients",
+        "imageUrl": "assets/images/maternal-newborn/Postpartum Hemorrhage Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-05-15T00:00:00.415Z"
+    },
+    {
+        "id": "matnb002",
+        "title": "Risk for Impaired Parenting Management",
+        "category": "Maternal-Newborn",
+        "tags": [
+            "Parenting",
+            "Attachment",
+            "Bonding",
+            "Newborn Care"
+        ],
+        "description": "A comprehensive care plan for preventing and addressing impaired parenting, focusing on assessment of parenting readiness, promotion of parent-infant attachment, education on newborn care, and support for parents experiencing challenges in the transition to parenthood.",
+        "assessments": [
+            {
+                "title": "Parenting Readiness Assessment",
+                "points": [
+                    "Assess knowledge and experience with infant care",
+                    "Evaluate expectations of parenthood and newborn behavior",
+                    "Assess available support systems (partner, family, friends)",
+                    "Evaluate financial and material resources for infant care",
+                    "Assess home environment safety and readiness",
+                    "Evaluate parent's physical and emotional health status",
+                    "Assess for history of adverse childhood experiences",
+                    "Evaluate parent's cognitive and developmental status",
+                    "Assess cultural beliefs and practices related to parenting and infant care",
+                    "Evaluate parent's response to infant cues and needs"
+                ],
+                "description": "Comprehensive parenting readiness assessment helps identify knowledge deficits, unrealistic expectations, and resource needs to guide appropriate interventions and support"
+            },
+            {
+                "title": "Risk Factor Assessment",
+                "points": [
+                    "Assess for history of substance abuse",
+                    "Evaluate for signs of perinatal mood disorders (depression, anxiety)",
+                    "Assess for history of domestic violence or abuse",
+                    "Evaluate for difficult pregnancy or birth experience",
+                    "Assess for infant factors (prematurity, congenital anomalies, temperament)",
+                    "Evaluate for social isolation",
+                    "Assess for young parental age (<20 years)",
+                    "Evaluate for single parent status",
+                    "Assess for financial stressors",
+                    "Evaluate for history of child protective services involvement"
+                ],
+                "description": "Risk factor assessment helps identify parents who may need additional support and intervention to prevent impaired parenting"
+            },
+            {
+                "title": "Parent-Infant Interaction Assessment",
+                "points": [
+                    "Assess parent's comfort holding and handling infant",
+                    "Evaluate eye contact and verbal interaction with infant",
+                    "Assess responsiveness to infant cues (hunger, discomfort, fatigue)",
+                    "Evaluate parent's interpretation of infant behavior",
+                    "Assess parent's emotional response to infant crying",
+                    "Evaluate feeding interaction (positioning, responsiveness)",
+                    "Assess parent's ability to soothe infant",
+                    "Evaluate expressions of affection toward infant",
+                    "Assess for negative comments about infant",
+                    "Evaluate parent's interest in infant's appearance and behavior"
+                ],
+                "description": "Interaction assessment helps identify strengths and areas for improvement in parent-infant relationship and bonding"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Risk for Impaired Parenting related to knowledge deficit, lack of support systems, and unrealistic expectations of infant as evidenced by expressed concerns about ability to care for infant",
+                "relatedFactors": [
+                    "Knowledge deficit regarding infant development and care",
+                    "Lack of social support",
+                    "Financial constraints",
+                    "Unrealistic expectations of infant or self",
+                    "History of being parented in dysfunctional family",
+                    "Lack of role models",
+                    "Sleep deprivation and fatigue",
+                    "Stress and anxiety",
+                    "Difficult infant temperament",
+                    "Young parental age"
+                ],
+                "definingCharacteristics": [
+                    "Not applicable as this is a risk diagnosis"
+                ],
+                "nandaCode": "00057"
+            },
+            {
+                "statement": "Risk for Impaired Attachment related to anxiety, lack of privacy, and physical barriers",
+                "relatedFactors": [
+                    "Anxiety",
+                    "Lack of privacy",
+                    "Physical barriers (NICU admission, maternal illness)",
+                    "Parental substance abuse",
+                    "Developmental transition or crisis",
+                    "Premature infant",
+                    "Infant with congenital anomaly or illness"
+                ],
+                "definingCharacteristics": [
+                    "Not applicable as this is a risk diagnosis"
+                ],
+                "nandaCode": "00058"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Parent will demonstrate effective parenting skills and positive interactions with infant",
+                "indicators": [
+                    "Demonstrates appropriate holding, feeding, and basic care techniques",
+                    "Responds appropriately to infant cues and needs",
+                    "Verbalizes realistic expectations of infant behavior",
+                    "Demonstrates positive verbal and non-verbal interactions with infant",
+                    "Expresses positive feelings about parenting role"
+                ],
+                "timeframe": "Prior to discharge and ongoing",
+                "type": "Short-term and Long-term"
+            },
+            {
+                "statement": "Parent will identify and utilize appropriate support systems and resources",
+                "indicators": [
+                    "Identifies at least two support persons to assist with infant care",
+                    "Demonstrates knowledge of community resources for parenting support",
+                    "Verbalizes plan for managing stressful situations",
+                    "Schedules and attends follow-up appointments",
+                    "Contacts healthcare provider appropriately with concerns"
+                ],
+                "timeframe": "Prior to discharge and ongoing",
+                "type": "Short-term and Long-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Attachment Promotion",
+                "actions": [
+                    "Facilitate early and frequent skin-to-skin contact",
+                    "Encourage rooming-in when possible",
+                    "Teach parent to recognize infant cues and states",
+                    "Demonstrate and encourage eye contact during feeding and care",
+                    "Promote breastfeeding if desired by mother",
+                    "Encourage parent to talk, sing, and read to infant",
+                    "Model positive interaction with infant",
+                    "Point out infant's unique characteristics and responses",
+                    "Create private, calm environment for parent-infant interaction",
+                    "Involve both parents in infant care when possible"
+                ],
+                "rationales": [
+                    "Skin-to-skin contact promotes oxytocin release and bonding",
+                    "Rooming-in allows continuous interaction and learning opportunities",
+                    "Recognition of cues improves responsiveness and confidence",
+                    "Eye contact promotes attachment and neurological development",
+                    "Breastfeeding provides close contact and hormonal support for bonding",
+                    "Verbal interaction promotes language development and connection",
+                    "Modeling demonstrates positive interaction techniques",
+                    "Highlighting uniqueness promotes parental investment",
+                    "Private environment reduces stress and promotes focus on infant",
+                    "Involving both parents promotes shared parenting responsibility"
+                ],
+                "frequency": "Throughout hospitalization",
+                "specialConsiderations": [
+                    "Adapt approaches for NICU situations or maternal illness",
+                    "Consider cultural beliefs about newborn care and bonding",
+                    "Be sensitive to parents with history of trauma or loss"
+                ]
+            },
+            {
+                "title": "Parent Education",
+                "actions": [
+                    "Teach basic infant care skills (bathing, diapering, feeding, safety)",
+                    "Provide information on normal newborn appearance and behavior",
+                    "Educate about infant states and appropriate responses",
+                    "Teach soothing techniques for crying infant",
+                    "Provide anticipatory guidance about developmental milestones",
+                    "Educate about signs of illness requiring medical attention",
+                    "Teach safe sleep practices",
+                    "Provide information on feeding cues and techniques",
+                    "Educate about postpartum adjustment and self-care",
+                    "Teach stress management techniques"
+                ],
+                "rationales": [
+                    "Basic care skills build confidence and competence",
+                    "Understanding normal appearance reduces unnecessary concerns",
+                    "Knowledge of infant states improves appropriate responsiveness",
+                    "Soothing techniques reduce parental stress and infant distress",
+                    "Anticipatory guidance prepares parents for future development",
+                    "Recognition of illness signs promotes timely intervention",
+                    "Safe sleep practices reduce SIDS risk",
+                    "Understanding feeding cues improves nutrition and reduces frustration",
+                    "Self-care knowledge promotes parental wellbeing",
+                    "Stress management improves parenting capacity"
+                ],
+                "frequency": "Daily during hospitalization and at discharge",
+                "specialConsiderations": [
+                    "Adapt teaching to parent's learning style and health literacy",
+                    "Provide written materials to reinforce verbal teaching",
+                    "Consider cultural beliefs and practices in education"
+                ]
+            },
+            {
+                "title": "Support System Enhancement",
+                "actions": [
+                    "Assess existing support network and resources",
+                    "Provide information about community resources (parenting classes, support groups)",
+                    "Facilitate connection with peer support programs",
+                    "Refer to home visitation programs if available",
+                    "Connect with social services for material needs if indicated",
+                    "Assist in developing plan for postpartum support at home",
+                    "Provide information about childcare resources if needed",
+                    "Screen for and address postpartum mood disorders",
+                    "Facilitate referrals to mental health services if indicated",
+                    "Schedule appropriate follow-up appointments"
+                ],
+                "rationales": [
+                    "Assessment identifies gaps in support system",
+                    "Community resources extend support beyond hospitalization",
+                    "Peer support normalizes parenting challenges",
+                    "Home visitation provides ongoing assessment and support",
+                    "Addressing material needs reduces stress and improves parenting capacity",
+                    "Postpartum planning prevents isolation and overwhelm",
+                    "Childcare resources support parents returning to work",
+                    "Early identification of mood disorders prevents parenting impairment",
+                    "Mental health services address underlying conditions affecting parenting",
+                    "Follow-up appointments ensure continuity of care"
+                ],
+                "frequency": "Prior to discharge with follow-up as indicated",
+                "specialConsiderations": [
+                    "Consider cultural factors influencing acceptance of support",
+                    "Recognize barriers to accessing resources (transportation, language)",
+                    "Maintain non-judgmental approach to avoid stigmatization"
+                ]
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Does parent demonstrate effective parenting skills and positive interactions?",
+                "expectedOutcomes": [
+                    "Demonstrates appropriate holding, feeding, and basic care techniques",
+                    "Responds appropriately to infant cues and needs",
+                    "Verbalizes realistic expectations of infant behavior",
+                    "Demonstrates positive verbal and non-verbal interactions with infant",
+                    "Expresses positive feelings about parenting role",
+                    "Shows confidence in providing infant care"
+                ],
+                "evaluationMethods": [
+                    "Observation of care techniques",
+                    "Assessment of response to infant cues",
+                    "Discussion of infant behavior expectations",
+                    "Observation of parent-infant interactions",
+                    "Parent self-report of feelings about parenting",
+                    "Confidence rating scale"
+                ]
+            },
+            {
+                "statement": "Has parent identified and utilized appropriate support systems?",
+                "expectedOutcomes": [
+                    "Identifies at least two support persons to assist with infant care",
+                    "Demonstrates knowledge of community resources for parenting support",
+                    "Verbalizes plan for managing stressful situations",
+                    "Schedules and attends follow-up appointments",
+                    "Contacts healthcare provider appropriately with concerns",
+                    "Reports adequate support at home"
+                ],
+                "evaluationMethods": [
+                    "Discussion of support network",
+                    "Assessment of resource knowledge",
+                    "Review of stress management plan",
+                    "Appointment adherence tracking",
+                    "Documentation of appropriate contacts",
+                    "Follow-up assessment of home support"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Bowlby J",
+                "title": "Attachment and Loss: Volume 1: Attachment",
+                "year": "1982",
+                "source": "Basic Books",
+                "doi": "10.1093/sw/28.5.411"
+            },
+            {
+                "author": "Kendall-Tackett K",
+                "title": "A new paradigm for depression in new mothers: the central role of inflammation and how breastfeeding and anti-inflammatory treatments protect maternal mental health",
+                "year": "2007",
+                "source": "International Breastfeeding Journal",
+                "doi": "10.1186/1746-4358-2-6"
+            },
+            {
+                "author": "Olds DL, Kitzman H, Knudtson MD, Anson E, Smith JA, Cole R",
+                "title": "Effect of home visiting by nurses on maternal and child mortality: Results of a 2-decade follow-up of a randomized clinical trial",
+                "year": "2014",
+                "source": "JAMA Pediatrics",
+                "doi": "10.1001/jamapediatrics.2014.472"
+            }
+        ],
+        "notes": "Consider implementing standardized screening tools for risk factors. Ensure culturally sensitive approaches to parenting education and support.",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Initial intervention during hospitalization with ongoing support for 3-6 months postpartum",
+        "imageUrl": "assets/images/maternal-newborn/Impaired Parenting Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-05-20T00:00:00.415Z"
+    },
+    {
+        "id": "matnb003",
+        "title": "Risk for Infection Management (Postpartum)",
+        "category": "Maternal-Newborn",
+        "tags": [
+            "Postpartum",
+            "Infection",
+            "Puerperal Fever",
+            "Wound Care"
+        ],
+        "description": "A comprehensive care plan for preventing and managing postpartum infections, focusing on risk assessment, early recognition of infection signs, implementation of preventive measures, and prompt treatment of infections in the postpartum period.",
+        "assessments": [
+            {
+                "title": "Risk Factor Assessment",
+                "points": [
+                    "Assess for prolonged rupture of membranes (>18 hours)",
+                    "Evaluate for prolonged labor",
+                    "Assess for multiple vaginal examinations during labor",
+                    "Evaluate for operative delivery (cesarean section, instrumental delivery)",
+                    "Assess for retained placental fragments",
+                    "Evaluate for postpartum hemorrhage",
+                    "Assess for anemia",
+                    "Evaluate for obesity",
+                    "Assess for diabetes or gestational diabetes",
+                    "Evaluate for chorioamnionitis or other antepartum infections",
+                    "Assess for urinary catheterization",
+                    "Evaluate for immune compromise"
+                ],
+                "description": "Comprehensive risk factor assessment helps identify patients at increased risk for postpartum infection, allowing for preventive interventions and heightened surveillance"
+            },
+            {
+                "title": "Physical Assessment",
+                "points": [
+                    "Assess vital signs (temperature, pulse, respiratory rate, blood pressure)",
+                    "Evaluate uterine fundus for tenderness, size, and position",
+                    "Assess lochia for amount, color, odor, and consistency",
+                    "Evaluate perineal repair site or cesarean incision for redness, swelling, drainage, or dehiscence",
+                    "Assess breasts for signs of mastitis (redness, tenderness, warmth)",
+                    "Evaluate for urinary symptoms (frequency, urgency, dysuria)",
+                    "Assess for respiratory symptoms",
+                    "Evaluate for calf tenderness or swelling (DVT)",
+                    "Assess white blood cell count if indicated",
+                    "Evaluate for general malaise, chills, or other systemic symptoms"
+                ],
+                "description": "Physical assessment helps identify early signs of infection and provides baseline data for ongoing monitoring and evaluation of interventions"
+            },
+            {
+                "title": "Knowledge Assessment",
+                "points": [
+                    "Assess patient's understanding of infection prevention measures",
+                    "Evaluate knowledge of personal hygiene practices",
+                    "Assess understanding of perineal care or incision care",
+                    "Evaluate knowledge of signs and symptoms requiring medical attention",
+                    "Assess understanding of medication administration if prescribed",
+                    "Evaluate knowledge of hand hygiene importance",
+                    "Assess understanding of environmental factors affecting infection risk"
+                ],
+                "description": "Knowledge assessment helps identify educational needs to empower the patient in infection prevention and early recognition of infection signs"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Risk for Infection related to invasive procedures, tissue trauma, and altered immune function",
+                "relatedFactors": [
+                    "Invasive procedures (cesarean delivery, episiotomy, instrumental delivery)",
+                    "Tissue trauma",
+                    "Altered immune function",
+                    "Prolonged rupture of membranes",
+                    "Multiple vaginal examinations",
+                    "Retained placental fragments",
+                    "Inadequate primary defenses (broken skin, traumatized tissue)",
+                    "Chronic disease (diabetes, anemia)",
+                    "Malnutrition",
+                    "Prolonged labor"
+                ],
+                "definingCharacteristics": [
+                    "Not applicable as this is a risk diagnosis"
+                ],
+                "nandaCode": "00004"
+            },
+            {
+                "statement": "Ineffective Protection related to abnormal blood profiles and drug therapies as evidenced by deficient immunity",
+                "relatedFactors": [
+                    "Abnormal blood profiles",
+                    "Drug therapy (immunosuppression)",
+                    "Nutritional deficits",
+                    "Extremes of age",
+                    "Inadequate nutrition"
+                ],
+                "definingCharacteristics": [
+                    "Deficient immunity",
+                    "Impaired healing",
+                    "Fatigue",
+                    "Weakness",
+                    "Chills",
+                    "Disorientation"
+                ],
+                "nandaCode": "00043"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will remain free from signs and symptoms of infection",
+                "indicators": [
+                    "Maintains normal temperature (<38°C)",
+                    "Demonstrates normal lochia without foul odor",
+                    "Exhibits well-approximated incision or perineal repair without redness, swelling, or drainage",
+                    "Reports absence of pain beyond expected discomfort",
+                    "Maintains white blood cell count within normal limits"
+                ],
+                "timeframe": "Throughout postpartum period",
+                "type": "Short-term and Long-term"
+            },
+            {
+                "statement": "Patient will demonstrate knowledge of infection prevention measures",
+                "indicators": [
+                    "Demonstrates proper hand hygiene technique",
+                    "Performs appropriate perineal care or incision care",
+                    "Verbalizes signs and symptoms requiring medical attention",
+                    "Demonstrates proper pad changing technique",
+                    "Describes appropriate antibiotic use if prescribed"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Infection Prevention",
+                "actions": [
+                    "Implement strict hand hygiene before and after patient contact",
+                    "Use aseptic technique for all invasive procedures",
+                    "Administer prophylactic antibiotics for cesarean delivery as prescribed",
+                    "Teach and reinforce proper perineal hygiene (front-to-back wiping, frequent pad changes)",
+                    "Instruct on proper incision care for cesarean delivery",
+                    "Encourage early ambulation to prevent urinary stasis and atelectasis",
+                    "Promote adequate nutrition and hydration",
+                    "Ensure proper handling and disposal of contaminated materials",
+                    "Minimize urinary catheterization duration",
+                    "Encourage breastfeeding to enhance immune function"
+                ],
+                "rationales": [
+                    "Hand hygiene is the most effective method to prevent infection transmission",
+                    "Aseptic technique prevents introduction of pathogens during procedures",
+                    "Prophylactic antibiotics reduce surgical site infection risk",
+                    "Proper perineal hygiene reduces bacterial colonization and ascending infection",
+                    "Proper incision care promotes healing and prevents contamination",
+                    "Early ambulation improves circulation and prevents complications",
+                    "Adequate nutrition supports immune function",
+                    "Proper handling prevents cross-contamination",
+                    "Minimizing catheterization reduces urinary tract infection risk",
+                    "Breastfeeding enhances maternal and infant immune function"
+                ],
+                "frequency": "Ongoing throughout hospitalization",
+                "specialConsiderations": [
+                    "Modify approach for patients with specific risk factors",
+                    "Consider cultural practices regarding postpartum hygiene",
+                    "Be aware of antibiotic resistance patterns in facility"
+                ]
+            },
+            {
+                "title": "Infection Surveillance",
+                "actions": [
+                    "Monitor vital signs according to protocol (minimum q4h for 24 hours)",
+                    "Assess uterine fundus for tenderness, size, and position q4h",
+                    "Evaluate lochia for amount, color, odor, and consistency q4h",
+                    "Inspect perineal repair site or cesarean incision daily",
+                    "Assess breasts daily for signs of mastitis",
+                    "Monitor white blood cell count as indicated",
+                    "Assess for urinary symptoms with each void",
+                    "Evaluate for signs of thrombophlebitis (calf pain, swelling, warmth)",
+                    "Document and report abnormal findings promptly",
+                    "Collect specimens for culture as indicated"
+                ],
+                "rationales": [
+                    "Regular vital sign monitoring allows early detection of infection",
+                    "Fundal assessment detects endometritis",
+                    "Lochia assessment identifies signs of infection",
+                    "Incision inspection detects early signs of wound infection",
+                    "Breast assessment identifies early mastitis",
+                    "WBC monitoring tracks inflammatory response",
+                    "Urinary symptom assessment detects UTI",
+                    "Thrombophlebitis assessment identifies venous complications",
+                    "Prompt reporting facilitates early intervention",
+                    "Cultures identify specific pathogens to guide treatment"
+                ],
+                "frequency": "According to protocol and patient condition",
+                "specialConsiderations": [
+                    "Increase frequency of assessments for high-risk patients",
+                    "Consider baseline temperature variations in interpreting fever",
+                    "Be aware that some infections may present subtly in postpartum period"
+                ]
+            },
+            {
+                "title": "Patient Education",
+                "actions": [
+                    "Teach signs and symptoms of infection requiring medical attention",
+                    "Demonstrate proper hand hygiene technique",
+                    "Instruct on perineal care or incision care techniques",
+                    "Teach proper pad changing frequency and technique",
+                    "Educate about importance of completing full course of antibiotics if prescribed",
+                    "Instruct on proper nutrition to support healing",
+                    "Teach signs of mastitis and prevention measures",
+                    "Provide written discharge instructions regarding infection prevention",
+                    "Instruct on environmental factors affecting infection risk",
+                    "Teach proper infant care to prevent cross-contamination"
+                ],
+                "rationales": [
+                    "Knowledge of warning signs promotes early intervention",
+                    "Hand hygiene reduces pathogen transmission",
+                    "Proper care techniques prevent contamination",
+                    "Frequent pad changes reduce bacterial growth",
+                    "Completing antibiotics prevents resistant infections",
+                    "Nutrition supports immune function and healing",
+                    "Early recognition of mastitis allows prompt treatment",
+                    "Written instructions serve as reference after discharge",
+                    "Environmental awareness reduces infection risk",
+                    "Proper infant care prevents cross-contamination"
+                ],
+                "frequency": "Throughout hospitalization and at discharge",
+                "specialConsiderations": [
+                    "Adapt education to patient's language and health literacy level",
+                    "Consider cultural beliefs about postpartum practices",
+                    "Recognize barriers to implementing recommendations at home"
+                ]
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has patient remained free from signs and symptoms of infection?",
+                "expectedOutcomes": [
+                    "Maintains normal temperature (<38°C)",
+                    "Demonstrates normal lochia without foul odor",
+                    "Exhibits well-approximated incision or perineal repair without redness, swelling, or drainage",
+                    "Reports absence of pain beyond expected discomfort",
+                    "Maintains white blood cell count within normal limits",
+                    "Demonstrates absence of urinary symptoms"
+                ],
+                "evaluationMethods": [
+                    "Vital sign monitoring",
+                    "Lochia assessment",
+                    "Incision or perineal inspection",
+                    "Pain assessment",
+                    "Laboratory value review",
+                    "Urinary symptom assessment"
+                ]
+            },
+            {
+                "statement": "Does patient demonstrate knowledge of infection prevention measures?",
+                "expectedOutcomes": [
+                    "Demonstrates proper hand hygiene technique",
+                    "Performs appropriate perineal care or incision care",
+                    "Verbalizes signs and symptoms requiring medical attention",
+                    "Demonstrates proper pad changing technique",
+                    "Describes appropriate antibiotic use if prescribed",
+                    "Identifies strategies to prevent infection at home"
+                ],
+                "evaluationMethods": [
+                    "Observation of hand hygiene",
+                    "Return demonstration of care techniques",
+                    "Verbal recall of warning signs",
+                    "Observation of pad changing",
+                    "Medication knowledge assessment",
+                    "Verbalization of prevention strategies"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Bonet M, Ota E, Chibueze CE, Oladapo OT",
+                "title": "Antibiotic prophylaxis for episiotomy repair following vaginal birth",
+                "year": "2017",
+                "source": "Cochrane Database of Systematic Reviews",
+                "doi": "10.1002/14651858.CD012136.pub2"
+            },
+            {
+                "author": "Mackeen AD, Packard RE, Ota E, Speer L",
+                "title": "Antibiotic regimens for postpartum endometritis",
+                "year": "2015",
+                "source": "Cochrane Database of Systematic Reviews",
+                "doi": "10.1002/14651858.CD001067.pub3"
+            },
+            {
+                "author": "World Health Organization",
+                "title": "WHO recommendations for prevention and treatment of maternal peripartum infections",
+                "year": "2015",
+                "source": "World Health Organization",
+                "doi": "10.1186/s12978-015-0083-y"
+            }
+        ],
+        "notes": "Consider implementing a postpartum infection risk assessment tool. Ensure antimicrobial stewardship in antibiotic prescription practices.",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Hospitalization and first 6 weeks postpartum",
+        "imageUrl": "assets/images/maternal-newborn/Postpartum Infection Management.webp",
+        "isFeatured": false,
+        "isFavorite": false,
+        "lastUpdated": "2025-05-25T00:00:00.415Z"
+    }
+]

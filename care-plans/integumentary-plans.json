@@ -1,0 +1,809 @@
+[
+    {
+        "id": "integ001",
+        "title": "Pressure Injury Prevention and Management",
+        "category": "Integumentary",
+        "tags": [
+            "Pressure Ulcer",
+            "Pressure Injury",
+            "Decubitus",
+            "Skin Integrity"
+        ],
+        "description": "A comprehensive care plan for preventing and managing pressure injuries, focusing on risk assessment, skin care, pressure redistribution, nutritional support, and wound management strategies for patients at risk for or with existing pressure injuries.",
+        "assessments": [
+            {
+                "title": "Pressure Injury Risk Assessment",
+                "points": [
+                    "Conduct comprehensive risk assessment using validated tool (Braden, Norton, or Waterlow scale)",
+                    "Evaluate mobility and activity level",
+                    "Assess sensory perception and ability to respond to pressure-related discomfort",
+                    "Evaluate moisture exposure (incontinence, perspiration, wound drainage)",
+                    "Assess nutritional status (albumin, prealbumin, weight changes)",
+                    "Evaluate friction and shear risk during movement and positioning",
+                    "Assess for history of previous pressure injuries",
+                    "Evaluate comorbidities affecting tissue perfusion (diabetes, vascular disease)",
+                    "Assess medication effects on skin integrity (steroids, anticoagulants)",
+                    "Evaluate psychosocial factors affecting prevention measures"
+                ],
+                "description": "Comprehensive risk assessment helps identify specific risk factors for pressure injury development, allowing for targeted preventive interventions and early intervention"
+            },
+            {
+                "title": "Skin and Wound Assessment",
+                "points": [
+                    "Perform systematic head-to-toe skin assessment at least daily",
+                    "Assess skin for changes in temperature, color, turgor, moisture, and integrity",
+                    "Evaluate bony prominences for non-blanchable erythema (Stage 1 pressure injury)",
+                    "Assess existing pressure injuries using standardized staging system (Stages 1-4, Unstageable, Deep Tissue Injury)",
+                    "Measure wound dimensions (length, width, depth) and track changes",
+                    "Evaluate wound bed characteristics (tissue type, color, moisture)",
+                    "Assess wound edges and periwound skin",
+                    "Evaluate exudate (amount, color, consistency, odor)",
+                    "Assess for signs of infection (increased pain, erythema, warmth, purulent drainage)",
+                    "Document wound photography according to facility protocol"
+                ],
+                "description": "Systematic skin and wound assessment helps identify early signs of skin breakdown, determine pressure injury characteristics, and track healing progress to guide appropriate interventions"
+            },
+            {
+                "title": "Support Surface and Positioning Assessment",
+                "points": [
+                    "Evaluate current support surfaces (mattress, chair cushions, heel protectors)",
+                    "Assess appropriateness of support surface based on risk level",
+                    "Evaluate effectiveness of current positioning schedule",
+                    "Assess patient's ability to participate in repositioning",
+                    "Evaluate transfer techniques for friction and shear risk",
+                    "Assess microclimate management (temperature, moisture)",
+                    "Evaluate pressure redistribution during sitting",
+                    "Assess caregiver knowledge of proper positioning techniques",
+                    "Evaluate use of positioning devices (pillows, foam wedges, etc.)",
+                    "Assess head-of-bed elevation and its impact on shear forces"
+                ],
+                "description": "Support surface and positioning assessment helps identify appropriate pressure redistribution strategies and evaluate effectiveness of current interventions to prevent further tissue damage"
+            },
+            {
+                "title": "Nutritional Assessment",
+                "points": [
+                    "Evaluate caloric and protein intake",
+                    "Assess hydration status",
+                    "Evaluate laboratory values (albumin, prealbumin, transferrin)",
+                    "Assess weight trends",
+                    "Evaluate vitamin and mineral status (especially vitamins A, C, zinc)",
+                    "Assess ability to consume adequate nutrition",
+                    "Evaluate swallowing function if indicated",
+                    "Assess need for oral supplements or enteral/parenteral nutrition",
+                    "Evaluate impact of wound healing on nutritional requirements",
+                    "Assess cultural or personal factors affecting nutrition"
+                ],
+                "description": "Nutritional assessment helps identify deficiencies that impair wound healing and tissue integrity, allowing for targeted nutritional interventions to support pressure injury prevention and management"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Risk for Pressure Injury related to impaired physical mobility and altered sensory perception",
+                "relatedFactors": [
+                    "Impaired physical mobility",
+                    "Altered sensory perception",
+                    "Inadequate nutrition",
+                    "Excessive moisture",
+                    "Decreased tissue perfusion",
+                    "Extremes of age",
+                    "Altered mental status",
+                    "Friction and shear forces",
+                    "Dehydration",
+                    "Prolonged pressure"
+                ],
+                "definingCharacteristics": [
+                    "Not applicable as this is a risk diagnosis"
+                ],
+                "nandaCode": "00249"
+            },
+            {
+                "statement": "Impaired Tissue Integrity related to mechanical factors as evidenced by damaged tissue",
+                "relatedFactors": [
+                    "Mechanical factors (pressure, shear, friction)",
+                    "Nutritional deficit",
+                    "Impaired physical mobility",
+                    "Moisture",
+                    "Altered circulation",
+                    "Extremes of age",
+                    "Radiation",
+                    "Chemical irritants"
+                ],
+                "definingCharacteristics": [
+                    "Damaged tissue",
+                    "Destroyed tissue",
+                    "Altered skin integrity",
+                    "Tissue necrosis",
+                    "Pain",
+                    "Bleeding",
+                    "Discoloration"
+                ],
+                "nandaCode": "00044"
+            },
+            {
+                "statement": "Ineffective Peripheral Tissue Perfusion related to decreased cellular exchange as evidenced by skin temperature changes and altered skin characteristics",
+                "relatedFactors": [
+                    "Decreased cellular exchange",
+                    "Hypovolemia",
+                    "Impaired circulation",
+                    "Diabetes mellitus",
+                    "Vascular disease",
+                    "Edema",
+                    "Immobility"
+                ],
+                "definingCharacteristics": [
+                    "Skin temperature changes",
+                    "Altered skin characteristics",
+                    "Diminished pulses",
+                    "Delayed capillary refill",
+                    "Edema",
+                    "Altered skin color",
+                    "Altered sensation"
+                ],
+                "nandaCode": "00204"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will remain free from pressure injuries",
+                "indicators": [
+                    "Maintains intact skin over bony prominences",
+                    "Demonstrates absence of non-blanchable erythema",
+                    "Shows normal skin temperature, color, and turgor",
+                    "Maintains adequate tissue perfusion",
+                    "Achieves optimal nutritional status for tissue integrity"
+                ],
+                "timeframe": "Throughout hospitalization and ongoing",
+                "type": "Short-term and Long-term"
+            },
+            {
+                "statement": "If pressure injury present, patient will demonstrate progressive wound healing",
+                "indicators": [
+                    "Shows decreasing wound dimensions",
+                    "Demonstrates improved tissue type in wound bed (granulation)",
+                    "Exhibits decreasing amount of exudate",
+                    "Shows intact periwound skin",
+                    "Reports decreased pain at wound site"
+                ],
+                "timeframe": "Within 2 weeks and ongoing",
+                "type": "Short-term and Long-term"
+            },
+            {
+                "statement": "Patient/caregiver will demonstrate knowledge of pressure injury prevention strategies",
+                "indicators": [
+                    "Verbalizes understanding of pressure injury risk factors",
+                    "Demonstrates proper positioning techniques",
+                    "Participates in repositioning schedule",
+                    "Identifies early signs of skin breakdown",
+                    "Demonstrates appropriate use of support surfaces"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Pressure Redistribution",
+                "actions": [
+                    "Implement repositioning schedule based on individual risk factors and support surface (minimum q2h for standard mattress, q4h for pressure-redistributing surface)",
+                    "Use 30-degree tilted side-lying position rather than 90-degree lateral position",
+                    "Limit head-of-bed elevation to 30 degrees or less unless medically contraindicated",
+                    "Float heels by placing pillows under calves to elevate heels off bed surface",
+                    "Use appropriate pressure-redistributing support surfaces (mattresses, overlays, cushions)",
+                    "Implement microclimate management strategies (moisture-wicking surfaces, air flow)",
+                    "Use lift devices and proper transfer techniques to minimize friction and shear",
+                    "Avoid positioning directly on trochanter",
+                    "Limit sitting time to 1 hour or less for individuals with existing pressure injuries",
+                    "Use positioning devices to maintain proper body alignment"
+                ],
+                "rationales": [
+                    "Regular repositioning redistributes pressure and restores blood flow to compressed tissues",
+                    "30-degree tilt reduces pressure on bony prominences compared to 90-degree position",
+                    "Limiting head elevation reduces shearing forces on sacral area",
+                    "Heel floating completely offloads vulnerable heel tissue",
+                    "Specialized surfaces reduce interface pressure between patient and support surface",
+                    "Microclimate management reduces skin moisture and temperature that increase risk",
+                    "Proper transfer techniques reduce friction and shear forces that damage tissue",
+                    "Avoiding direct trochanter positioning reduces pressure on vulnerable area",
+                    "Limited sitting time reduces prolonged pressure on ischial tuberosities",
+                    "Proper alignment distributes weight evenly and maintains body position"
+                ],
+                "frequency": "Ongoing throughout care, with repositioning q2-4h based on individual assessment",
+                "specialConsiderations": [
+                    "Modify approach for individuals with spinal cord injury or hemodynamic instability",
+                    "Consider patient comfort and pain during repositioning",
+                    "Evaluate effectiveness of support surface regularly and upgrade if needed"
+                ]
+            },
+            {
+                "title": "Skin Care and Moisture Management",
+                "actions": [
+                    "Perform daily comprehensive skin assessment, with more frequent assessment of high-risk areas",
+                    "Cleanse skin promptly after incontinence episodes using gentle pH-balanced cleansers",
+                    "Apply moisture barrier to protect skin from excessive moisture",
+                    "Use absorbent underpads that wick moisture away from skin",
+                    "Implement bowel and bladder management program for incontinent patients",
+                    "Apply emollients to dry skin",
+                    "Avoid massage over bony prominences",
+                    "Use lift sheets and transfer devices to prevent friction during movement",
+                    "Maintain optimal microclimate (temperature and humidity)",
+                    "Implement incontinence management devices if appropriate"
+                ],
+                "rationales": [
+                    "Regular assessment allows early identification of skin changes",
+                    "Prompt cleansing removes irritants that damage skin",
+                    "Moisture barriers protect skin from maceration and chemical irritation",
+                    "Absorbent products reduce skin exposure to moisture",
+                    "Bowel/bladder programs reduce incontinence episodes",
+                    "Emollients maintain skin hydration and barrier function",
+                    "Massage can damage fragile subcutaneous tissue",
+                    "Lift devices reduce friction and shear during transfers",
+                    "Optimal microclimate reduces risk factors for skin breakdown",
+                    "Incontinence devices reduce skin exposure to moisture"
+                ],
+                "frequency": "With each care episode and as needed",
+                "specialConsiderations": [
+                    "Consider skin sensitivity and allergies when selecting products",
+                    "Adapt approach for fragile skin in elderly or compromised patients",
+                    "Balance moisture management with maintaining skin hydration"
+                ]
+            },
+            {
+                "title": "Nutritional Support",
+                "actions": [
+                    "Conduct nutritional screening and assessment",
+                    "Consult with dietitian for individualized nutrition plan",
+                    "Provide high-protein, high-calorie diet for patients with pressure injuries",
+                    "Administer vitamin and mineral supplements as prescribed (especially vitamin C, zinc, and vitamin A)",
+                    "Ensure adequate hydration (30-35 mL/kg/day unless contraindicated)",
+                    "Monitor weight weekly",
+                    "Implement oral nutritional supplements between meals",
+                    "Assist with feeding as needed",
+                    "Consider enteral or parenteral nutrition for severely compromised patients",
+                    "Monitor laboratory values related to nutrition (albumin, prealbumin, transferrin)"
+                ],
+                "rationales": [
+                    "Nutritional assessment identifies specific deficiencies",
+                    "Dietitian expertise ensures comprehensive nutritional planning",
+                    "Increased protein supports tissue repair and wound healing",
+                    "Specific vitamins and minerals are cofactors in wound healing",
+                    "Adequate hydration supports tissue perfusion and cellular function",
+                    "Weight monitoring tracks nutritional status over time",
+                    "Supplements provide concentrated nutrition between meals",
+                    "Feeding assistance ensures adequate intake",
+                    "Alternative feeding routes maintain nutrition when oral intake inadequate",
+                    "Laboratory monitoring evaluates effectiveness of nutritional interventions"
+                ],
+                "frequency": "Daily with weekly reassessment",
+                "specialConsiderations": [
+                    "Balance nutritional needs with other medical conditions",
+                    "Consider cultural and personal preferences in meal planning",
+                    "Recognize increased nutritional needs with multiple or large pressure injuries"
+                ]
+            },
+            {
+                "title": "Wound Management",
+                "actions": [
+                    "Assess and document wound characteristics at each dressing change",
+                    "Clean wound with appropriate solution (normal saline or wound cleanser)",
+                    "Debride necrotic tissue as prescribed (autolytic, enzymatic, mechanical, or sharp)",
+                    "Select appropriate dressing based on wound characteristics (moisture, depth, exudate)",
+                    "Manage exudate with appropriate absorptive dressings",
+                    "Protect periwound skin with barrier products",
+                    "Manage wound pain with appropriate interventions",
+                    "Monitor for and promptly treat signs of infection",
+                    "Consider advanced therapies for non-healing wounds (negative pressure therapy, growth factors)",
+                    "Maintain moist wound environment while managing excess moisture"
+                ],
+                "rationales": [
+                    "Regular assessment tracks healing progress and complications",
+                    "Appropriate cleaning removes debris without damaging tissue",
+                    "Debridement removes non-viable tissue that impairs healing",
+                    "Appropriate dressing selection optimizes wound environment",
+                    "Exudate management prevents maceration and promotes healing",
+                    "Periwound protection prevents enlargement of wound",
+                    "Pain management improves compliance and quality of life",
+                    "Prompt infection treatment prevents complications",
+                    "Advanced therapies accelerate healing in complex wounds",
+                    "Moisture balance optimizes cellular migration and proliferation"
+                ],
+                "frequency": "Based on wound assessment and dressing type (daily to weekly)",
+                "specialConsiderations": [
+                    "Consider wound location when selecting dressings",
+                    "Adapt frequency of dressing changes based on exudate and healing",
+                    "Consider cost and availability when selecting treatment options"
+                ]
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Has patient remained free from pressure injuries or shown wound healing progress?",
+                "expectedOutcomes": [
+                    "Maintains intact skin over bony prominences",
+                    "Demonstrates absence of non-blanchable erythema",
+                    "Shows decreasing wound dimensions if pressure injury present",
+                    "Exhibits improved tissue type in wound bed",
+                    "Demonstrates decreased exudate amount",
+                    "Shows intact periwound skin"
+                ],
+                "evaluationMethods": [
+                    "Daily skin assessment",
+                    "Weekly wound measurement",
+                    "Wound photography per protocol",
+                    "Wound assessment tools",
+                    "Braden scale reassessment",
+                    "Documentation of healing progress"
+                ]
+            },
+            {
+                "statement": "Are pressure redistribution strategies effective?",
+                "expectedOutcomes": [
+                    "Adheres to repositioning schedule",
+                    "Maintains proper body alignment with positioning devices",
+                    "Uses appropriate pressure-redistributing surfaces",
+                    "Demonstrates no new areas of skin breakdown",
+                    "Shows resolution of non-blanchable erythema within 48 hours",
+                    "Reports comfort with positioning regimen"
+                ],
+                "evaluationMethods": [
+                    "Observation of positioning compliance",
+                    "Skin assessment following repositioning",
+                    "Evaluation of support surface effectiveness",
+                    "Interface pressure mapping if available",
+                    "Patient comfort assessment",
+                    "Documentation of repositioning schedule adherence"
+                ]
+            },
+            {
+                "statement": "Does patient/caregiver demonstrate knowledge of pressure injury prevention?",
+                "expectedOutcomes": [
+                    "Verbalizes understanding of pressure injury risk factors",
+                    "Demonstrates proper positioning techniques",
+                    "Participates in repositioning schedule",
+                    "Identifies early signs of skin breakdown",
+                    "Demonstrates appropriate use of support surfaces",
+                    "Verbalizes plan for prevention after discharge"
+                ],
+                "evaluationMethods": [
+                    "Knowledge assessment questions",
+                    "Return demonstration of techniques",
+                    "Observation of participation in care",
+                    "Teach-back method evaluation",
+                    "Pre-discharge assessment",
+                    "Follow-up assessment after discharge"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "European Pressure Ulcer Advisory Panel, National Pressure Injury Advisory Panel, and Pan Pacific Pressure Injury Alliance",
+                "title": "Prevention and Treatment of Pressure Ulcers/Injuries: Clinical Practice Guideline",
+                "year": "2019",
+                "source": "EPUAP/NPIAP/PPPIA",
+                "doi": "10.11124/JBISRIR-D-19-00119"
+            },
+            {
+                "author": "Edsberg LE, Black JM, Goldberg M, McNichol L, Moore L, Sieggreen M",
+                "title": "Revised National Pressure Ulcer Advisory Panel Pressure Injury Staging System",
+                "year": "2016",
+                "source": "Journal of Wound, Ostomy, and Continence Nursing",
+                "doi": "10.1097/WON.0000000000000281"
+            },
+            {
+                "author": "Kayser SA, VanGilder CA, Lachenbruch C",
+                "title": "Predictors of superficial and severe hospital-acquired pressure injuries: A cross-sectional study using the International Pressure Ulcer Prevalence survey",
+                "year": "2019",
+                "source": "International Journal of Nursing Studies",
+                "doi": "10.1016/j.ijnurstu.2018.11.003"
+            }
+        ],
+        "notes": "Consider implementing a standardized pressure injury prevention protocol for all high-risk patients. Interdisciplinary approach including nursing, nutrition, physical therapy, and wound care specialists optimizes outcomes.",
+        "difficultyLevel": "Intermediate",
+        "timeFrame": "Prevention: ongoing; Management: varies with wound severity (2-12 weeks)",
+        "imageUrl": "assets/images/integumentary/Pressure Injury Prevention and Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-05-10T00:00:00.415Z"
+    },
+    {
+        "id": "integ002",
+        "title": "Impaired Tissue Integrity (Wounds) Management",
+        "category": "Integumentary",
+        "tags": [
+            "Wounds",
+            "Tissue Integrity",
+            "Wound Healing",
+            "Surgical Wounds"
+        ],
+        "description": "A comprehensive care plan for managing impaired tissue integrity, focusing on assessment of wound characteristics, implementation of evidence-based wound care practices, promotion of optimal healing environment, and prevention of complications in patients with acute or chronic wounds of various etiologies.",
+        "assessments": [
+            {
+                "title": "Wound Assessment",
+                "points": [
+                    "Identify wound etiology (surgical, traumatic, vascular, pressure, diabetic)",
+                    "Measure wound dimensions (length, width, depth, tunneling, undermining)",
+                    "Assess wound bed tissue type (epithelial, granulation, slough, eschar)",
+                    "Evaluate wound edges and periwound skin condition",
+                    "Assess exudate characteristics (amount, color, consistency, odor)",
+                    "Evaluate for signs of infection (increased pain, erythema, warmth, purulent drainage)",
+                    "Assess wound location and impact on function",
+                    "Evaluate wound pain using standardized scale",
+                    "Assess wound duration and previous treatments",
+                    "Document wound photography according to facility protocol"
+                ],
+                "description": "Comprehensive wound assessment provides baseline data for treatment planning, identifies complications, and allows for tracking of healing progress over time"
+            },
+            {
+                "title": "Healing Potential Assessment",
+                "points": [
+                    "Evaluate nutritional status (albumin, prealbumin, protein intake)",
+                    "Assess perfusion and oxygenation to wound area",
+                    "Evaluate comorbidities affecting healing (diabetes, vascular disease, immunosuppression)",
+                    "Assess medication effects on wound healing (steroids, chemotherapy, anticoagulants)",
+                    "Evaluate glycemic control in diabetic patients",
+                    "Assess for edema in affected area",
+                    "Evaluate psychosocial factors affecting wound care",
+                    "Assess smoking status and alcohol use",
+                    "Evaluate age-related factors affecting healing",
+                    "Assess previous history of delayed wound healing"
+                ],
+                "description": "Healing potential assessment identifies systemic and local factors that may impair or delay wound healing, allowing for comprehensive treatment planning"
+            },
+            {
+                "title": "Functional and Self-Care Assessment",
+                "points": [
+                    "Evaluate impact of wound on activities of daily living",
+                    "Assess mobility limitations related to wound location",
+                    "Evaluate patient's ability to perform wound care",
+                    "Assess caregiver availability and capability",
+                    "Evaluate home environment for wound care feasibility",
+                    "Assess financial resources for wound care supplies",
+                    "Evaluate knowledge of wound care principles",
+                    "Assess psychological impact of wound (body image, anxiety, depression)",
+                    "Evaluate cultural factors affecting wound care practices",
+                    "Assess adherence to previous wound care regimens"
+                ],
+                "description": "Functional assessment helps identify barriers to wound healing related to self-care ability, resources, and psychosocial factors, allowing for appropriate discharge planning and education"
+            },
+            {
+                "title": "Complication Risk Assessment",
+                "points": [
+                    "Evaluate risk for infection based on wound characteristics and patient factors",
+                    "Assess for signs of current infection or colonization",
+                    "Evaluate risk for bleeding (anticoagulation, friable tissue)",
+                    "Assess risk for dehiscence in surgical wounds",
+                    "Evaluate potential for maceration of surrounding skin",
+                    "Assess risk for malignant transformation in chronic wounds",
+                    "Evaluate potential for cross-contamination with multiple wounds",
+                    "Assess risk for allergic reactions to wound care products",
+                    "Evaluate potential for delayed healing due to mechanical stress",
+                    "Assess risk for additional tissue loss or wound extension"
+                ],
+                "description": "Complication risk assessment helps identify potential problems that may arise during the wound healing process, allowing for preventive interventions"
+            }
+        ],
+        "nursingDiagnoses": [
+            {
+                "statement": "Impaired Tissue Integrity related to altered circulation, nutritional deficit, and mechanical factors as evidenced by damaged or destroyed tissue",
+                "relatedFactors": [
+                    "Altered circulation",
+                    "Nutritional deficit",
+                    "Mechanical factors (pressure, friction, shear)",
+                    "Radiation",
+                    "Chemical irritants",
+                    "Thermal injury",
+                    "Impaired physical mobility",
+                    "Extremes of age",
+                    "Immunodeficiency"
+                ],
+                "definingCharacteristics": [
+                    "Damaged tissue",
+                    "Destroyed tissue",
+                    "Altered skin integrity",
+                    "Invasion of body structures",
+                    "Pain",
+                    "Bleeding",
+                    "Discoloration"
+                ],
+                "nandaCode": "00044"
+            },
+            {
+                "statement": "Risk for Infection related to inadequate primary defenses and chronic disease",
+                "relatedFactors": [
+                    "Inadequate primary defenses (broken skin, traumatized tissue)",
+                    "Chronic disease",
+                    "Immunosuppression",
+                    "Malnutrition",
+                    "Increased environmental exposure to pathogens",
+                    "Invasive procedures",
+                    "Insufficient knowledge to avoid exposure to pathogens"
+                ],
+                "definingCharacteristics": [
+                    "Not applicable as this is a risk diagnosis"
+                ],
+                "nandaCode": "00004"
+            },
+            {
+                "statement": "Chronic Pain related to tissue injury as evidenced by self-report of pain characteristics and altered ability to continue previous activities",
+                "relatedFactors": [
+                    "Tissue injury",
+                    "Chronic physical disability",
+                    "Inflammation",
+                    "Immune system response",
+                    "Nerve compression",
+                    "Psychological factors"
+                ],
+                "definingCharacteristics": [
+                    "Self-report of pain characteristics",
+                    "Altered ability to continue previous activities",
+                    "Facial expression of pain",
+                    "Protective behavior",
+                    "Guarding behavior",
+                    "Changes in sleep pattern",
+                    "Fatigue"
+                ],
+                "nandaCode": "00133"
+            }
+        ],
+        "goals": [
+            {
+                "statement": "Patient will demonstrate progressive wound healing",
+                "indicators": [
+                    "Shows decreasing wound dimensions",
+                    "Demonstrates improved tissue type in wound bed (increased granulation)",
+                    "Exhibits decreasing amount of exudate",
+                    "Shows intact periwound skin",
+                    "Demonstrates epithelialization from wound edges"
+                ],
+                "timeframe": "Within 2-4 weeks and ongoing",
+                "type": "Short-term and Long-term"
+            },
+            {
+                "statement": "Patient will remain free from wound complications",
+                "indicators": [
+                    "Demonstrates absence of clinical signs of infection",
+                    "Maintains intact wound edges without dehiscence",
+                    "Shows no maceration of surrounding skin",
+                    "Exhibits no increase in wound size",
+                    "Maintains adequate perfusion to wound area"
+                ],
+                "timeframe": "Throughout treatment",
+                "type": "Short-term and Long-term"
+            },
+            {
+                "statement": "Patient/caregiver will demonstrate competence in wound care management",
+                "indicators": [
+                    "Demonstrates proper wound cleansing technique",
+                    "Correctly applies prescribed dressings",
+                    "Identifies signs of complications requiring medical attention",
+                    "Verbalizes understanding of factors promoting wound healing",
+                    "Demonstrates proper disposal of wound care materials"
+                ],
+                "timeframe": "Prior to discharge",
+                "type": "Short-term"
+            }
+        ],
+        "interventions": [
+            {
+                "title": "Wound Care Management",
+                "actions": [
+                    "Assess and document wound characteristics at each dressing change",
+                    "Clean wound with appropriate solution (normal saline or wound cleanser)",
+                    "Remove debris and necrotic tissue through appropriate debridement method",
+                    "Select appropriate dressing based on wound characteristics and healing phase",
+                    "Maintain moist wound environment while managing excess exudate",
+                    "Protect periwound skin with barrier products",
+                    "Secure dressings with appropriate technique to minimize trauma",
+                    "Manage wound pain with appropriate interventions (timing of analgesia, gentle technique)",
+                    "Implement infection prevention measures (hand hygiene, aseptic technique)",
+                    "Consider advanced therapies for complex wounds (negative pressure therapy, biological dressings)"
+                ],
+                "rationales": [
+                    "Regular assessment tracks healing progress and identifies complications",
+                    "Appropriate cleaning removes debris without damaging healthy tissue",
+                    "Debridement removes non-viable tissue that impairs healing",
+                    "Appropriate dressing selection optimizes wound environment",
+                    "Moisture balance promotes cellular migration and prevents desiccation",
+                    "Periwound protection prevents enlargement of wound area",
+                    "Proper dressing securement prevents additional trauma",
+                    "Pain management improves compliance and quality of life",
+                    "Infection prevention reduces risk of wound contamination",
+                    "Advanced therapies accelerate healing in complex wounds"
+                ],
+                "frequency": "Based on wound assessment and dressing type (daily to weekly)",
+                "specialConsiderations": [
+                    "Adapt frequency of dressing changes based on exudate and healing phase",
+                    "Consider wound location when selecting dressings and securing methods",
+                    "Balance optimal dressing selection with cost and availability"
+                ]
+            },
+            {
+                "title": "Nutrition Therapy",
+                "actions": [
+                    "Conduct nutritional screening and assessment",
+                    "Consult with dietitian for individualized nutrition plan",
+                    "Provide high-protein diet (1.2-1.5 g/kg/day) for wound healing",
+                    "Ensure adequate caloric intake to prevent protein catabolism",
+                    "Administer vitamin and mineral supplements as prescribed (vitamin C, zinc, vitamin A)",
+                    "Ensure adequate hydration (30-35 mL/kg/day unless contraindicated)",
+                    "Monitor weight weekly",
+                    "Implement oral nutritional supplements between meals",
+                    "Consider enteral or parenteral nutrition for severely compromised patients",
+                    "Monitor laboratory values related to nutrition (albumin, prealbumin, transferrin)"
+                ],
+                "rationales": [
+                    "Nutritional assessment identifies specific deficiencies",
+                    "Dietitian expertise ensures comprehensive nutritional planning",
+                    "Increased protein provides building blocks for tissue repair",
+                    "Adequate calories spare protein for wound healing",
+                    "Specific vitamins and minerals are cofactors in wound healing",
+                    "Adequate hydration supports cellular function and nutrient transport",
+                    "Weight monitoring tracks nutritional status over time",
+                    "Supplements provide concentrated nutrition between meals",
+                    "Alternative feeding routes maintain nutrition when oral intake inadequate",
+                    "Laboratory monitoring evaluates effectiveness of nutritional interventions"
+                ],
+                "frequency": "Daily with weekly reassessment",
+                "specialConsiderations": [
+                    "Balance nutritional needs with other medical conditions",
+                    "Consider cultural and personal preferences in meal planning",
+                    "Recognize increased nutritional needs with multiple or large wounds"
+                ]
+            },
+            {
+                "title": "Infection Control",
+                "actions": [
+                    "Implement standard precautions for all wound care",
+                    "Use aseptic technique for wound care procedures",
+                    "Monitor for signs and symptoms of local and systemic infection",
+                    "Obtain wound cultures when clinical signs of infection present",
+                    "Administer topical antimicrobials for critically colonized wounds as prescribed",
+                    "Administer systemic antibiotics for infected wounds as prescribed",
+                    "Implement appropriate isolation precautions for infected or colonized wounds",
+                    "Manage exudate to prevent cross-contamination",
+                    "Educate patient and caregivers about infection prevention measures",
+                    "Implement environmental controls to reduce contamination risk"
+                ],
+                "rationales": [
+                    "Standard precautions prevent cross-contamination",
+                    "Aseptic technique reduces introduction of pathogens",
+                    "Early detection of infection allows prompt intervention",
+                    "Cultures guide appropriate antimicrobial therapy",
+                    "Topical antimicrobials reduce bioburden without systemic effects",
+                    "Systemic antibiotics treat invasive infection",
+                    "Isolation prevents transmission of resistant organisms",
+                    "Exudate management reduces bacterial reservoir",
+                    "Education promotes adherence to infection prevention",
+                    "Environmental controls reduce pathogen exposure"
+                ],
+                "frequency": "With each wound care episode",
+                "specialConsiderations": [
+                    "Balance antimicrobial use with antibiotic stewardship principles",
+                    "Consider biofilm presence in chronic wounds",
+                    "Recognize increased infection risk in immunocompromised patients"
+                ]
+            },
+            {
+                "title": "Patient and Caregiver Education",
+                "actions": [
+                    "Assess learning needs and readiness",
+                    "Provide information about wound etiology and healing process",
+                    "Demonstrate wound care techniques with return demonstration",
+                    "Teach signs and symptoms requiring medical attention",
+                    "Provide written instructions with illustrations",
+                    "Educate about factors that promote wound healing",
+                    "Teach proper hand hygiene and infection prevention",
+                    "Instruct on pain management strategies",
+                    "Provide information about community resources for supplies and support",
+                    "Schedule follow-up appointments and provide contact information"
+                ],
+                "rationales": [
+                    "Assessment guides educational approach",
+                    "Understanding promotes adherence to treatment plan",
+                    "Return demonstration confirms skill acquisition",
+                    "Early recognition of complications prevents worsening",
+                    "Written materials reinforce verbal teaching",
+                    "Knowledge of healing factors promotes self-care",
+                    "Hand hygiene is critical for infection prevention",
+                    "Pain management improves quality of life and adherence",
+                    "Resource information supports continued care",
+                    "Follow-up ensures continuity of care"
+                ],
+                "frequency": "Initially and reinforced throughout care",
+                "specialConsiderations": [
+                    "Adapt teaching methods to learning style and health literacy",
+                    "Include family members or caregivers in education",
+                    "Consider language barriers and cultural factors"
+                ]
+            }
+        ],
+        "evaluations": [
+            {
+                "statement": "Is wound healing progressing appropriately?",
+                "expectedOutcomes": [
+                    "Shows decreasing wound dimensions",
+                    "Demonstrates improved tissue type in wound bed",
+                    "Exhibits decreasing amount of exudate",
+                    "Shows intact periwound skin",
+                    "Demonstrates epithelialization from wound edges",
+                    "Shows improved granulation tissue formation"
+                ],
+                "evaluationMethods": [
+                    "Weekly wound measurement",
+                    "Wound bed tissue assessment",
+                    "Exudate amount and quality assessment",
+                    "Periwound skin assessment",
+                    "Wound photography per protocol",
+                    "Wound healing assessment tools"
+                ]
+            },
+            {
+                "statement": "Has patient remained free from wound complications?",
+                "expectedOutcomes": [
+                    "Demonstrates absence of clinical signs of infection",
+                    "Maintains intact wound edges without dehiscence",
+                    "Shows no maceration of surrounding skin",
+                    "Exhibits no increase in wound size",
+                    "Maintains adequate perfusion to wound area",
+                    "Reports manageable pain levels"
+                ],
+                "evaluationMethods": [
+                    "Infection assessment using standardized criteria",
+                    "Wound edge assessment",
+                    "Periwound moisture assessment",
+                    "Serial wound measurements",
+                    "Perfusion assessment (color, temperature, capillary refill)",
+                    "Pain assessment using standardized scale"
+                ]
+            },
+            {
+                "statement": "Does patient/caregiver demonstrate competence in wound care management?",
+                "expectedOutcomes": [
+                    "Demonstrates proper wound cleansing technique",
+                    "Correctly applies prescribed dressings",
+                    "Identifies signs of complications requiring medical attention",
+                    "Verbalizes understanding of factors promoting wound healing",
+                    "Demonstrates proper disposal of wound care materials",
+                    "Verbalizes plan for ongoing wound care"
+                ],
+                "evaluationMethods": [
+                    "Return demonstration of wound cleansing",
+                    "Observation of dressing application",
+                    "Verbal identification of complication signs",
+                    "Knowledge assessment questions",
+                    "Observation of waste disposal",
+                    "Verbalization of care plan"
+                ]
+            }
+        ],
+        "references": [
+            {
+                "author": "Wound, Ostomy and Continence Nurses Society",
+                "title": "Guideline for Management of Wounds in Patients with Lower-Extremity Neuropathic Disease",
+                "year": "2016",
+                "source": "WOCN Society",
+                "doi": "10.1097/WON.0000000000000242"
+            },
+            {
+                "author": "Sibbald RG, Elliott JA, Persaud-Jaimangal R, Goodman L, Armstrong DG, Harley C, Coelho S, Xi N, Evans R, Mayer DO, Zhao X",
+                "title": "Wound Bed Preparation 2021",
+                "year": "2021",
+                "source": "Advances in Skin & Wound Care",
+                "doi": "10.1097/01.ASW.0000733724.87630.d6"
+            },
+            {
+                "author": "Gould L, Stuntz M, Giovannelli M, Ahmad A, Aslam R, Mullen-Fortino M, Whitney JD, Calhoun J, Kirsner RS, Gordillo GM",
+                "title": "Wound Healing Society 2015 update on guidelines for pressure ulcers",
+                "year": "2016",
+                "source": "Wound Repair and Regeneration",
+                "doi": "10.1111/wrr.12396"
+            }
+        ],
+        "notes": "Consider implementing a multidisciplinary wound care team approach for complex wounds. Ensure continuity of care through detailed documentation and communication between care settings.",
+        "difficultyLevel": "Advanced",
+        "timeFrame": "Variable based on wound type and severity (2-12 weeks)",
+        "imageUrl": "assets/images/integumentary/Impaired Tissue Integrity Management.webp",
+        "isFeatured": true,
+        "isFavorite": false,
+        "lastUpdated": "2025-05-15T00:00:00.415Z"
+    }
+]
